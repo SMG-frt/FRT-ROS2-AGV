@@ -10,12 +10,12 @@ import time
 
 # 상수 정의
 WHEEL2WHEELWIDTH = 0.75  # 휠 사이 거리
-WHEELRADIUS = 0.732  # 휠 반지름
+WHEELRADIUS = 0.00732  # 휠 반지름
 RAD_TO_RPM = 9.54929  # rad/s -> RPM 변환 상수
 
 class CanVelocityController(Node):
     def __init__(self):
-        super().__init__('can_velocity_controller')
+        super().__init__('can_publisher')
         self.publisher = self.create_publisher(Frame, 'can_data', 10)
         self.subscription = self.create_subscription(Twist, '/turtle1/cmd_vel', self.velocity_cb, 10)
 
@@ -56,9 +56,13 @@ class JoystickTeleop(Node):
     def __init__(self):
         super().__init__('joystick_teleop')
         self.publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
+        self.can_publisher = self.create_publisher(Frame, 'can_data', 10) 
         
         # 조이스틱 장치 경로 설정
-        self.device_path = "/dev/input/event27"  # 사용 중인 장치에 맞게 경로를 수정하세요
+        self.device_path = self.find_joystick_device("NEOCON")
+        if self.device_path is None:
+            self.get_logger().error("NEOCON 조이스틱을 찾을 수 없습니다.")
+            raise RuntimeError("NEOCON 조이스틱이 연결되지 않음")
         self.device = evdev.InputDevice(self.device_path)
         self.device_fd = self.device.fd
         self.running = True
@@ -71,14 +75,56 @@ class JoystickTeleop(Node):
         self.linear_speed = 0.0
         self.angular_speed = 0.0
 
-        # 타이머 기능
-        self.button_state = False
-        self.toggle_interval = 1.0  # 1초 간격으로 토글
-        self.last_toggle_time = time.time()
-
         # 조이스틱 입력을 처리하는 스레드 시작
         self.thread = threading.Thread(target=self.run)
         self.thread.start()
+
+    def find_joystick_device(self, target_name):
+        """NEOCON 조이스틱 자동 검색"""
+        devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
+        for device in devices:
+            if target_name in device.name:
+                self.get_logger().info(f"조이스틱 찾음: {device.name} ({device.path})")
+                return device.path
+        return None
+
+    def send_can_message(self, node_id, data):
+        msg = Frame()
+        msg.id = node_id
+        msg.dlc = len(data)
+        msg.is_extended = False
+        msg.data = bytearray(data)
+
+        self.can_publisher.publish(msg)
+
+    def send_start_messages(self):
+        can_messages = [
+            [0x22, 0x40, 0x60, 0x00, 0x06, 0x00, 0x00, 0x00],
+            [0x22, 0x40, 0x60, 0x00, 0x07, 0x00, 0x00, 0x00],
+            [0x22, 0x40, 0x60, 0x00, 0x0F, 0x00, 0x00, 0x00]
+        ]
+        
+        for data in can_messages:
+            self.send_can_start_stop_message(0x601, data)
+            self.send_can_start_stop_message(0x602, data)
+
+    def send_stop_messages(self):
+        can_messages = [
+            [0x22, 0x40, 0x60, 0x00, 0x00, 0x00, 0x00, 0x00],
+        ]
+        
+        for data in can_messages:
+            self.send_can_start_stop_message(0x601, data)
+            self.send_can_start_stop_message(0x602, data)
+
+    def send_can_start_stop_message(self, node_id, data):
+        msg = Frame()
+        msg.id = node_id
+        msg.dlc = len(data)
+        msg.data = data
+        self.can_publisher.publish(msg)
+        self.get_logger().info(f'Sent CAN message: ID={hex(node_id)}, Data={data}')
+
 
     def run(self):
         self.get_logger().info("Joystick control initialized. Move with joystick.")
@@ -89,6 +135,14 @@ class JoystickTeleop(Node):
             
             if r:
                 for event in self.device.read():
+                    if event.type == evdev.ecodes.EV_KEY:
+                        if event.code == evdev.ecodes.BTN_NORTH:  # BTN_NORTH: 시작
+                            if event.value == 1:
+                                self.send_start_messages()
+                        elif event.code == evdev.ecodes.BTN_SOUTH:  # BTN_SOUTH: 정지
+                            if event.value == 1:
+                                self.send_stop_messages()
+
                     if event.type == evdev.ecodes.EV_ABS:
                         # 상하 방향 (전진/후진)
                         if event.code == evdev.ecodes.ABS_Y:
@@ -111,15 +165,6 @@ class JoystickTeleop(Node):
                             else:  # 오른쪽
                                 self.angular_speed = -self.turn * ((event.value - 128) / 128.0)
 
-                    if event.type == evdev.ecodes.EV_KEY:
-                        # BTN_START (315번 버튼) 상태 변경 감지
-                        if event.code == 315:
-                            if event.value == 1:  # 버튼이 눌렸을 때
-                                # 토글 기능: 1초마다 버튼 상태 변경
-                                if time.time() - self.last_toggle_time > self.toggle_interval:
-                                    self.button_state = not self.button_state
-                                    self.last_toggle_time = time.time()
-                                    self.get_logger().info(f"Button state toggled: {self.button_state}")
 
                 # Twist 메시지 생성
                 msg = Twist()
