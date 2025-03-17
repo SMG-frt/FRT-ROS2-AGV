@@ -145,22 +145,27 @@ entry_points={
 1. bashrc 파일을 수정 한다
 - sudo nano ~/.bashrc  PW: 1 <=== 로그인 비밀번호
 2. bashrc 파일 가장 밑에 밑의 명령어를 적는다.
-- source /opt/ros/humble/setup.bash  <== ros2 humble 실행
-- source ~/ros2_ws/install/setup.bash <== ros2_ws 라는 작업디랙토리 설정
-- export ROS_DOMAIN_ID=0  <== 도메인 설정 0(기본) 같은 도메인끼리 연결
-- export ROS_IP=192.168.0.7 <== 개인 IP
-- export RMW_IMPLEMENTATION=rmw_fastrtps_cpp <== fastDDS 설정
-- nano로 연 경우 저장방법은 Ctrl+x -> y 순서임
+```python
+  source /opt/ros/humble/setup.bash  #<== ros2 humble 실행
+  source ~/ros2_ws/install/setup.bash #<== ros2_ws 라는 작업디랙토리 설정
+  export ROS_DOMAIN_ID=0  #<== 도메인 설정 0(기본) 같은 도메인끼리 연결
+  export ROS_IP=192.168.0.7 #<== 개인 IP
+  export RMW_IMPLEMENTATION=rmw_fastrtps_cpp #<== fastDDS 설정
+  #nano로 연 경우 저장방법은 Ctrl+x -> y 순서임
+```
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 로봇1(라즈베리파이) 설정법
 1. bashrc 파일을 수정 한다
 - 명령어 : sudo nano ~/.bashrc  PW: 1 <=== 로그인 비밀번호
-- source /opt/ros/humble/setup.bash  <== ros2 humble 실행
-- source ~/ros2_ws/install/setup.bash <== ros2_ws 라는 작업디랙토리 설정
-- export ROS_DOMAIN_ID=0  <== 도메인 설정 0(기본) 같은 도메인끼리 연결
-- export ROS_IP=192.168.0.6 <== 개인 IP
-- export RMW_IMPLEMENTATION=rmw_fastrtps_cpp <== fastDDS 설정
-- nano로 연 경우 저장방법은 Ctrl+x -> y 순서임
+2. bashrc 파일 가장 밑에 밑의 명령어를 적는다.
+```python
+  source /opt/ros/humble/setup.bash  #<== ros2 humble 실행
+  source ~/ros2_ws/install/setup.bash #<== ros2_ws 라는 작업디랙토리 설정
+  export ROS_DOMAIN_ID=0  #<== 도메인 설정 0(기본) 같은 도메인끼리 연결
+  export ROS_IP=192.168.0.7 #<== 개인 IP
+  export RMW_IMPLEMENTATION=rmw_fastrtps_cpp #<== fastDDS 설정
+  #nano로 연 경우 저장방법은 Ctrl+x -> y 순서임
+```
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 원격 연결
 1. pc1과 로봇1 같은 WIFI 연결한다
