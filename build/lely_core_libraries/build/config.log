@@ -952,7 +952,7 @@ configure: failed program was:
 configure:22143: result: no
 configure:22155: checking for library containing str2ba
 configure:22184: g++ -std=gnu++11 -o conftest -Wall -Wextra -pedantic -Werror -g -O2   conftest.cpp -lpthread  >&5
-/usr/bin/ld: /tmp/ccJq8F3B.o: in function `main':
+/usr/bin/ld: /tmp/ccovfq9a.o: in function `main':
 /home/ub2004/ros2_ws/build/lely_core_libraries/build/conftest.cpp:53: undefined reference to `str2ba'
 collect2: error: ld returned 1 exit status
 configure:22184: $? = 1
