@@ -1,167 +1,176 @@
 # FRT-ROS2-AGV
-humble 설치방법
-sudo apt install software-properties-common
+ ## humble 설치방법
+- sudo apt install software-properties-common
 
-sudo add-apt-repository universe
+- sudo add-apt-repository universe
 
-sudo apt update && sudo apt install curl -y
+- sudo apt update && sudo apt install curl -y
 
-sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/key
+- sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/key
 
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+- echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 
-sudo update
+- sudo update
 
-sudo upgrade 
+- sudo upgrade 
 
-sudo apt install ros-humble-desktop
+- sudo apt install ros-humble-desktop
 
-sudo apt install ros-humble-desktop
+- sudo apt install ros-humble-desktop
 
-source /opt/ros/humble/setup.bash
+- source /opt/ros/humble/setup.bash
 
-다깔린지 확인 TEST
-터미널 2개를 킨다
-1번 터미널 : ros2 run demo_nodes_cpp talker
-2번 터미널 : ros2 run demo_nodes_cpp listener
-설치가 잘된거라면 listener 터미널에서 I heard 숫자가 나옴
+### 다깔린지 확인 TEST
+1. 터미널 2개를 킨다
+2. 1번 터미널 : ros2 run demo_nodes_cpp talker
+3. 2번 터미널 : ros2 run demo_nodes_cpp listener
+4. 설치가 잘된거라면 listener 터미널에서 I heard 숫자가 나옴
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-canopen 설치방법
-1.작업환경을 만든다 
-mkdir -p ~/ros2_ws/src
-2.src 폴더로 들어온다.
-cd ~/ros2_ws/src
+## canopen 설치방법
+1. 작업환경을 만든다 
+- mkdir -p ~/ros2_ws/src
+2. src 폴더로 들어온다.
+- cd ~/ros2_ws/src
 3. src 폴더에 git clone -b humble 로 깃허브에 있는 코드를 humble버전으로 다운받는다.
-git clone -b humble https://github.com/ros-industrial/ros2_canopen.git
-4.ros2_ws 폴더로 돌아와 빌드를 진행 한다.
-cd ~/ros2_ws
-colcon build
-(선택) 4.만약 이미 깔려있는 페키지가 있다면 선택하여 빌드를 진행한다. 
-colcon build --packages-select ros2_canopen
-5.빌드가 완료되면 가지고 있는 CAN Controller Setup을 진행한다.
-1: Peak CANController
-sudo modprobe peak_usb				<== 디바이스 설정
-sudo ip link set can0 up type can bitrate 1000000 <== 비트레이트 1M
-sudo ip link set can0 txqueuelen 1000		<== 송신 전송 큐 길이 1000 
-sudo ip link set up can0			<== can0 으로 이름지저정
+- git clone -b humble https://github.com/ros-industrial/ros2_canopen.git
+4. ros2_ws 폴더로 돌아와 빌드를 진행 한다.
+- cd ~/ros2_ws
+- colcon build
+4. (선택) 만약 이미 깔려있는 페키지가 있다면 선택하여 빌드를 진행한다. 
+- colcon build --packages-select ros2_canopen
+5. 빌드가 완료되면 가지고 있는 CAN Controller Setup을 진행한다.
+    1.  Peak CANController
+   - sudo modprobe peak_usb				<== 디바이스 설정
+   - sudo ip link set can0 up type can bitrate 1000000 <== 비트레이트 1M
+   - sudo ip link set can0 txqueuelen 1000		<== 송신 전송 큐 길이 1000 
+   - sudo ip link set up can0			<== can0 으로 이름지저정
 
-2: candleLight USB-CAN Adapter
-sudo modprobe gs_usb
-sudo ip link set can0 up type can bitrate 1000000
-sudo ip link set can0 txqueuelen 1000
-sudo ip link set up can0
-6.can 값 확인법
-sudo apt install can-utils  <=== can명령어를 보내기위한 apt
-1번 터미널 : candump can0
-2번 터미널 : cansend can0 123#11223344
-1번에 들어온 값이 2번에서 보낸 값이랑 같다면 성공!
-7.can setup 자동설정하기
-7-1 자동 실행을 위한 서비스 생성
-sudo nano /etc/systemd/system/can_setup.service 
-7-2 서비스 파일에 적어야하는것들
-[Unit]
-Description=Set up CAN interface at boot <= 이름
-After=network.target
+   2. candleLight USB-CAN Adapter
+    - sudo modprobe gs_usb
+    - sudo ip link set can0 up type can bitrate 1000000
+    - sudo ip link set can0 txqueuelen 1000
+    - sudo ip link set up can0
+6. can 값 확인법
+- sudo apt install can-utils  <=== can명령어를 보내기위한 apt
+- 1번 터미널 : candump can0
+- 2번 터미널 : cansend can0 123#11223344
+- 1번에 들어온 값이 2번에서 보낸 값이랑 같다면 성공!
+7. can setup 자동설정하기
+    1. 자동 실행을 위한 서비스 생성
+    - sudo nano /etc/systemd/system/can_setup.service 
+    2. 서비스 파일에 적어야하는것들
+    ```css
+    [Unit]
+    Description=Set up CAN interface at boot /*<= 이름*/
+    After=network.target
 
-[Service]
-Type=oneshot
-ExecStart=/bin/bash -c "modprobe peak_usb && ip link set can0 up type can bitrate 1000000 && ip link set>	<== 실행 되어야 되는 것들
-RemainAfterExit=true
 
-[Install]
-WantedBy=multi-user.target
-7-3 파일 저장후 서비스 활성화 
-sudo systemctl daemon-reload  <== 새로운 서비스 인식
-sudo systemctl enable can-interface.service  <== 부팅시 시작하도록 설정
-sudo systemctl start can-interface.service   <== 즉시 시작
-7-4 리붓 
-sudo reboot <== 재부팅을 하면 그다음부터 백그라운드로 실행됨
+    [Service]
+    Type=oneshot
+    ExecStart=/bin/bash -c "modprobe peak_usb && ip link set can0 up type can bitrate 1000000 && ip link set>	/*<== 실행 되어야 되는 것들*/
+    RemainAfterExit=true
+
+    [Install]
+    WantedBy=multi-user.target
+    ```
+    3. 파일 저장후 서비스 활성화 
+    - sudo systemctl daemon-reload  <== 새로운 서비스 인식
+    - sudo systemctl enable can-interface.service  <== 부팅시 시작하도록 설정
+    - sudo systemctl start can-interface.service   <== 즉시 시작
+   1. 리붓 
+    - sudo reboot <== 재부팅을 하면 그다음부터 백그라운드로 실행됨
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-ros2 패키지 생성
+## ros2 패키지 생성
 1. 본인의 워크스페이스에 들어간다.
-cd ~/ros2_ws/src
+- cd ~/ros2_ws/src
 2. 패키지 생성하기
-python 패키지
-ros2 pkg create 패키지이름 --build-type ament_python
+- python 패키지
+  - ros2 pkg create 패키지이름 --build-type ament_python
 
-c,c++ 패키지
-ros2 pkg create 패키지이름 --build-type ament_cmake
+- c,c++ 패키지
+    - ros2 pkg create 패키지이름 --build-type ament_cmake
 
-ex) 패키지 tree
- test_py
- ├── package.xml
- ├── resource
- │   └── test_py
- ├── setup.cfg
- ├── setup.py
- ├── test
- │   ├── test_copyright.py
- │   ├── test_flake8.py
- │   └── test_pep257.py
- └── test_py
-     └── __init__.py
+### ex) 패키지 tree
+```
+test_py
+├── package.xml
+├── resource
+│   └── test_py
+├── setup.cfg
+├── setup.py
+├── test
+│   ├── test_copyright.py
+│   ├── test_flake8.py
+│   └── test_pep257.py
+└── test_py
+    └── __init__.py
 
+```
 3. 패키지 생성후 빌드 하기
-colcon build --packages-select 패키지이름
-ex)colcon build --packages-select test_py
+- colcon build --packages-select 패키지이름
+- ex)colcon build --packages-select test_py
 4. 빌드후 환경설정
-source install/setup.bash
+- source install/setup.bash
 5. 파일 생성하기
-5-1 생성하는 파일 위치는 ~/ros2_ws/src/test_py/test_py 에 생성한다.
-ex)
+    1. 생성하는 파일 위치는 ~/ros2_ws/src/test_py/test_py 에 생성한다.
+
+### ex)
+``` python
 # test_py/tt.py
 def main():
     print("hi py")
-
-5-2 파일 생성후
-ros2_ws/src/test_py/setup.py 파일 수정
+```
+2. 파일 생성후
+- ros2_ws/src/test_py/setup.py 파일 수정
+```python
 entry_points={
         'console_scripts': [
-            'tt = test_py.tt:main',  <=== tt = 실행 시킬 이름, test_py.tt::main = test_py 패키지에 있는 tt.py 에서 main을 실행
+            'tt = test_py.tt:main', 
+            #<=== tt = 실행 시킬 이름, test_py.tt::main = test_py 패키지에 있는 
+            # tt.py 에서 main을 실행
         ],
     },
+```
+3. 패키지 빌드 진행
+- colcon build --packages-select test_py
 
-5-3 패키지 빌드 진행
-colcon build --packages-select test_py
+4. 워크스페이스 업데이트
+- source ~/ros2_ws/install/setup.bash
 
-5-4 워크스페이스 업데이트
-source ~/ros2_ws/install/setup.bash
-
-5-5 패키지 실행하기
-ex) ros2 run test_py tt <== test_py = 패키지  이름, tt = 실행 시킬 이름
+5. 패키지 실행하기
+### ex)
+- ros2 run test_py tt <== test_py = 패키지  이름, tt = 실행 시킬 이름
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-PC1 설정법
+## PC1 설정법
 1. bashrc 파일을 수정 한다
-sudo nano ~/.bashrc  PW: 1 <=== 로그인 비밀번호
+- sudo nano ~/.bashrc  PW: 1 <=== 로그인 비밀번호
 2. bashrc 파일 가장 밑에 밑의 명령어를 적는다.
-source /opt/ros/humble/setup.bash  <== ros2 humble 실행
-source ~/ros2_ws/install/setup.bash <== ros2_ws 라는 작업디랙토리 설정
-export ROS_DOMAIN_ID=0  <== 도메인 설정 0(기본) 같은 도메인끼리 연결
-export ROS_IP=192.168.0.7 <== 개인 IP
-export RMW_IMPLEMENTATION=rmw_fastrtps_cpp <== fastDDS 설정
-
-nano로 연 경우 저장방법은 Ctrl+x -> y 순서임
+- source /opt/ros/humble/setup.bash  <== ros2 humble 실행
+- source ~/ros2_ws/install/setup.bash <== ros2_ws 라는 작업디랙토리 설정
+- export ROS_DOMAIN_ID=0  <== 도메인 설정 0(기본) 같은 도메인끼리 연결
+- export ROS_IP=192.168.0.7 <== 개인 IP
+- export RMW_IMPLEMENTATION=rmw_fastrtps_cpp <== fastDDS 설정
+- nano로 연 경우 저장방법은 Ctrl+x -> y 순서임
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-로봇1(라즈베리파이) 설정법
+## 로봇1(라즈베리파이) 설정법
 1. bashrc 파일을 수정 한다
-명령어 : sudo nano ~/.bashrc  PW: 1 <=== 로그인 비밀번호
+- 명령어 : sudo nano ~/.bashrc  PW: 1 <=== 로그인 비밀번호
 - source /opt/ros/humble/setup.bash  <== ros2 humble 실행
 - source ~/ros2_ws/install/setup.bash <== ros2_ws 라는 작업디랙토리 설정
 - export ROS_DOMAIN_ID=0  <== 도메인 설정 0(기본) 같은 도메인끼리 연결
 - export ROS_IP=192.168.0.6 <== 개인 IP
 - export RMW_IMPLEMENTATION=rmw_fastrtps_cpp <== fastDDS 설정
-
-nano로 연 경우 저장방법은 Ctrl+x -> y 순서임
+- nano로 연 경우 저장방법은 Ctrl+x -> y 순서임
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-원격 연결
-pc1과 로봇1 같은 WIFI 연결한다
-ID: mobie_AGV_WIFI_5G
-PW: ubuntu2204
+## 원격 연결
+1. pc1과 로봇1 같은 WIFI 연결한다
+- ID: mobie_AGV_WIFI_5G
+- PW: ubuntu2204
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-로봇1에서 리스닝하기 위한 코드 can_listener.py 설명 
-
+## 로봇1에서 리스닝하기 위한 코드 can_listener.py 설명 
+```python
 import rclpy #노드 작성을 위한 라이브러리
 from rclpy.node import Node #Node 클래스를 사용하여 노드정이
 from can_msgs.msg import Frame #can 송수신을 위한 라이브러리
@@ -218,9 +227,10 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+```
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-pc1에서 퍼브리싱 위한 코드 can_pblisher.py 설명 
-
+## pc1에서 퍼브리싱 위한 코드 can_pblisher.py 설명 
+```python
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
@@ -375,3 +385,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+```
