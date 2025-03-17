@@ -1,0 +1,2 @@
+ros2_canopen::LifecycleCia402Driver;lib/liblifecycle_cia402_driver.so
+ros2_canopen::Cia402Driver;lib/libcia402_driver.so

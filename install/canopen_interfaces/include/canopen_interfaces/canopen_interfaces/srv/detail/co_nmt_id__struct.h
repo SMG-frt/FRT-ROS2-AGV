@@ -1,0 +1,1 @@
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_generator_c/canopen_interfaces/srv/detail/co_nmt_id__struct.h

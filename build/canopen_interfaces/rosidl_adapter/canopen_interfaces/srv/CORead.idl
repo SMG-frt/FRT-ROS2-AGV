@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from canopen_interfaces/srv/CORead.srv
+// generated code does not contain a copyright notice
+
+
+module canopen_interfaces {
+  module srv {
+    struct CORead_Request {
+      uint16 index;
+
+      uint8 subindex;
+    };
+    struct CORead_Response {
+      boolean success;
+
+      uint32 data;
+    };
+  };
+};

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from canopen_interfaces/srv/COTargetDouble.srv
+// generated code does not contain a copyright notice
+
+
+module canopen_interfaces {
+  module srv {
+    struct COTargetDouble_Request {
+      double target;
+    };
+    struct COTargetDouble_Response {
+      boolean success;
+    };
+  };
+};

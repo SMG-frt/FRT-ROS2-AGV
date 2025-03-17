@@ -1,0 +1,38 @@
+[1.164s] Invoking command in '/home/ub2004/ros2_ws/src/agv_pak': PYTHONPATH=/home/ub2004/ros2_ws/build/agv_pak/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_pak build --build-base /home/ub2004/ros2_ws/build/agv_pak/build install --record /home/ub2004/ros2_ws/build/agv_pak/install.log --single-version-externally-managed install_data
+[1.574s] running egg_info
+[1.574s] creating ../../build/agv_pak/agv_pak.egg-info
+[1.575s] writing ../../build/agv_pak/agv_pak.egg-info/PKG-INFO
+[1.575s] writing dependency_links to ../../build/agv_pak/agv_pak.egg-info/dependency_links.txt
+[1.575s] writing entry points to ../../build/agv_pak/agv_pak.egg-info/entry_points.txt
+[1.575s] writing requirements to ../../build/agv_pak/agv_pak.egg-info/requires.txt
+[1.575s] writing top-level names to ../../build/agv_pak/agv_pak.egg-info/top_level.txt
+[1.576s] writing manifest file '../../build/agv_pak/agv_pak.egg-info/SOURCES.txt'
+[1.577s] reading manifest file '../../build/agv_pak/agv_pak.egg-info/SOURCES.txt'
+[1.577s] adding license file 'LICENSE'
+[1.578s] writing manifest file '../../build/agv_pak/agv_pak.egg-info/SOURCES.txt'
+[1.578s] running build
+[1.578s] running build_py
+[1.578s] creating /home/ub2004/ros2_ws/build/agv_pak/build
+[1.578s] creating /home/ub2004/ros2_ws/build/agv_pak/build/lib
+[1.578s] creating /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak
+[1.578s] copying agv_pak/agv_node.py -> /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak
+[1.582s] copying agv_pak/__init__.py -> /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak
+[1.582s] running install
+[1.582s] running install_lib
+[1.583s] creating /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak
+[1.584s] copying /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak/agv_node.py -> /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak
+[1.584s] copying /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak/__init__.py -> /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak
+[1.584s] byte-compiling /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak/agv_node.py to agv_node.cpython-310.pyc
+[1.586s] byte-compiling /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak/__init__.py to __init__.cpython-310.pyc
+[1.586s] running install_data
+[1.586s] creating /home/ub2004/ros2_ws/install/agv_pak/share/ament_index
+[1.586s] creating /home/ub2004/ros2_ws/install/agv_pak/share/ament_index/resource_index
+[1.586s] creating /home/ub2004/ros2_ws/install/agv_pak/share/ament_index/resource_index/packages
+[1.586s] copying resource/agv_pak -> /home/ub2004/ros2_ws/install/agv_pak/share/ament_index/resource_index/packages
+[1.586s] copying package.xml -> /home/ub2004/ros2_ws/install/agv_pak/share/agv_pak
+[1.586s] running install_egg_info
+[1.589s] Copying ../../build/agv_pak/agv_pak.egg-info to /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak-0.0.0-py3.10.egg-info
+[1.590s] running install_scripts
+[1.611s] Installing agv_node script to /home/ub2004/ros2_ws/install/agv_pak/lib/agv_pak
+[1.611s] writing list of installed files to '/home/ub2004/ros2_ws/build/agv_pak/install.log'
+[1.656s] Invoked command in '/home/ub2004/ros2_ws/src/agv_pak' returned '0': PYTHONPATH=/home/ub2004/ros2_ws/build/agv_pak/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_pak build --build-base /home/ub2004/ros2_ws/build/agv_pak/build install --record /home/ub2004/ros2_ws/build/agv_pak/install.log --single-version-externally-managed install_data

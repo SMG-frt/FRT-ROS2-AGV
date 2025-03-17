@@ -1,0 +1,89 @@
+cia402_device_1:
+  dcf: cia402_slave.eds
+  diagnostics: &id001
+    enable: true
+    period: 1000
+  driver: ros2_canopen::Cia402Driver
+  node_id: 2
+  package: canopen_402_driver
+  revision_number: 0
+  rpdo: &id002
+    1:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24640
+        sub_index: 0
+      - index: 24672
+        sub_index: 0
+    2:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24698
+        sub_index: 0
+      - index: 24831
+        sub_index: 0
+  sdo: &id003
+  - index: 24770
+    sub_index: 1
+    value: 50
+  - index: 24770
+    sub_index: 2
+    value: -3
+  - index: 24705
+    sub_index: 0
+    value: 1000
+  - index: 24707
+    sub_index: 0
+    value: 2000
+  tpdo: &id004
+    1:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24641
+        sub_index: 0
+      - index: 24673
+        sub_index: 0
+      transmission: 1
+    2:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24676
+        sub_index: 0
+      - index: 24684
+        sub_index: 0
+      transmission: 1
+    3:
+      enabled: false
+    4:
+      enabled: false
+cia402_device_2:
+  dcf: cia402_slave.eds
+  diagnostics: *id001
+  driver: ros2_canopen::Cia402Driver
+  node_id: 3
+  package: canopen_402_driver
+  revision_number: 0
+  rpdo: *id002
+  sdo: *id003
+  tpdo: *id004
+cia402_device_3:
+  dcf: cia402_slave.eds
+  diagnostics: *id001
+  driver: ros2_canopen::Cia402Driver
+  node_id: 4
+  package: canopen_402_driver
+  revision_number: 0
+  rpdo: *id002
+  sdo: *id003
+  tpdo: *id004
+master:
+  driver: ros2_canopen::MasterDriver
+  node_id: 1
+  package: canopen_master_driver
+  sync_period: 10000
+options:
+  dcf_path: '@BUS_CONFIG_PATH@'

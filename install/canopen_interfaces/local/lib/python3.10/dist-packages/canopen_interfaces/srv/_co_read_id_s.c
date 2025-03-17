@@ -1,0 +1,1 @@
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_generator_py/canopen_interfaces/srv/_co_read_id_s.c

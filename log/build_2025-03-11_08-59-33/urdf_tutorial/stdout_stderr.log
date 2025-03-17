@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing urdf_tutorial.egg-info/PKG-INFO
+writing dependency_links to urdf_tutorial.egg-info/dependency_links.txt
+writing entry points to urdf_tutorial.egg-info/entry_points.txt
+writing requirements to urdf_tutorial.egg-info/requires.txt
+writing top-level names to urdf_tutorial.egg-info/top_level.txt
+reading manifest file 'urdf_tutorial.egg-info/SOURCES.txt'
+writing manifest file 'urdf_tutorial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf-tutorial.egg-link (link to .)
+
+Installed /home/ub2004/ros2_ws/build/urdf_tutorial
+running symlink_data
+symbolically linking /home/ub2004/ros2_ws/build/urdf_tutorial/resource/urdf_tutorial -> /home/ub2004/ros2_ws/install/urdf_tutorial/share/ament_index/resource_index/packages
+symbolically linking /home/ub2004/ros2_ws/build/urdf_tutorial/package.xml -> /home/ub2004/ros2_ws/install/urdf_tutorial/share/urdf_tutorial
+symbolically linking /home/ub2004/ros2_ws/build/urdf_tutorial/launch/robot.launch.py -> /home/ub2004/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+symbolically linking /home/ub2004/ros2_ws/build/urdf_tutorial/urdf/robot.xacro -> /home/ub2004/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf

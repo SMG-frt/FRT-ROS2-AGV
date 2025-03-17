@@ -1,0 +1,25 @@
+[0.049s] Invoking command in '/home/ub2004/ros2_ws/build/canopen_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --build /home/ub2004/ros2_ws/build/canopen_interfaces -- -j8 -l8
+[1.085s] [  1%] Built target canopen_interfaces__cpp
+[1.086s] [  1%] Built target ament_cmake_python_symlink_canopen_interfaces
+[1.087s] [ 12%] Built target canopen_interfaces__rosidl_generator_c
+[1.088s] [ 24%] Built target canopen_interfaces__rosidl_typesupport_introspection_cpp
+[1.088s] [ 35%] Built target canopen_interfaces__rosidl_typesupport_introspection_c
+[1.089s] [ 47%] Built target canopen_interfaces__rosidl_typesupport_cpp
+[1.089s] [ 58%] Built target canopen_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.089s] [ 70%] Built target canopen_interfaces__rosidl_typesupport_c
+[1.089s] [ 82%] Built target canopen_interfaces__rosidl_typesupport_fastrtps_c
+[1.090s] [ 82%] Built target canopen_interfaces
+[1.090s] [ 83%] Built target canopen_interfaces__py
+[1.090s] [ 93%] Built target canopen_interfaces__rosidl_generator_py
+[1.090s] [ 95%] Built target canopen_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.090s] [ 97%] Built target canopen_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.090s] [100%] Built target canopen_interfaces__rosidl_typesupport_c__pyext
+[1.090s] running egg_info
+[1.090s] writing canopen_interfaces.egg-info/PKG-INFO
+[1.090s] writing dependency_links to canopen_interfaces.egg-info/dependency_links.txt
+[1.090s] writing top-level names to canopen_interfaces.egg-info/top_level.txt
+[1.091s] reading manifest file 'canopen_interfaces.egg-info/SOURCES.txt'
+[1.091s] writing manifest file 'canopen_interfaces.egg-info/SOURCES.txt'
+[1.091s] [100%] Built target ament_cmake_python_build_canopen_interfaces_egg
+[1.159s] Invoked command in '/home/ub2004/ros2_ws/build/canopen_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --build /home/ub2004/ros2_ws/build/canopen_interfaces -- -j8 -l8
+[1.176s] Invoking command in '/home/ub2004/ros2_ws/build/canopen_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --install /home/ub2004/ros2_ws/build/canopen_interfaces

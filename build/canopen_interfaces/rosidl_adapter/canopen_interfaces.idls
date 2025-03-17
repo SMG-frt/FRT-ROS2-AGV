@@ -1,0 +1,9 @@
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COHeartbeatID.idl
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CONmtID.idl
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CORead.idl
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COReadID.idl
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COWrite.idl
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COWriteID.idl
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COTargetDouble.idl
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CONode.idl
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:msg/COData.idl

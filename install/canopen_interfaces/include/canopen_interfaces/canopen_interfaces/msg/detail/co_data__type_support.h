@@ -1,0 +1,1 @@
+/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_generator_c/canopen_interfaces/msg/detail/co_data__type_support.h

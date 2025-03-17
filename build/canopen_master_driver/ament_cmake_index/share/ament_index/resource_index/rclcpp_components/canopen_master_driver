@@ -1,0 +1,2 @@
+ros2_canopen::LifecycleMasterDriver;lib/liblifecycle_master_driver.so
+ros2_canopen::MasterDriver;lib/libmaster_driver.so

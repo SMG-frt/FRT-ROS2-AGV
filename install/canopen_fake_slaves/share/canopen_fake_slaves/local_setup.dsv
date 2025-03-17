@@ -1,0 +1,2 @@
+source;share/canopen_fake_slaves/environment/ament_prefix_path.sh
+source;share/canopen_fake_slaves/environment/path.sh

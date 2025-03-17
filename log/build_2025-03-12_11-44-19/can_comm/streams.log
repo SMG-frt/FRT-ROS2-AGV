@@ -1,0 +1,24 @@
+[0.640s] Invoking command in '/home/ub2004/ros2_ws/src/can_comm': PYTHONPATH=/home/ub2004/ros2_ws/build/can_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/can_comm build --build-base /home/ub2004/ros2_ws/build/can_comm/build install --record /home/ub2004/ros2_ws/build/can_comm/install.log --single-version-externally-managed install_data
+[0.884s] running egg_info
+[0.885s] writing ../../build/can_comm/can_comm.egg-info/PKG-INFO
+[0.885s] writing dependency_links to ../../build/can_comm/can_comm.egg-info/dependency_links.txt
+[0.885s] writing entry points to ../../build/can_comm/can_comm.egg-info/entry_points.txt
+[0.885s] writing requirements to ../../build/can_comm/can_comm.egg-info/requires.txt
+[0.886s] writing top-level names to ../../build/can_comm/can_comm.egg-info/top_level.txt
+[0.887s] reading manifest file '../../build/can_comm/can_comm.egg-info/SOURCES.txt'
+[0.888s] writing manifest file '../../build/can_comm/can_comm.egg-info/SOURCES.txt'
+[0.888s] running build
+[0.888s] running build_py
+[0.888s] copying can_comm/can_publisher.py -> /home/ub2004/ros2_ws/build/can_comm/build/lib/can_comm
+[0.890s] running install
+[0.890s] running install_lib
+[0.891s] copying /home/ub2004/ros2_ws/build/can_comm/build/lib/can_comm/can_publisher.py -> /home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages/can_comm
+[0.891s] byte-compiling /home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages/can_comm/can_publisher.py to can_publisher.cpython-310.pyc
+[0.893s] running install_data
+[0.893s] running install_egg_info
+[0.895s] removing '/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages/can_comm-0.0.0-py3.10.egg-info' (and everything under it)
+[0.895s] Copying ../../build/can_comm/can_comm.egg-info to /home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages/can_comm-0.0.0-py3.10.egg-info
+[0.896s] running install_scripts
+[0.917s] Installing can_publisher script to /home/ub2004/ros2_ws/install/can_comm/lib/can_comm
+[0.917s] writing list of installed files to '/home/ub2004/ros2_ws/build/can_comm/install.log'
+[0.940s] Invoked command in '/home/ub2004/ros2_ws/src/can_comm' returned '0': PYTHONPATH=/home/ub2004/ros2_ws/build/can_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/can_comm build --build-base /home/ub2004/ros2_ws/build/can_comm/build install --record /home/ub2004/ros2_ws/build/can_comm/install.log --single-version-externally-managed install_data

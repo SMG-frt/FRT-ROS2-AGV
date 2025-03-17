@@ -1,0 +1,14 @@
+{
+  "package_name": "canopen_interfaces",
+  "non_idl_tuples": [
+    "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_interfaces:srv/COHeartbeatID.srv",
+    "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_interfaces:srv/CONmtID.srv",
+    "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_interfaces:srv/CORead.srv",
+    "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_interfaces:srv/COReadID.srv",
+    "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_interfaces:srv/COWrite.srv",
+    "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_interfaces:srv/COWriteID.srv",
+    "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_interfaces:srv/COTargetDouble.srv",
+    "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_interfaces:srv/CONode.srv",
+    "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_interfaces:msg/COData.msg"
+  ]
+}

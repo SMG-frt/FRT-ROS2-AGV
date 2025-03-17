@@ -1,0 +1,24 @@
+master:
+  driver: ros2_canopen::MasterDriver
+  node_id: 1
+  package: canopen_master_driver
+options:
+  dcf_path: '@BUS_CONFIG_PATH@'
+proxy_device_1:
+  dcf: simple.eds
+  diagnostics: &id001
+    enable: true
+    period: 1000
+  driver: ros2_canopen::ProxyDriver
+  node_id: 2
+  package: canopen_proxy_driver
+  period: 10
+  polling: true
+proxy_device_2:
+  dcf: simple.eds
+  diagnostics: *id001
+  driver: ros2_canopen::ProxyDriver
+  node_id: 3
+  package: canopen_proxy_driver
+  period: 10
+  polling: true

@@ -1,0 +1,4 @@
+source;share/lely_core_libraries/local_setup.bash
+source;share/lely_core_libraries/local_setup.dsv
+source;share/lely_core_libraries/local_setup.sh
+source;share/lely_core_libraries/local_setup.zsh

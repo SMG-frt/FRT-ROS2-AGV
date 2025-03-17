@@ -1,0 +1,1 @@
+canopen_402_driver;canopen_core;canopen_proxy_driver;hardware_interface;pluginlib;rclcpp;rclcpp_components;rclcpp_lifecycle;ament_cmake_gmock;ros2_control_test_assets

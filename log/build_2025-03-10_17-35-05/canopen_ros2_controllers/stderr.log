@@ -1,0 +1,22 @@
+In file included from [01m[K/home/ub2004/ros2_ws/src/ros2_canopen/canopen_ros2_controllers/include/canopen_ros2_controllers/canopen_proxy_controller.hpp:29[m[K,
+                 from [01m[K/home/ub2004/ros2_ws/src/ros2_canopen/canopen_ros2_controllers/src/canopen_proxy_controller.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                    [01;36m[K^[m[K
+In file included from [01m[K/home/ub2004/ros2_ws/src/ros2_canopen/canopen_ros2_controllers/include/canopen_ros2_controllers/canopen_proxy_controller.hpp:30[m[K,
+                 from [01m[K/home/ub2004/ros2_ws/src/ros2_canopen/canopen_ros2_controllers/src/canopen_proxy_controller.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/home/ub2004/ros2_ws/src/ros2_canopen/canopen_ros2_controllers/include/canopen_ros2_controllers/canopen_proxy_controller.hpp:29[m[K,
+                 from [01m[K/home/ub2004/ros2_ws/src/ros2_canopen/canopen_ros2_controllers/include/canopen_ros2_controllers/cia402_device_controller.hpp:19[m[K,
+                 from [01m[K/home/ub2004/ros2_ws/src/ros2_canopen/canopen_ros2_controllers/src/cia402_device_controller.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                    [01;36m[K^[m[K
+In file included from [01m[K/home/ub2004/ros2_ws/src/ros2_canopen/canopen_ros2_controllers/include/canopen_ros2_controllers/canopen_proxy_controller.hpp:30[m[K,
+                 from [01m[K/home/ub2004/ros2_ws/src/ros2_canopen/canopen_ros2_controllers/include/canopen_ros2_controllers/cia402_device_controller.hpp:19[m[K,
+                 from [01m[K/home/ub2004/ros2_ws/src/ros2_canopen/canopen_ros2_controllers/src/cia402_device_controller.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                       [01;36m[K^[m[K

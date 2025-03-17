@@ -1,0 +1,2 @@
+ros2_canopen::LifecycleProxyDriver;lib/liblifecycle_proxy_driver.so
+ros2_canopen::ProxyDriver;lib/libproxy_driver.so

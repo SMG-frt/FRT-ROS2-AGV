@@ -1,0 +1,2 @@
+uint8 nodeid
+uint16  heartbeat #ms

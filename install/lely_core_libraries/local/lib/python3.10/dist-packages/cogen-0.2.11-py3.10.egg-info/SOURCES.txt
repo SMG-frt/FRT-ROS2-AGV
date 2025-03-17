@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+cogen/__init__.py
+cogen/cogen.py
+cogen.egg-info/PKG-INFO
+cogen.egg-info/SOURCES.txt
+cogen.egg-info/dependency_links.txt
+cogen.egg-info/entry_points.txt
+cogen.egg-info/top_level.txt

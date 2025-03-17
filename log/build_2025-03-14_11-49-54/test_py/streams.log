@@ -1,0 +1,37 @@
+[0.846s] Invoking command in '/home/ub2004/ros2_ws/src/test_py': PYTHONPATH=/home/ub2004/ros2_ws/build/test_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_py build --build-base /home/ub2004/ros2_ws/build/test_py/build install --record /home/ub2004/ros2_ws/build/test_py/install.log --single-version-externally-managed install_data
+[1.099s] running egg_info
+[1.099s] creating ../../build/test_py/test_py.egg-info
+[1.099s] writing ../../build/test_py/test_py.egg-info/PKG-INFO
+[1.100s] writing dependency_links to ../../build/test_py/test_py.egg-info/dependency_links.txt
+[1.100s] writing entry points to ../../build/test_py/test_py.egg-info/entry_points.txt
+[1.100s] writing requirements to ../../build/test_py/test_py.egg-info/requires.txt
+[1.100s] writing top-level names to ../../build/test_py/test_py.egg-info/top_level.txt
+[1.100s] writing manifest file '../../build/test_py/test_py.egg-info/SOURCES.txt'
+[1.102s] reading manifest file '../../build/test_py/test_py.egg-info/SOURCES.txt'
+[1.102s] writing manifest file '../../build/test_py/test_py.egg-info/SOURCES.txt'
+[1.103s] running build
+[1.103s] running build_py
+[1.103s] creating /home/ub2004/ros2_ws/build/test_py/build
+[1.103s] creating /home/ub2004/ros2_ws/build/test_py/build/lib
+[1.103s] creating /home/ub2004/ros2_ws/build/test_py/build/lib/test_py
+[1.103s] copying test_py/tt.py -> /home/ub2004/ros2_ws/build/test_py/build/lib/test_py
+[1.103s] copying test_py/__init__.py -> /home/ub2004/ros2_ws/build/test_py/build/lib/test_py
+[1.104s] running install
+[1.104s] running install_lib
+[1.105s] creating /home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages/test_py
+[1.105s] copying /home/ub2004/ros2_ws/build/test_py/build/lib/test_py/tt.py -> /home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages/test_py
+[1.106s] copying /home/ub2004/ros2_ws/build/test_py/build/lib/test_py/__init__.py -> /home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages/test_py
+[1.106s] byte-compiling /home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages/test_py/tt.py to tt.cpython-310.pyc
+[1.106s] byte-compiling /home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages/test_py/__init__.py to __init__.cpython-310.pyc
+[1.106s] running install_data
+[1.107s] creating /home/ub2004/ros2_ws/install/test_py/share/ament_index
+[1.107s] creating /home/ub2004/ros2_ws/install/test_py/share/ament_index/resource_index
+[1.107s] creating /home/ub2004/ros2_ws/install/test_py/share/ament_index/resource_index/packages
+[1.107s] copying resource/test_py -> /home/ub2004/ros2_ws/install/test_py/share/ament_index/resource_index/packages
+[1.107s] copying package.xml -> /home/ub2004/ros2_ws/install/test_py/share/test_py
+[1.107s] running install_egg_info
+[1.109s] Copying ../../build/test_py/test_py.egg-info to /home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages/test_py-0.0.0-py3.10.egg-info
+[1.110s] running install_scripts
+[1.131s] Installing tt_script script to /home/ub2004/ros2_ws/install/test_py/lib/test_py
+[1.131s] writing list of installed files to '/home/ub2004/ros2_ws/build/test_py/install.log'
+[1.157s] Invoked command in '/home/ub2004/ros2_ws/src/test_py' returned '0': PYTHONPATH=/home/ub2004/ros2_ws/build/test_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_py build --build-base /home/ub2004/ros2_ws/build/test_py/build install --record /home/ub2004/ros2_ws/build/test_py/install.log --single-version-externally-managed install_data

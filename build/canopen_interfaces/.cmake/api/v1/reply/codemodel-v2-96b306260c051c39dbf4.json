@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1f5c2f65a0d772efc55c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "canopen_interfaces__py",
+					"jsonFile" : "directory-canopen_interfaces__py-36b598013c67a7fefb55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ub2004/ros2_ws/build/canopen_interfaces/canopen_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "canopen_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_canopen_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_canopen_interfaces_egg-f36233d37842996d48ba.json",
+					"name" : "ament_cmake_python_build_canopen_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_canopen_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_canopen_interfaces-ae21660f136c2601205f.json",
+					"name" : "ament_cmake_python_symlink_canopen_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces-876866e0284b0b3e82e4.json",
+					"name" : "canopen_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__cpp-b97bb72d514962483994.json",
+					"name" : "canopen_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "canopen_interfaces__py::@b074e3f066c7c16fa41a",
+					"jsonFile" : "target-canopen_interfaces__py-fb2d12caee116172815c.json",
+					"name" : "canopen_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__rosidl_generator_c-46f2c2ad147003adff85.json",
+					"name" : "canopen_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__rosidl_generator_py-78c8da43746f25870976.json",
+					"name" : "canopen_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__rosidl_typesupport_c-4c42a22aa16650e9cea7.json",
+					"name" : "canopen_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__rosidl_typesupport_c__pyext-b4046713a26ba9cbc755.json",
+					"name" : "canopen_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__rosidl_typesupport_cpp-707fc9520cc0aa2e2588.json",
+					"name" : "canopen_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__rosidl_typesupport_fastrtps_c-ca9e51ba797255308dcd.json",
+					"name" : "canopen_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__rosidl_typesupport_fastrtps_c__pyext-247ad5a4e3681cd7529e.json",
+					"name" : "canopen_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__rosidl_typesupport_fastrtps_cpp-cc30d1be00095b0ecfbf.json",
+					"name" : "canopen_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__rosidl_typesupport_introspection_c-d1f94c31f1230cfdcff5.json",
+					"name" : "canopen_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__rosidl_typesupport_introspection_c__pyext-5c9ca75d3feb6397c1c7.json",
+					"name" : "canopen_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces__rosidl_typesupport_introspection_cpp-6bfd040babf66d6c94f8.json",
+					"name" : "canopen_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_interfaces_uninstall-cfcf7bd7f0125444486f.json",
+					"name" : "canopen_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0cdac286cdd8cb3b84e0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ub2004/ros2_ws/build/canopen_interfaces",
+		"source" : "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

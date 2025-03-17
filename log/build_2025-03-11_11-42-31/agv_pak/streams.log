@@ -1,0 +1,26 @@
+[0.652s] Invoking command in '/home/ub2004/ros2_ws/src/agv_pak': PYTHONPATH=/home/ub2004/ros2_ws/build/agv_pak/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_pak build --build-base /home/ub2004/ros2_ws/build/agv_pak/build install --record /home/ub2004/ros2_ws/build/agv_pak/install.log --single-version-externally-managed install_data
+[0.900s] running egg_info
+[0.901s] writing ../../build/agv_pak/agv_pak.egg-info/PKG-INFO
+[0.901s] writing dependency_links to ../../build/agv_pak/agv_pak.egg-info/dependency_links.txt
+[0.901s] writing entry points to ../../build/agv_pak/agv_pak.egg-info/entry_points.txt
+[0.901s] writing requirements to ../../build/agv_pak/agv_pak.egg-info/requires.txt
+[0.902s] writing top-level names to ../../build/agv_pak/agv_pak.egg-info/top_level.txt
+[0.903s] reading manifest file '../../build/agv_pak/agv_pak.egg-info/SOURCES.txt'
+[0.904s] adding license file 'LICENSE'
+[0.904s] writing manifest file '../../build/agv_pak/agv_pak.egg-info/SOURCES.txt'
+[0.904s] running build
+[0.904s] running build_py
+[0.906s] running install
+[0.906s] running install_lib
+[0.907s] byte-compiling /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak/agv_node_2.py to agv_node_2.cpython-310.pyc
+[0.908s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (agv_node_2.py, line 163)
+[0.908s] running install_data
+[0.909s] running install_egg_info
+[0.910s] removing '/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak-0.0.0-py3.10.egg-info' (and everything under it)
+[0.911s] Copying ../../build/agv_pak/agv_pak.egg-info to /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak-0.0.0-py3.10.egg-info
+[0.911s] running install_scripts
+[0.931s] Installing agv_node script to /home/ub2004/ros2_ws/install/agv_pak/lib/agv_pak
+[0.932s] Installing agv_node_2 script to /home/ub2004/ros2_ws/install/agv_pak/lib/agv_pak
+[0.932s] Installing agv_test_node.py script to /home/ub2004/ros2_ws/install/agv_pak/lib/agv_pak
+[0.932s] writing list of installed files to '/home/ub2004/ros2_ws/build/agv_pak/install.log'
+[0.959s] Invoked command in '/home/ub2004/ros2_ws/src/agv_pak' returned '0': PYTHONPATH=/home/ub2004/ros2_ws/build/agv_pak/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_pak build --build-base /home/ub2004/ros2_ws/build/agv_pak/build install --record /home/ub2004/ros2_ws/build/agv_pak/install.log --single-version-externally-managed install_data

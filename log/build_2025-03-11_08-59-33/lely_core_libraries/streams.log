@@ -1,0 +1,236 @@
+[0.038s] Invoking command in '/home/ub2004/ros2_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake /home/ub2004/ros2_ws/src/ros2_canopen/lely_core_libraries -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ub2004/ros2_ws/install/lely_core_libraries
+[0.362s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.362s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.475s] -- Configuring done
+[0.487s] -- Generating done
+[0.490s] -- Build files have been written to: /home/ub2004/ros2_ws/build/lely_core_libraries
+[0.680s] Invoked command in '/home/ub2004/ros2_ws/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake /home/ub2004/ros2_ws/src/ros2_canopen/lely_core_libraries -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ub2004/ros2_ws/install/lely_core_libraries
+[0.684s] Invoking command in '/home/ub2004/ros2_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --build /home/ub2004/ros2_ws/build/lely_core_libraries -- -j8 -l8
+[0.752s] failed to create symbolic link '/home/ub2004/ros2_ws/build/lely_core_libraries/ament_cmake_python/cogen/cogen' because existing path cannot be removed: Is a directory
+[0.754s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_cogen.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_cogen] 오류 1
+[0.754s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/ament_cmake_python_symlink_cogen.dir/all] 오류 2
+[0.754s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[0.755s] [ 12%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[0.764s] [ 12%] Built target ament_cmake_python_symlink_cogen_setup
+[0.922s] HEAD의 현재 위치는 b63a0b6f입니다 co: fix co_time_of_day_set() to actually store the result
+[0.926s] configure.ac 패치를 확인하는 중입니다...
+[0.927s] 패치 1번 부분 577번 줄에서 성공 (오프셋 8번 줄)
+[0.927s] python/dcf-tools/Makefile.am 패치를 확인하는 중입니다...
+[0.927s] configure.ac 패치 깔끔하게 적용.
+[0.927s] python/dcf-tools/Makefile.am 패치 깔끔하게 적용.
+[0.941s] [ 25%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[0.970s] [ 37%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m
+[5.522s] configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+[5.522s] configure.ac:17: You should run autoupdate.
+[5.522s] ./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+[5.522s] configure.ac:17: the top level
+[5.522s] configure.ac:442: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+[5.522s] ./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+[5.522s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[5.522s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[5.522s] configure.ac:442: the top level
+[7.459s] checking build system type... x86_64-pc-linux-gnu
+[7.460s] checking host system type... x86_64-pc-linux-gnu
+[7.460s] checking target system type... x86_64-pc-linux-gnu
+[7.470s] checking for a BSD-compatible install... /usr/bin/install -c
+[7.474s] checking whether build environment is sane... yes
+[7.485s] checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[7.485s] checking for gawk... no
+[7.485s] checking for mawk... mawk
+[7.495s] checking whether make sets $(MAKE)... yes
+[7.502s] checking whether make supports nested variables... yes
+[7.508s] checking whether to enable maintainer-specific portions of Makefiles... yes
+[7.508s] checking whether make supports nested variables... (cached) yes
+[7.513s] checking for a sed that does not truncate output... /usr/bin/sed
+[7.515s] checking whether to build with code coverage support... no
+[7.516s] checking for valgrind... no
+[7.527s] checking whether make supports the include directive... yes (GNU style)
+[7.527s] checking for gcc... gcc
+[7.640s] checking whether the C compiler works... yes
+[7.640s] checking for C compiler default output file name... a.out
+[7.680s] checking for suffix of executables... 
+[7.732s] checking whether we are cross compiling... no
+[7.758s] checking for suffix of object files... o
+[7.778s] checking whether the compiler supports GNU C... yes
+[7.798s] checking whether gcc accepts -g... yes
+[7.874s] checking for gcc option to enable C11 features... none needed
+[7.912s] checking whether gcc understands -c and -o together... yes
+[7.953s] checking dependency style of gcc... gcc3
+[7.976s] checking for stdio.h... yes
+[8.008s] checking for stdlib.h... yes
+[8.039s] checking for string.h... yes
+[8.073s] checking for inttypes.h... yes
+[8.103s] checking for stdint.h... yes
+[8.132s] checking for strings.h... yes
+[8.165s] checking for sys/stat.h... yes
+[8.194s] checking for sys/types.h... yes
+[8.230s] checking for unistd.h... yes
+[8.274s] checking for wchar.h... yes
+[8.313s] checking for minix/config.h... no
+[8.355s] checking whether it is safe to define __EXTENSIONS__... yes
+[8.384s] checking whether _XOPEN_SOURCE should be defined... no
+[8.385s] checking for g++... g++
+[8.498s] checking whether the compiler supports GNU C++... yes
+[8.519s] checking whether g++ accepts -g... yes
+[8.633s] checking for g++ option to enable C++11 features... none needed
+[8.673s] checking dependency style of g++... gcc3
+[8.719s] checking whether g++ supports C++11 features with -std=gnu++11... yes
+[8.755s] checking how to print strings... printf
+[8.755s] checking for a sed that does not truncate output... (cached) /usr/bin/sed
+[8.759s] checking for grep that handles long lines and -e... /usr/bin/grep
+[8.761s] checking for egrep... /usr/bin/grep -E
+[8.764s] checking for fgrep... /usr/bin/grep -F
+[8.769s] checking for ld used by gcc... /usr/bin/ld
+[8.772s] checking if the linker (/usr/bin/ld) is GNU ld... yes
+[8.776s] checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+[8.800s] checking the name lister (/usr/bin/nm -B) interface... BSD nm
+[8.800s] checking whether ln -s works... yes
+[8.806s] checking the maximum length of command line arguments... 1572864
+[8.810s] checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+[8.810s] checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+[8.810s] checking for /usr/bin/ld option to reload object files... -r
+[8.811s] checking for objdump... objdump
+[8.811s] checking how to recognize dependent libraries... pass_all
+[8.812s] checking for dlltool... no
+[8.812s] checking how to associate runtime and link libraries... printf %s\n
+[8.812s] checking for ar... ar
+[8.843s] checking for archiver @FILE support... @
+[8.843s] checking for strip... strip
+[8.844s] checking for ranlib... ranlib
+[8.935s] checking command to parse /usr/bin/nm -B output from gcc object... ok
+[8.937s] checking for sysroot... no
+[8.945s] checking for a working dd... /usr/bin/dd
+[8.952s] checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+[8.976s] checking for mt... mt
+[8.983s] checking if mt is a manifest tool... no
+[9.044s] checking for dlfcn.h... yes
+[9.050s] checking for objdir... .libs
+[9.139s] checking if gcc supports -fno-rtti -fno-exceptions... no
+[9.139s] checking for gcc option to produce PIC... -fPIC -DPIC
+[9.164s] checking if gcc PIC flag -fPIC -DPIC works... yes
+[9.289s] checking if gcc static flag -static works... yes
+[9.321s] checking if gcc supports -c -o file.o... yes
+[9.321s] checking if gcc supports -c -o file.o... (cached) yes
+[9.333s] checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[9.364s] checking whether -lc should be explicitly linked in... no
+[9.426s] checking dynamic linker characteristics... GNU/Linux ld.so
+[9.426s] checking how to hardcode library paths into programs... immediate
+[9.429s] checking whether stripping libraries is possible... yes
+[9.429s] checking if libtool supports shared libraries... yes
+[9.429s] checking whether to build shared libraries... yes
+[9.429s] checking whether to build static libraries... no
+[9.468s] checking how to run the C++ preprocessor... g++ -std=gnu++11 -E
+[9.575s] checking for ld used by g++ -std=gnu++11... /usr/bin/ld -m elf_x86_64
+[9.578s] checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+[9.586s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[9.672s] checking for g++ -std=gnu++11 option to produce PIC... -fPIC -DPIC
+[9.698s] checking if g++ -std=gnu++11 PIC flag -fPIC -DPIC works... yes
+[9.790s] checking if g++ -std=gnu++11 static flag -static works... yes
+[9.824s] checking if g++ -std=gnu++11 supports -c -o file.o... yes
+[9.824s] checking if g++ -std=gnu++11 supports -c -o file.o... (cached) yes
+[9.824s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[9.829s] checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+[9.829s] checking how to hardcode library paths into programs... immediate
+[9.831s] checking for windres... no
+[9.906s] checking for timer_create in -lrt... yes
+[9.935s] checking how to run the C preprocessor... gcc -E
+[9.978s] checking whether gcc is Clang... no
+[10.040s] checking whether pthreads work with "-pthread" and "-lpthread"... yes
+[10.087s] checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+[10.087s] checking whether more special flags are required for pthreads... no
+[10.132s] checking for PTHREAD_PRIO_INHERIT... yes
+[10.134s] checking for pkg-config... /usr/bin/pkg-config
+[10.136s] checking pkg-config is at least version 0.9.0... yes
+[10.143s] checking for cpputest >= 4... no
+[10.184s] checking for valgrind/valgrind.h... no
+[10.237s] checking for linux/can.h... yes
+[10.294s] checking for linux/can/error.h... yes
+[10.314s] checking for bluetooth/bluetooth.h... no
+[10.334s] checking for bluetooth/rfcomm.h... no
+[10.439s] checking for library containing str2ba... no
+[10.497s] checking for ifaddrs.h... yes
+[10.551s] checking for linux/can/netlink.h... yes
+[10.605s] checking for linux/can/raw.h... yes
+[10.679s] checking for linux/rtnetlink.h... yes
+[10.731s] checking for sys/epoll.h... yes
+[10.789s] checking for sys/ioctl.h... yes
+[10.813s] checking for a Python interpreter with version >= 3.3... python3
+[10.814s] checking for python3... /usr/bin/python3
+[10.834s] checking for python3 version... 3.10
+[10.858s] checking for python3 platform... linux
+[10.858s] checking for GNU default python3 prefix... ${prefix}
+[10.858s] checking for GNU default python3 exec_prefix... ${exec_prefix}
+[10.898s] checking for python3 script directory (pythondir)... ${PYTHON_PREFIX}/lib/python3.10/site-packages
+[10.935s] checking for python3 extension module directory (pyexecdir)... ${PYTHON_EXEC_PREFIX}/lib/python3.10/site-packages
+[10.936s] checking for gawk... (cached) mawk
+[10.967s] checking that generated files are newer than configure... done
+[10.968s] configure: creating ./config.status
+[12.010s] config.status: creating doc/Doxyfile
+[12.031s] config.status: creating doc/Makefile
+[12.052s] config.status: creating include/Makefile
+[12.073s] config.status: creating pkgconfig/liblely-can.pc
+[12.096s] config.status: creating pkgconfig/liblely-co.pc
+[12.117s] config.status: creating pkgconfig/liblely-coapp.pc
+[12.137s] config.status: creating pkgconfig/liblely-ev.pc
+[12.160s] config.status: creating pkgconfig/liblely-io.pc
+[12.180s] config.status: creating pkgconfig/liblely-io2.pc
+[12.200s] config.status: creating pkgconfig/liblely-libc.pc
+[12.220s] config.status: creating pkgconfig/liblely-libc_rt.pc
+[12.241s] config.status: creating pkgconfig/liblely-tap.pc
+[12.264s] config.status: creating pkgconfig/liblely-util.pc
+[12.284s] config.status: creating pkgconfig/Makefile
+[12.307s] config.status: creating python/can/Makefile
+[12.326s] config.status: creating python/dcf-tools/Makefile
+[12.347s] config.status: creating python/io/Makefile
+[12.368s] config.status: creating python/Makefile
+[12.388s] config.status: creating src/can/Makefile
+[12.408s] config.status: creating src/co/Makefile
+[12.428s] config.status: creating src/co/version.rc
+[12.449s] config.status: creating src/coapp/Makefile
+[12.471s] config.status: creating src/coapp/version.rc
+[12.491s] config.status: creating src/ev/Makefile
+[12.511s] config.status: creating src/ev/version.rc
+[12.531s] config.status: creating src/io/Makefile
+[12.552s] config.status: creating src/io2/Makefile
+[12.574s] config.status: creating src/io2/version.rc
+[12.594s] config.status: creating src/libc/Makefile
+[12.614s] config.status: creating src/libc/version.rc
+[12.635s] config.status: creating src/tap/Makefile
+[12.658s] config.status: creating src/tap/version.rc
+[12.678s] config.status: creating src/util/Makefile
+[12.701s] config.status: creating src/util/version.rc
+[12.721s] config.status: creating src/Makefile
+[12.744s] config.status: creating tools/Makefile
+[12.766s] config.status: creating tools/version.dcf2c.rc
+[12.786s] config.status: creating test/co-nmt-master.dcf
+[12.806s] config.status: creating test/Makefile
+[12.827s] config.status: creating unit-tests/Makefile
+[12.847s] config.status: creating exec-wrapper.sh
+[12.866s] config.status: creating lcov-wrapper.sh
+[12.881s] config.status: creating Makefile
+[12.896s] config.status: creating config.h
+[12.904s] config.status: config.h is unchanged
+[12.908s] config.status: executing depfiles commands
+[13.208s] config.status: executing libtool commands
+[13.291s] [ 50%] [34m[1mPerforming build step for 'upstr_lely_core_libraries'[0m
+[13.684s] config.status: creating config.h
+[13.689s] config.status: config.h is unchanged
+[13.706s] Making all in doc
+[13.708s] Making all in include
+[13.714s] Making all in src
+[13.724s] Making all in libc
+[13.740s] Making all in tap
+[13.747s] Making all in util
+[13.783s] Making all in can
+[13.795s] Making all in co
+[13.822s] Making all in io
+[13.842s] Making all in ev
+[13.856s] Making all in io2
+[13.886s] Making all in coapp
+[13.919s] Making all in python
+[13.929s] Making all in dcf-tools
+[13.935s] Making all in pkgconfig
+[13.966s] [ 62%] [34m[1mNo install step for 'upstr_lely_core_libraries'[0m
+[14.003s] [ 75%] [34m[1mCompleted 'upstr_lely_core_libraries'[0m
+[14.043s] [100%] Built target upstr_lely_core_libraries
+[14.045s] gmake: *** [Makefile:146: all] 오류 2

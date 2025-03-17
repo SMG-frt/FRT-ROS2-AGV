@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from canopen_interfaces/srv/COHeartbeatID.srv
+// generated code does not contain a copyright notice
+
+
+module canopen_interfaces {
+  module srv {
+    struct COHeartbeatID_Request {
+      uint8 nodeid;
+
+      @verbatim (language="comment", text=
+        "ms")
+      uint16 heartbeat;
+    };
+    struct COHeartbeatID_Response {
+      boolean success;
+    };
+  };
+};

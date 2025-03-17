@@ -1,0 +1,4 @@
+source;share/lely_core_libraries/environment/ament_prefix_path.sh
+source;share/lely_core_libraries/environment/library_path.sh
+source;share/lely_core_libraries/environment/path.sh
+source;share/lely_core_libraries/environment/pythonpath.sh

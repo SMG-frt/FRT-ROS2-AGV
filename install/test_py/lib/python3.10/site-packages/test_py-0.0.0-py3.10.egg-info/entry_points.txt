@@ -1,0 +1,3 @@
+[console_scripts]
+tt = test_py.tt:main
+

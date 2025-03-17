@@ -1,0 +1,36 @@
+'upstream'에 복제합니다...
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+HEAD의 현재 위치는 b63a0b6f co: fix co_time_of_day_set() to actually store the result
+configure.ac 패치를 확인하는 중입니다...
+패치 1번 부분 577번 줄에서 성공 (오프셋 8번 줄)
+python/dcf-tools/Makefile.am 패치를 확인하는 중입니다...
+configure.ac 패치 깔끔하게 적용.
+python/dcf-tools/Makefile.am 패치 깔끔하게 적용.
+configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+configure.ac:17: You should run autoupdate.
+./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+configure.ac:17: the top level
+configure.ac:442: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+configure.ac:442: the top level
+configure.ac:17: installing './compile'
+configure.ac:6: installing './config.guess'
+configure.ac:6: installing './config.sub'
+configure.ac:7: installing './install-sh'
+configure.ac:7: installing './missing'
+configure.ac:610: installing './tap-driver.sh'
+src/can/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+libtool: warning: relinking 'liblely-tap.la'
+libtool: warning: relinking 'liblely-util.la'
+libtool: warning: relinking 'liblely-can.la'
+libtool: warning: relinking 'liblely-co.la'
+libtool: warning: relinking 'liblely-io.la'
+libtool: warning: relinking 'liblely-ev.la'
+libtool: warning: relinking 'liblely-io2.la'
+libtool: warning: relinking 'liblely-coapp.la'
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
