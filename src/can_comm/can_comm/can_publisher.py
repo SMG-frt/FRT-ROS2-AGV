@@ -71,11 +71,6 @@ class JoystickTeleop(Node):
         self.linear_speed = 0.0
         self.angular_speed = 0.0
 
-        # 타이머 기능
-        self.button_state = False
-        self.toggle_interval = 1.0  # 1초 간격으로 토글
-        self.last_toggle_time = time.time()
-
         # 조이스틱 입력을 처리하는 스레드 시작
         self.thread = threading.Thread(target=self.run)
         self.thread.start()
