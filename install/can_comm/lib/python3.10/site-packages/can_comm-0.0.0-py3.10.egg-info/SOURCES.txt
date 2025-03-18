@@ -9,14 +9,7 @@ setup.py
 ../../build/can_comm/can_comm.egg-info/top_level.txt
 ../../build/can_comm/can_comm.egg-info/zip-safe
 can_comm/__init__.py
-can_comm/can_publisher v3_3_12_12_00.py
 can_comm/can_publisher.py
-can_comm/can_publisher_3_14_1.py
-can_comm/can_publisher_joystik.py
-can_comm/can_publisher_v1.py
-can_comm/can_publisher_v2.py
-can_comm/can_publisher_v4.py
-can_comm/can_publisher_v5.py
 can_comm/can_velocity_node.py
 can_comm/joystick_node.py
 launch/agv.launch.py

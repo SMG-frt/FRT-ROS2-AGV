@@ -1,0 +1,35 @@
+[0.043s] Invoking command in '/home/ub2004/ros2_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --build /home/ub2004/ros2_ws/build/lely_core_libraries -- -j8 -l8
+[0.895s] [ 12%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[0.895s] HEAD의 현재 위치는 b63a0b6f입니다 co: fix co_time_of_day_set() to actually store the result
+[0.895s] [ 12%] Built target ament_cmake_python_copy_cogen
+[0.895s] [ 12%] Built target ament_cmake_python_copy_cogen_setup
+[0.895s] [ 25%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[0.895s] [ 37%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m
+[0.895s] running egg_info
+[0.895s] writing cogen.egg-info/PKG-INFO
+[0.895s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[0.895s] writing entry points to cogen.egg-info/entry_points.txt
+[0.896s] writing top-level names to cogen.egg-info/top_level.txt
+[0.896s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[0.896s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[0.896s] running install_scripts
+[0.896s] running egg_info
+[0.896s] writing cogen.egg-info/PKG-INFO
+[0.896s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[0.896s] writing entry points to cogen.egg-info/entry_points.txt
+[0.896s] writing top-level names to cogen.egg-info/top_level.txt
+[0.896s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[0.896s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[0.896s] [ 37%] Built target ament_cmake_python_build_cogen_egg
+[0.896s] Installing cogen script to scripts
+[0.896s] [ 37%] Built target ament_cmake_python_build_cogen_scripts
+[0.896s] configure.ac 패치를 확인하는 중입니다...
+[0.896s] 패치 1번 부분 577번 줄에서 성공 (오프셋 8번 줄)
+[0.896s] python/dcf-tools/Makefile.am 패치를 확인하는 중입니다...
+[0.897s] configure.ac 패치 깔끔하게 적용.
+[0.897s] python/dcf-tools/Makefile.am 패치 깔끔하게 적용.
+[0.897s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.897s]   warnings.warn(
+[1.012s] gmake[2]: *** [CMakeFiles/upstr_lely_core_libraries.dir/build.make:92: upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries-stamp/upstr_lely_core_libraries-configure] 인터럽트
+[1.013s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/upstr_lely_core_libraries.dir/all] 인터럽트
+[1.013s] gmake: *** [Makefile:146: all] 인터럽트

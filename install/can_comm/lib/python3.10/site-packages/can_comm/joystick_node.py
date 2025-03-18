@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
+import evdev
+from evdev import ecodes
 from geometry_msgs.msg import Twist
 from can_msgs.msg import Frame
-import evdev
 import threading
 import select
 
@@ -20,8 +20,11 @@ class JoystickTeleop(Node):
 
         self.device = evdev.InputDevice(self.device_path)
         self.running = True
+        self.active = False  # 조이스틱 입력 활성화 여부 (기본값: 비활성화)
         self.speed, self.turn = 0.5, 1.0
         self.linear_speed, self.angular_speed = 0.0, 0.0
+
+        self.timer = self.create_timer(0.1, self.timer_callback)
 
         self.thread = threading.Thread(target=self.run)
         self.thread.start()
@@ -39,14 +42,39 @@ class JoystickTeleop(Node):
         self.can_publisher.publish(msg)
 
     def send_start_messages(self):
-        messages = [[0x22, 0x40, 0x60, 0x00, 0x06, 0x00, 0x00, 0x00], [0x22, 0x40, 0x60, 0x00, 0x07, 0x00, 0x00, 0x00], [0x22, 0x40, 0x60, 0x00, 0x0F, 0x00, 0x00, 0x00]]
-        for data in messages:
+        can_messages = [
+            [0x22, 0x40, 0x60, 0x00, 0x06, 0x00, 0x00, 0x00],
+            [0x22, 0x40, 0x60, 0x00, 0x07, 0x00, 0x00, 0x00],
+            [0x22, 0x40, 0x60, 0x00, 0x0F, 0x00, 0x00, 0x00]
+        ]
+        
+        for data in can_messages:
             self.send_can_message(0x601, data)
             self.send_can_message(0x602, data)
 
+        self.active = True  # 조이스틱 입력 활성화
+        self.get_logger().info("시작됨: 조이스틱 활성화")
+
     def send_stop_messages(self):
-        self.send_can_message(0x601, [0x22, 0x40, 0x60, 0x00, 0x00, 0x00, 0x00, 0x00])
-        self.send_can_message(0x602, [0x22, 0x40, 0x60, 0x00, 0x00, 0x00, 0x00, 0x00])
+        can_messages = [
+            [0x22, 0x40, 0x60, 0x00, 0x00, 0x00, 0x00, 0x00],
+        ]
+        
+        for data in can_messages:
+            self.send_can_message(0x601, data)
+            self.send_can_message(0x602, data)
+
+        self.active = False  # 조이스틱 입력 비활성화
+        self.linear_speed = 0.0
+        self.angular_speed = 0.0
+        self.get_logger().info("정지됨: 조이스틱 비활성화")
+
+    def timer_callback(self):
+        if self.active:  # 활성 상태일 때만 속도 publish
+            msg = Twist()
+            msg.linear.x = self.linear_speed
+            msg.angular.z = self.angular_speed
+            self.publisher.publish(msg)
 
     def run(self):
         self.get_logger().info("Joystick control initialized.")
@@ -55,20 +83,18 @@ class JoystickTeleop(Node):
                 r, _, _ = select.select([self.device.fd], [], [], 0.1)
                 if r:
                     for event in self.device.read():
-                        if event.type == evdev.ecodes.EV_KEY:
-                            if event.code == evdev.ecodes.BTN_NORTH and event.value == 1:
-                                self.send_start_messages()
-                            elif event.code == evdev.ecodes.BTN_SOUTH and event.value == 1:
-                                self.send_stop_messages()
-                        if event.type == evdev.ecodes.EV_ABS:
+                        if event.type == evdev.ecodes.EV_ABS and self.active:
                             if event.code == evdev.ecodes.ABS_Y:
                                 self.linear_speed = self.speed * (1 - event.value / 128.0) if event.value < 128 else -self.speed * ((event.value - 128) / 128.0)
                             elif event.code == evdev.ecodes.ABS_X:
                                 self.angular_speed = self.turn * (1 - event.value / 128.0) if event.value < 128 else -self.turn * ((event.value - 128) / 128.0)
 
-                    msg = Twist()
-                    msg.linear.x, msg.angular.z = self.linear_speed, self.angular_speed
-                    self.publisher.publish(msg)
+                        elif event.type == evdev.ecodes.EV_KEY:
+                            if event.code == evdev.ecodes.BTN_NORTH and event.value == 1:  # START 버튼
+                                self.send_start_messages()
+                            elif event.code == evdev.ecodes.BTN_SOUTH and event.value == 1:  # STOP 버튼
+                                self.send_stop_messages()
+                
                 rclpy.spin_once(self, timeout_sec=0.1)
         except OSError as e:
             self.get_logger().error(f"Joystick disconnected: {e}")
