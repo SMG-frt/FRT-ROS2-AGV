@@ -17,6 +17,9 @@ can_comm/can_publisher_v1.py
 can_comm/can_publisher_v2.py
 can_comm/can_publisher_v4.py
 can_comm/can_publisher_v5.py
+can_comm/can_velocity_node.py
+can_comm/joystick_node.py
+launch/agv.launch.py
 resource/can_comm
 test/test_copyright.py
 test/test_flake8.py

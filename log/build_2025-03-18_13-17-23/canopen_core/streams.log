@@ -1,0 +1,104 @@
+[0.022s] Invoking command in '/home/ub2004/ros2_ws/build/canopen_core': CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib:/home/ub2004/ros2_ws/install/canopen_interfaces/lib:/home/ub2004/ros2_ws/install/canopen_ros2_controllers/lib:/home/ub2004/ros2_ws/install/canopen_ros2_control/lib:/home/ub2004/ros2_ws/install/canopen_402_driver/lib:/home/ub2004/ros2_ws/install/canopen_proxy_driver/lib:/home/ub2004/ros2_ws/install/canopen_master_driver/lib:/home/ub2004/ros2_ws/install/canopen_base_driver/lib:/home/ub2004/ros2_ws/install/canopen_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ub2004/ros2_ws/build/canopen_core -- -j8 -l8
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target node_canopen_driver[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target node_canopen_master[0m
+[0.118s] [ 13%] Built target gmock_main
+[0.118s] [ 13%] Built target gmock
+[0.144s] [ 16%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/master_node.cpp.o[0m
+[0.145s] [ 19%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/node_interfaces/node_canopen_master.cpp.o[0m
+[0.145s] [ 22%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/node_interfaces/node_canopen_driver.cpp.o[0m
+[0.145s] [ 25%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/driver_node.cpp.o[0m
+[8.627s] [ 27%] [32m[1mLinking CXX shared library libnode_canopen_master.so[0m
+[8.837s] [ 30%] Built target node_canopen_master
+[8.858s] [35m[1mConsolidate compiler generated dependencies of target test_node_canopen_master[0m
+[8.859s] [35m[1mConsolidate compiler generated dependencies of target test_canopen_master[0m
+[8.860s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_canopen_master[0m
+[8.883s] [ 33%] [32mBuilding CXX object test/CMakeFiles/test_node_canopen_master.dir/test_node_canopen_master.cpp.o[0m
+[8.884s] [ 36%] [32mBuilding CXX object test/CMakeFiles/test_canopen_master.dir/test_canopen_master.cpp.o[0m
+[8.892s] [ 38%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_canopen_master.dir/test_lifecycle_canopen_master.cpp.o[0m
+[9.141s] [ 41%] [32m[1mLinking CXX shared library libnode_canopen_driver.so[0m
+[9.461s] [ 44%] Built target node_canopen_driver
+[9.504s] [35m[1mConsolidate compiler generated dependencies of target test_canopen_driver[0m
+[9.510s] [35m[1mConsolidate compiler generated dependencies of target device_container[0m
+[9.510s] [35m[1mConsolidate compiler generated dependencies of target test_node_canopen_driver[0m
+[9.514s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_canopen_driver[0m
+[9.560s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_canopen_driver.dir/test_canopen_driver.cpp.o[0m
+[9.587s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_node_canopen_driver.dir/test_node_canopen_driver.cpp.o[0m
+[9.600s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_canopen_driver.dir/test_lifecycle_canopen_driver.cpp.o[0m
+[9.626s] [ 55%] [32mBuilding CXX object CMakeFiles/device_container.dir/src/device_container.cpp.o[0m
+[21.529s] [ 58%] [32m[1mLinking CXX executable test_canopen_master[0m
+[22.190s] [ 61%] [32m[1mLinking CXX executable test_node_canopen_driver[0m
+[22.285s] [ 63%] [32m[1mLinking CXX executable test_node_canopen_master[0m
+[22.314s] [ 63%] Built target test_canopen_master
+[22.487s] [ 66%] [32m[1mLinking CXX executable test_canopen_driver[0m
+[22.505s] [ 69%] [32m[1mLinking CXX shared library libdevice_container.so[0m
+[22.548s] [ 72%] [32m[1mLinking CXX executable test_lifecycle_canopen_master[0m
+[22.948s] [ 75%] [32m[1mLinking CXX executable test_lifecycle_canopen_driver[0m
+[23.224s] [ 75%] Built target test_node_canopen_driver
+[23.459s] [ 83%] Built target device_container
+[23.465s] [ 83%] Built target test_node_canopen_master
+[23.490s] [35m[1mConsolidate compiler generated dependencies of target device_container_node[0m
+[23.507s] [ 86%] [32m[1mLinking CXX executable test_lifecycle_manager[0m
+[23.508s] [ 88%] [32m[1mLinking CXX executable test_errors[0m
+[23.531s] [ 91%] [32mBuilding CXX object CMakeFiles/device_container_node.dir/src/device_container_node.cpp.o[0m
+[23.553s] [ 91%] Built target test_canopen_driver
+[23.707s] [ 91%] Built target test_lifecycle_canopen_master
+[23.861s] [ 91%] Built target test_lifecycle_canopen_driver
+[24.111s] [ 94%] Built target test_errors
+[24.188s] [ 97%] Built target test_lifecycle_manager
+[28.974s] [100%] [32m[1mLinking CXX executable device_container_node[0m
+[29.208s] [100%] Built target device_container_node
+[29.222s] Invoked command in '/home/ub2004/ros2_ws/build/canopen_core' returned '0': CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib:/home/ub2004/ros2_ws/install/canopen_interfaces/lib:/home/ub2004/ros2_ws/install/canopen_ros2_controllers/lib:/home/ub2004/ros2_ws/install/canopen_ros2_control/lib:/home/ub2004/ros2_ws/install/canopen_402_driver/lib:/home/ub2004/ros2_ws/install/canopen_proxy_driver/lib:/home/ub2004/ros2_ws/install/canopen_master_driver/lib:/home/ub2004/ros2_ws/install/canopen_base_driver/lib:/home/ub2004/ros2_ws/install/canopen_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ub2004/ros2_ws/build/canopen_core -- -j8 -l8
+[29.225s] Invoking command in '/home/ub2004/ros2_ws/build/canopen_core': CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib:/home/ub2004/ros2_ws/install/canopen_interfaces/lib:/home/ub2004/ros2_ws/install/canopen_ros2_controllers/lib:/home/ub2004/ros2_ws/install/canopen_ros2_control/lib:/home/ub2004/ros2_ws/install/canopen_402_driver/lib:/home/ub2004/ros2_ws/install/canopen_proxy_driver/lib:/home/ub2004/ros2_ws/install/canopen_master_driver/lib:/home/ub2004/ros2_ws/install/canopen_base_driver/lib:/home/ub2004/ros2_ws/install/canopen_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ub2004/ros2_ws/build/canopen_core
+[29.234s] -- Install configuration: ""
+[29.234s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include
+[29.234s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core
+[29.234s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/lifecycle_manager.hpp
+[29.234s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/device_container.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/driver_error.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/master_node.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/configuration_manager.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/node_interfaces
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_master_interface.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_master.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_driver.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_driver_interface.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/exchange.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/device_container_error.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/driver_node.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/master_error.hpp
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/include/canopen_core/visibility_control.h
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/launch/
+[29.235s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/launch//canopen.launch.py
+[29.235s] -- Installing: /home/ub2004/ros2_ws/install/canopen_core/lib/libnode_canopen_driver.so
+[29.238s] -- Set runtime path of "/home/ub2004/ros2_ws/install/canopen_core/lib/libnode_canopen_driver.so" to ""
+[29.239s] -- Installing: /home/ub2004/ros2_ws/install/canopen_core/lib/libnode_canopen_master.so
+[29.240s] -- Set runtime path of "/home/ub2004/ros2_ws/install/canopen_core/lib/libnode_canopen_master.so" to ""
+[29.241s] -- Installing: /home/ub2004/ros2_ws/install/canopen_core/lib/libdevice_container.so
+[29.245s] -- Set runtime path of "/home/ub2004/ros2_ws/install/canopen_core/lib/libdevice_container.so" to ""
+[29.246s] -- Installing: /home/ub2004/ros2_ws/install/canopen_core/lib/canopen_core/device_container_node
+[29.247s] -- Set runtime path of "/home/ub2004/ros2_ws/install/canopen_core/lib/canopen_core/device_container_node" to ""
+[29.247s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/environment/library_path.sh
+[29.247s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/environment/library_path.dsv
+[29.248s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/ament_index/resource_index/package_run_dependencies/canopen_core
+[29.248s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/ament_index/resource_index/parent_prefix_path/canopen_core
+[29.248s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/environment/ament_prefix_path.sh
+[29.248s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/environment/ament_prefix_path.dsv
+[29.248s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/environment/path.sh
+[29.248s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/environment/path.dsv
+[29.248s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/local_setup.bash
+[29.248s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/local_setup.sh
+[29.248s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/local_setup.zsh
+[29.248s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/local_setup.dsv
+[29.248s] -- Installing: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/package.dsv
+[29.248s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/ament_index/resource_index/packages/canopen_core
+[29.249s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/cmake/export_canopen_coreExport.cmake
+[29.249s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/cmake/export_canopen_coreExport-noconfig.cmake
+[29.249s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/cmake/ConfigExtras.cmake
+[29.249s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.249s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_libraries-extras.cmake
+[29.249s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_targets-extras.cmake
+[29.249s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.250s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig.cmake
+[29.250s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig-version.cmake
+[29.250s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/package.xml
+[29.253s] Invoked command in '/home/ub2004/ros2_ws/build/canopen_core' returned '0': CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib:/home/ub2004/ros2_ws/install/canopen_interfaces/lib:/home/ub2004/ros2_ws/install/canopen_ros2_controllers/lib:/home/ub2004/ros2_ws/install/canopen_ros2_control/lib:/home/ub2004/ros2_ws/install/canopen_402_driver/lib:/home/ub2004/ros2_ws/install/canopen_proxy_driver/lib:/home/ub2004/ros2_ws/install/canopen_master_driver/lib:/home/ub2004/ros2_ws/install/canopen_base_driver/lib:/home/ub2004/ros2_ws/install/canopen_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ub2004/ros2_ws/build/canopen_core

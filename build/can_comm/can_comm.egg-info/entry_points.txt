@@ -1,3 +1,5 @@
 [console_scripts]
 can_publisher = can_comm.can_publisher:main
+can_velocity = can_comm.can_velocity_node:main
+joystick_node = can_comm.joystick_node:main
 
