@@ -38,8 +38,8 @@ class CanVelocityController(Node):
             0x22, 0xFF, 0x60, 0x00,
             (speed & 0xFF),
             ((speed >> 8) & 0xFF),
-            0xFF if speed < 0 else 0x00,
-            0xFF if speed < 0 else 0x00
+            0x00 if speed < 0 else 0xFF,
+            0x00 if speed < 0 else 0xFF
         ]
 
         # Frame 메시지 준비
@@ -68,7 +68,7 @@ class JoystickTeleop(Node):
         self.running = True
         
         # 속도 및 회전율 설정
-        self.speed = 2.0
+        self.speed = 0.5
         self.turn = 1.0
 
         # 현재 속도 상태 (초기값 0)
@@ -128,53 +128,62 @@ class JoystickTeleop(Node):
 
     def run(self):
         self.get_logger().info("Joystick control initialized. Move with joystick.")
-        
-        while self.running and rclpy.ok():
-            # select를 사용하여 조이스틱 장치에서 읽을 데이터가 준비되었는지 확인
-            r, _, _ = select.select([self.device_fd], [], [], 0.1)
-            
-            if r:
-                for event in self.device.read():
-                    if event.type == evdev.ecodes.EV_KEY:
-                        if event.code == evdev.ecodes.BTN_NORTH:  # BTN_NORTH: 시작
-                            if event.value == 1:
-                                self.send_start_messages()
-                        elif event.code == evdev.ecodes.BTN_SOUTH:  # BTN_SOUTH: 정지
-                            if event.value == 1:
-                                self.send_stop_messages()
 
-                    if event.type == evdev.ecodes.EV_ABS:
-                        # 상하 방향 (전진/후진)
-                        if event.code == evdev.ecodes.ABS_Y:
-                            if event.value < 128:  # 후진
-                                self.linear_speed = self.speed * (1 - event.value / 128.0)
-                            else:  # 전진
-                                self.linear_speed = -self.speed * ((event.value - 128) / 128.0)
-
-                        # 좌우 방향 (회전)
-                        elif event.code == evdev.ecodes.ABS_X:
-                            if event.value < 128:  # 왼쪽
-                                self.angular_speed = self.turn * (1 - event.value / 128.0)
-                            else:  # 오른쪽
-                                self.angular_speed = -self.turn * ((event.value - 128) / 128.0)
-
-                        # 회전 조작 (ABS_Z 사용)
-                        elif event.code == evdev.ecodes.ABS_Z:
-                            if event.value < 128:  # 왼쪽
-                                self.angular_speed = self.turn * (1 - event.value / 128.0)
-                            else:  # 오른쪽
-                                self.angular_speed = -self.turn * ((event.value - 128) / 128.0)
-
-
-                # Twist 메시지 생성
-                msg = Twist()
-                msg.linear.x = self.linear_speed
-                msg.angular.z = self.angular_speed
-
-                # 조이스틱 값으로 속도 업데이트
-                self.publisher.publish(msg)
+        try:
+            while self.running and rclpy.ok():
+                # select를 사용하여 조이스틱 장치에서 읽을 데이터가 준비되었는지 확인
+                r, _, _ = select.select([self.device_fd], [], [], 0.1)
                 
-            rclpy.spin_once(self, timeout_sec=0.1)
+                if r:
+                    for event in self.device.read():
+                        if event.type == evdev.ecodes.EV_KEY:
+                            if event.code == evdev.ecodes.BTN_NORTH:  # BTN_NORTH: 시작
+                                if event.value == 1:
+                                    self.send_start_messages()
+                            elif event.code == evdev.ecodes.BTN_SOUTH:  # BTN_SOUTH: 정지
+                                if event.value == 1:
+                                    self.send_stop_messages()
+
+                        if event.type == evdev.ecodes.EV_ABS:
+                            # 상하 방향 (전진/후진)
+                            if event.code == evdev.ecodes.ABS_Y:
+                                if event.value < 128:  # 후진
+                                    self.linear_speed = self.speed * (1 - event.value / 128.0)
+                                else:  # 전진
+                                    self.linear_speed = -self.speed * ((event.value - 128) / 128.0)
+
+                            # 좌우 방향 (회전)
+                            elif event.code == evdev.ecodes.ABS_X:
+                                if event.value < 128:  # 왼쪽
+                                    self.angular_speed = self.turn * (1 - event.value / 128.0)
+                                else:  # 오른쪽
+                                    self.angular_speed = -self.turn * ((event.value - 128) / 128.0)
+
+                            # 회전 조작 (ABS_Z 사용)
+                            elif event.code == evdev.ecodes.ABS_Z:
+                                if event.value < 128:  # 왼쪽
+                                    self.angular_speed = self.turn * (1 - event.value / 128.0)
+                                else:  # 오른쪽
+                                    self.angular_speed = -self.turn * ((event.value - 128) / 128.0)
+
+
+                    # Twist 메시지 생성
+                    msg = Twist()
+                    msg.linear.x = self.linear_speed
+                    msg.angular.z = self.angular_speed
+                    self.publisher.publish(msg)
+                
+                rclpy.spin_once(self, timeout_sec=0.1)
+
+        except OSError as e:
+            self.get_logger().error(f"Joystick disconnected: {e}")
+            self.send_stop_messages() 
+            self.running = False
+
+
+        finally:
+            self.device.close()
+            rclpy.shutdown()
 
     def stop(self):
         self.running = False
