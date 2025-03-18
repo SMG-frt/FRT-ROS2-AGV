@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;local/lib/python3.10/dist-packages
+/home/ub2004/ros2_ws/build/lely_core_libraries/ament_cmake_environment_hooks/pythonpath.dsv

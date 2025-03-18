@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating can_comm.egg-info
+writing can_comm.egg-info/PKG-INFO
+writing dependency_links to can_comm.egg-info/dependency_links.txt
+writing entry points to can_comm.egg-info/entry_points.txt
+writing requirements to can_comm.egg-info/requires.txt
+writing top-level names to can_comm.egg-info/top_level.txt
+writing manifest file 'can_comm.egg-info/SOURCES.txt'
+reading manifest file 'can_comm.egg-info/SOURCES.txt'
+writing manifest file 'can_comm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages/can-comm.egg-link (link to .)
+Installing can_publisher script to /home/ub2004/ros2_ws/install/can_comm/lib/can_comm
+Installing can_velocity script to /home/ub2004/ros2_ws/install/can_comm/lib/can_comm
+Installing joystick_node script to /home/ub2004/ros2_ws/install/can_comm/lib/can_comm
+
+Installed /home/ub2004/ros2_ws/build/can_comm
+running symlink_data
+creating /home/ub2004/ros2_ws/install/can_comm/share/ament_index
+creating /home/ub2004/ros2_ws/install/can_comm/share/ament_index/resource_index
+creating /home/ub2004/ros2_ws/install/can_comm/share/ament_index/resource_index/packages
+symbolically linking /home/ub2004/ros2_ws/build/can_comm/resource/can_comm -> /home/ub2004/ros2_ws/install/can_comm/share/ament_index/resource_index/packages
+symbolically linking /home/ub2004/ros2_ws/build/can_comm/package.xml -> /home/ub2004/ros2_ws/install/can_comm/share/can_comm
+creating /home/ub2004/ros2_ws/install/can_comm/share/can_comm/launch
+symbolically linking /home/ub2004/ros2_ws/build/can_comm/launch/agv.launch.py -> /home/ub2004/ros2_ws/install/can_comm/share/can_comm/launch

@@ -1,1 +1,1 @@
-canopen_402_driver;canopen_core;canopen_proxy_driver;hardware_interface;pluginlib;rclcpp;rclcpp_components;rclcpp_lifecycle;ament_cmake_gmock;ros2_control_test_assets
+/home/ub2004/ros2_ws/build/canopen_ros2_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/canopen_ros2_control

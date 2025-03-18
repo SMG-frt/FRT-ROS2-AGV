@@ -1,3 +1,1 @@
-source;share/canopen_ros2_control/environment/ament_prefix_path.sh
-source;share/canopen_ros2_control/environment/library_path.sh
-source;share/canopen_ros2_control/environment/path.sh
+/home/ub2004/ros2_ws/build/canopen_ros2_control/ament_cmake_environment_hooks/local_setup.dsv

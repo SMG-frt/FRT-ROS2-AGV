@@ -1,1 +1,1 @@
-prepend-non-duplicate;LD_LIBRARY_PATH;lib
+/home/ub2004/ros2_ws/build/canopen_ros2_controllers/ament_cmake_environment_hooks/library_path.dsv

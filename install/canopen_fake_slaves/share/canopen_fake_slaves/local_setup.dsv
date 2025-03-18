@@ -1,2 +1,1 @@
-source;share/canopen_fake_slaves/environment/ament_prefix_path.sh
-source;share/canopen_fake_slaves/environment/path.sh
+/home/ub2004/ros2_ws/build/canopen_fake_slaves/ament_cmake_environment_hooks/local_setup.dsv

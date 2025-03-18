@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/ub2004/ros2_ws/build/canopen_ros2_controllers/ament_cmake_environment_hooks/path.dsv

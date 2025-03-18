@@ -4,3 +4,6 @@ source;share/canopen_utils/hook/pythonpath.sh
 source;share/canopen_utils/hook/ament_prefix_path.ps1
 source;share/canopen_utils/hook/ament_prefix_path.dsv
 source;share/canopen_utils/hook/ament_prefix_path.sh
+source;../../build/canopen_utils/share/canopen_utils/hook/pythonpath_develop.ps1
+source;../../build/canopen_utils/share/canopen_utils/hook/pythonpath_develop.dsv
+source;../../build/canopen_utils/share/canopen_utils/hook/pythonpath_develop.sh

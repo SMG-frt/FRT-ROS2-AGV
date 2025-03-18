@@ -1,2 +1,1 @@
-ros2_canopen::LifecycleCia402Driver;lib/liblifecycle_cia402_driver.so
-ros2_canopen::Cia402Driver;lib/libcia402_driver.so
+/home/ub2004/ros2_ws/build/canopen_402_driver/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/canopen_402_driver

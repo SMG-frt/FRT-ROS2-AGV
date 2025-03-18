@@ -1,0 +1,907 @@
+[0.035s] Invoking command in '/home/ub2004/ros2_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake /home/ub2004/ros2_ws/src/ros2_canopen/lely_core_libraries -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ub2004/ros2_ws/install/lely_core_libraries
+[0.694s] -- The C compiler identification is GNU 11.4.0
+[0.694s] -- The CXX compiler identification is GNU 11.4.0
+[0.694s] -- Detecting C compiler ABI info
+[0.694s] -- Detecting C compiler ABI info - done
+[0.695s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.695s] -- Detecting C compile features
+[0.695s] -- Detecting C compile features - done
+[0.695s] -- Detecting CXX compiler ABI info
+[0.695s] -- Detecting CXX compiler ABI info - done
+[0.695s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.695s] -- Detecting CXX compile features
+[0.695s] -- Detecting CXX compile features - done
+[0.695s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.695s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.695s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.904s] -- Configuring done
+[0.913s] -- Generating done
+[0.917s] -- Build files have been written to: /home/ub2004/ros2_ws/build/lely_core_libraries
+[1.028s] Invoked command in '/home/ub2004/ros2_ws/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake /home/ub2004/ros2_ws/src/ros2_canopen/lely_core_libraries -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ub2004/ros2_ws/install/lely_core_libraries
+[1.031s] Invoking command in '/home/ub2004/ros2_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --build /home/ub2004/ros2_ws/build/lely_core_libraries -- -j8 -l8
+[1.110s] [ 12%] [34m[1mCreating directories for 'upstr_lely_core_libraries'[0m
+[1.123s] [ 12%] Built target ament_cmake_python_symlink_cogen_setup
+[1.123s] [ 12%] Built target ament_cmake_python_symlink_cogen
+[1.235s] [ 25%] [34m[1mPerforming download step (git clone) for 'upstr_lely_core_libraries'[0m
+[1.267s] 'upstream'에 복제합니다...
+[1.594s] running install_scripts
+[1.598s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.599s]   warnings.warn(
+[1.604s] running egg_info
+[1.604s] creating cogen.egg-info
+[1.605s] writing cogen.egg-info/PKG-INFO
+[1.605s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[1.605s] writing entry points to cogen.egg-info/entry_points.txt
+[1.605s] writing top-level names to cogen.egg-info/top_level.txt
+[1.606s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[1.608s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[1.609s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[1.642s] running egg_info
+[1.643s] writing cogen.egg-info/PKG-INFO
+[1.644s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[1.644s] writing entry points to cogen.egg-info/entry_points.txt
+[1.644s] writing top-level names to cogen.egg-info/top_level.txt
+[1.648s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[1.649s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[1.652s] Installing cogen script to scripts
+[1.665s] [ 25%] Built target ament_cmake_python_build_cogen_egg
+[1.718s] [ 25%] Built target ament_cmake_python_build_cogen_scripts
+[4.225s] HEAD의 현재 위치는 b63a0b6f co: fix co_time_of_day_set() to actually store the result
+[4.320s] [ 37%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[4.402s] HEAD의 현재 위치는 b63a0b6f입니다 co: fix co_time_of_day_set() to actually store the result
+[4.406s] configure.ac 패치를 확인하는 중입니다...
+[4.406s] 패치 1번 부분 577번 줄에서 성공 (오프셋 8번 줄)
+[4.407s] python/dcf-tools/Makefile.am 패치를 확인하는 중입니다...
+[4.407s] configure.ac 패치 깔끔하게 적용.
+[4.407s] python/dcf-tools/Makefile.am 패치 깔끔하게 적용.
+[4.420s] [ 50%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[4.471s] [ 62%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m
+[9.413s] libtoolize: putting auxiliary files in '.'.
+[9.413s] libtoolize: copying file './ltmain.sh'
+[9.439s] libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+[9.439s] libtoolize: copying file 'm4/libtool.m4'
+[9.479s] libtoolize: copying file 'm4/ltoptions.m4'
+[9.521s] libtoolize: copying file 'm4/ltsugar.m4'
+[9.559s] libtoolize: copying file 'm4/ltversion.m4'
+[9.602s] libtoolize: copying file 'm4/lt~obsolete.m4'
+[11.554s] configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+[11.554s] configure.ac:17: You should run autoupdate.
+[11.555s] ./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+[11.555s] configure.ac:17: the top level
+[11.555s] configure.ac:442: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+[11.555s] ./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+[11.555s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[11.555s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[11.555s] configure.ac:442: the top level
+[12.667s] configure.ac:17: installing './compile'
+[12.671s] configure.ac:6: installing './config.guess'
+[12.673s] configure.ac:6: installing './config.sub'
+[12.677s] configure.ac:7: installing './install-sh'
+[12.681s] configure.ac:7: installing './missing'
+[12.684s] configure.ac:610: installing './tap-driver.sh'
+[12.956s] src/can/Makefile.am: installing './depcomp'
+[13.612s] parallel-tests: installing './test-driver'
+[13.849s] checking build system type... x86_64-pc-linux-gnu
+[13.850s] checking host system type... x86_64-pc-linux-gnu
+[13.850s] checking target system type... x86_64-pc-linux-gnu
+[13.861s] checking for a BSD-compatible install... /usr/bin/install -c
+[13.865s] checking whether build environment is sane... yes
+[13.876s] checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[13.876s] checking for gawk... no
+[13.877s] checking for mawk... mawk
+[13.888s] checking whether make sets $(MAKE)... yes
+[13.898s] checking whether make supports nested variables... yes
+[13.905s] checking whether to enable maintainer-specific portions of Makefiles... yes
+[13.905s] checking whether make supports nested variables... (cached) yes
+[13.910s] checking for a sed that does not truncate output... /usr/bin/sed
+[13.911s] checking whether to build with code coverage support... no
+[13.913s] checking for valgrind... no
+[13.924s] checking whether make supports the include directive... yes (GNU style)
+[13.925s] checking for gcc... gcc
+[14.002s] checking whether the C compiler works... yes
+[14.002s] checking for C compiler default output file name... a.out
+[14.039s] checking for suffix of executables... 
+[14.083s] checking whether we are cross compiling... no
+[14.110s] checking for suffix of object files... o
+[14.132s] checking whether the compiler supports GNU C... yes
+[14.156s] checking whether gcc accepts -g... yes
+[14.211s] checking for gcc option to enable C11 features... none needed
+[14.253s] checking whether gcc understands -c and -o together... yes
+[14.298s] checking dependency style of gcc... gcc3
+[14.319s] checking for stdio.h... yes
+[14.346s] checking for stdlib.h... yes
+[14.376s] checking for string.h... yes
+[14.409s] checking for inttypes.h... yes
+[14.438s] checking for stdint.h... yes
+[14.467s] checking for strings.h... yes
+[14.500s] checking for sys/stat.h... yes
+[14.529s] checking for sys/types.h... yes
+[14.566s] checking for unistd.h... yes
+[14.607s] checking for wchar.h... yes
+[14.645s] checking for minix/config.h... no
+[14.687s] checking whether it is safe to define __EXTENSIONS__... yes
+[14.715s] checking whether _XOPEN_SOURCE should be defined... no
+[14.716s] checking for g++... g++
+[14.770s] checking whether the compiler supports GNU C++... yes
+[14.793s] checking whether g++ accepts -g... yes
+[14.876s] checking for g++ option to enable C++11 features... none needed
+[14.919s] checking dependency style of g++... gcc3
+[14.966s] checking whether g++ supports C++11 features with -std=gnu++11... yes
+[14.998s] checking how to print strings... printf
+[14.999s] checking for a sed that does not truncate output... (cached) /usr/bin/sed
+[15.003s] checking for grep that handles long lines and -e... /usr/bin/grep
+[15.005s] checking for egrep... /usr/bin/grep -E
+[15.007s] checking for fgrep... /usr/bin/grep -F
+[15.013s] checking for ld used by gcc... /usr/bin/ld
+[15.016s] checking if the linker (/usr/bin/ld) is GNU ld... yes
+[15.019s] checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+[15.046s] checking the name lister (/usr/bin/nm -B) interface... BSD nm
+[15.046s] checking whether ln -s works... yes
+[15.052s] checking the maximum length of command line arguments... 1572864
+[15.056s] checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+[15.056s] checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+[15.056s] checking for /usr/bin/ld option to reload object files... -r
+[15.056s] checking for objdump... objdump
+[15.057s] checking how to recognize dependent libraries... pass_all
+[15.057s] checking for dlltool... no
+[15.058s] checking how to associate runtime and link libraries... printf %s\n
+[15.058s] checking for ar... ar
+[15.091s] checking for archiver @FILE support... @
+[15.091s] checking for strip... strip
+[15.091s] checking for ranlib... ranlib
+[15.181s] checking command to parse /usr/bin/nm -B output from gcc object... ok
+[15.184s] checking for sysroot... no
+[15.192s] checking for a working dd... /usr/bin/dd
+[15.198s] checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+[15.215s] checking for mt... mt
+[15.221s] checking if mt is a manifest tool... no
+[15.277s] checking for dlfcn.h... yes
+[15.283s] checking for objdir... .libs
+[15.371s] checking if gcc supports -fno-rtti -fno-exceptions... no
+[15.371s] checking for gcc option to produce PIC... -fPIC -DPIC
+[15.397s] checking if gcc PIC flag -fPIC -DPIC works... yes
+[15.494s] checking if gcc static flag -static works... yes
+[15.530s] checking if gcc supports -c -o file.o... yes
+[15.530s] checking if gcc supports -c -o file.o... (cached) yes
+[15.545s] checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[15.596s] checking whether -lc should be explicitly linked in... no
+[15.666s] checking dynamic linker characteristics... GNU/Linux ld.so
+[15.666s] checking how to hardcode library paths into programs... immediate
+[15.669s] checking whether stripping libraries is possible... yes
+[15.669s] checking if libtool supports shared libraries... yes
+[15.670s] checking whether to build shared libraries... yes
+[15.670s] checking whether to build static libraries... no
+[15.713s] checking how to run the C++ preprocessor... g++ -std=gnu++11 -E
+[15.837s] checking for ld used by g++ -std=gnu++11... /usr/bin/ld -m elf_x86_64
+[15.841s] checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+[15.850s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[15.998s] checking for g++ -std=gnu++11 option to produce PIC... -fPIC -DPIC
+[16.039s] checking if g++ -std=gnu++11 PIC flag -fPIC -DPIC works... yes
+[16.178s] checking if g++ -std=gnu++11 static flag -static works... yes
+[16.239s] checking if g++ -std=gnu++11 supports -c -o file.o... yes
+[16.239s] checking if g++ -std=gnu++11 supports -c -o file.o... (cached) yes
+[16.240s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[16.248s] checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+[16.249s] checking how to hardcode library paths into programs... immediate
+[16.250s] checking for windres... no
+[16.346s] checking for timer_create in -lrt... yes
+[16.381s] checking how to run the C preprocessor... gcc -E
+[16.430s] checking whether gcc is Clang... no
+[16.500s] checking whether pthreads work with "-pthread" and "-lpthread"... yes
+[16.564s] checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+[16.564s] checking whether more special flags are required for pthreads... no
+[16.624s] checking for PTHREAD_PRIO_INHERIT... yes
+[16.627s] checking for pkg-config... /usr/bin/pkg-config
+[16.630s] checking pkg-config is at least version 0.9.0... yes
+[16.638s] checking for cpputest >= 4... no
+[16.686s] checking for valgrind/valgrind.h... no
+[16.742s] checking for linux/can.h... yes
+[16.796s] checking for linux/can/error.h... yes
+[16.816s] checking for bluetooth/bluetooth.h... no
+[16.837s] checking for bluetooth/rfcomm.h... no
+[16.944s] checking for library containing str2ba... no
+[17.002s] checking for ifaddrs.h... yes
+[17.052s] checking for linux/can/netlink.h... yes
+[17.106s] checking for linux/can/raw.h... yes
+[17.173s] checking for linux/rtnetlink.h... yes
+[17.230s] checking for sys/epoll.h... yes
+[17.281s] checking for sys/ioctl.h... yes
+[17.308s] checking for a Python interpreter with version >= 3.3... python3
+[17.309s] checking for python3... /usr/bin/python3
+[17.328s] checking for python3 version... 3.10
+[17.348s] checking for python3 platform... linux
+[17.348s] checking for GNU default python3 prefix... ${prefix}
+[17.349s] checking for GNU default python3 exec_prefix... ${exec_prefix}
+[17.387s] checking for python3 script directory (pythondir)... ${PYTHON_PREFIX}/lib/python3.10/site-packages
+[17.427s] checking for python3 extension module directory (pyexecdir)... ${PYTHON_EXEC_PREFIX}/lib/python3.10/site-packages
+[17.427s] checking for gawk... (cached) mawk
+[17.456s] checking that generated files are newer than configure... done
+[17.458s] configure: creating ./config.status
+[18.444s] config.status: creating doc/Doxyfile
+[18.466s] config.status: creating doc/Makefile
+[18.486s] config.status: creating include/Makefile
+[18.509s] config.status: creating pkgconfig/liblely-can.pc
+[18.530s] config.status: creating pkgconfig/liblely-co.pc
+[18.550s] config.status: creating pkgconfig/liblely-coapp.pc
+[18.569s] config.status: creating pkgconfig/liblely-ev.pc
+[18.589s] config.status: creating pkgconfig/liblely-io.pc
+[18.612s] config.status: creating pkgconfig/liblely-io2.pc
+[18.632s] config.status: creating pkgconfig/liblely-libc.pc
+[18.652s] config.status: creating pkgconfig/liblely-libc_rt.pc
+[18.672s] config.status: creating pkgconfig/liblely-tap.pc
+[18.692s] config.status: creating pkgconfig/liblely-util.pc
+[18.714s] config.status: creating pkgconfig/Makefile
+[18.735s] config.status: creating python/can/Makefile
+[18.756s] config.status: creating python/dcf-tools/Makefile
+[18.777s] config.status: creating python/io/Makefile
+[18.800s] config.status: creating python/Makefile
+[18.821s] config.status: creating src/can/Makefile
+[18.841s] config.status: creating src/co/Makefile
+[18.863s] config.status: creating src/co/version.rc
+[18.884s] config.status: creating src/coapp/Makefile
+[18.909s] config.status: creating src/coapp/version.rc
+[18.929s] config.status: creating src/ev/Makefile
+[18.951s] config.status: creating src/ev/version.rc
+[18.972s] config.status: creating src/io/Makefile
+[18.994s] config.status: creating src/io2/Makefile
+[19.019s] config.status: creating src/io2/version.rc
+[19.042s] config.status: creating src/libc/Makefile
+[19.063s] config.status: creating src/libc/version.rc
+[19.083s] config.status: creating src/tap/Makefile
+[19.108s] config.status: creating src/tap/version.rc
+[19.130s] config.status: creating src/util/Makefile
+[19.153s] config.status: creating src/util/version.rc
+[19.176s] config.status: creating src/Makefile
+[19.199s] config.status: creating tools/Makefile
+[19.222s] config.status: creating tools/version.dcf2c.rc
+[19.247s] config.status: creating test/co-nmt-master.dcf
+[19.270s] config.status: creating test/Makefile
+[19.290s] config.status: creating unit-tests/Makefile
+[19.314s] config.status: creating exec-wrapper.sh
+[19.328s] config.status: creating lcov-wrapper.sh
+[19.343s] config.status: creating Makefile
+[19.358s] config.status: creating config.h
+[19.370s] config.status: executing depfiles commands
+[20.711s] config.status: executing libtool commands
+[20.790s] [ 75%] [34m[1mPerforming build step for 'upstr_lely_core_libraries'[0m
+[20.810s] Making all in doc
+[20.812s] Making all in include
+[20.819s] Making all in src
+[20.829s] Making all in libc
+[20.834s]   CC       liblely_libc_la-clock.lo
+[20.835s]   CC       liblely_libc_la-getopt.lo
+[20.835s]   CC       liblely_libc_la-stdatomic.lo
+[20.835s]   CC       liblely_libc_la-stdio.lo
+[20.839s]   CC       liblely_libc_la-stdlib.lo
+[20.839s]   CC       liblely_libc_la-string.lo
+[20.839s]   CC       liblely_libc_la-sleep.lo
+[20.840s]   CC       liblely_libc_la-strings.lo
+[20.927s]   CC       liblely_libc_la-threads-pthread.lo
+[20.929s]   CC       liblely_libc_la-time.lo
+[20.987s]   CCLD     liblely-libc.la
+[21.092s] Making all in tap
+[21.096s]   CC       liblely_tap_la-tap.lo
+[21.201s]   CCLD     liblely-tap.la
+[21.321s] Making all in util
+[21.326s]   CC       liblely_util_la-bimap.lo
+[21.326s]   CC       liblely_util_la-mkjmp.lo
+[21.326s]   CC       liblely_util_la-sllist.lo
+[21.327s]   CC       liblely_util_la-spscring.lo
+[21.328s]   CC       liblely_util_la-bits.lo
+[21.328s]   CC       liblely_util_la-bitset.lo
+[21.330s]   CC       liblely_util_la-cmp.lo
+[21.333s]   CC       liblely_util_la-config.lo
+[21.481s]   CC       liblely_util_la-config_ini.lo
+[21.509s]   CC       liblely_util_la-daemon.lo
+[21.528s]   CC       liblely_util_la-diag.lo
+[21.538s]   CC       liblely_util_la-dllist.lo
+[21.569s]   CC       liblely_util_la-endian.lo
+[21.593s]   CC       liblely_util_la-errnum.lo
+[21.615s]   CXX      liblely_util_la-exception.lo
+[21.637s]   CC       liblely_util_la-fiber.lo
+[21.731s]   CC       liblely_util_la-frbuf.lo
+[21.762s]   CC       liblely_util_la-fwbuf.lo
+[21.765s]   CC       liblely_util_la-lex.lo
+[21.779s]   CC       liblely_util_la-membuf.lo
+[21.847s]   CC       liblely_util_la-pheap.lo
+[21.876s]   CC       liblely_util_la-print.lo
+[21.887s]   CC       liblely_util_la-rbtree.lo
+[21.970s]   CC       liblely_util_la-stop.lo
+[21.996s]   CC       liblely_util_la-time.lo
+[22.042s]   CC       liblely_util_la-ustring.lo
+[22.324s]   CXXLD    liblely-util.la
+[22.521s] Making all in can
+[22.525s]   CC       liblely_can_la-buf.lo
+[22.526s]   CC       liblely_can_la-msg.lo
+[22.526s]   CC       liblely_can_la-net.lo
+[22.526s]   CC       liblely_can_la-socket.lo
+[22.755s]   CCLD     liblely-can.la
+[22.898s] Making all in co
+[22.903s]   CC       liblely_co_la-crc.lo
+[22.905s]   CC       liblely_co_la-csdo.lo
+[22.906s]   CC       liblely_co_la-dcf.lo
+[22.906s]   CC       liblely_co_la-dev.lo
+[22.906s]   CC       liblely_co_la-emcy.lo
+[22.909s]   CC       liblely_co_la-gw.lo
+[22.909s]   CC       liblely_co_la-gw_txt.lo
+[22.910s]   CC       liblely_co_la-lss.lo
+[23.030s]   CC       liblely_co_la-nmt.lo
+[23.362s]   CC       liblely_co_la-nmt_boot.lo
+[23.624s]   CC       liblely_co_la-nmt_cfg.lo
+[23.646s]   CC       liblely_co_la-nmt_hb.lo
+[23.785s]   CC       liblely_co_la-nmt_srv.lo
+[23.846s]   CC       liblely_co_la-obj.lo
+[23.948s]   CC       liblely_co_la-pdo.lo
+[24.023s]   CC       liblely_co_la-rpdo.lo
+[24.052s]   CC       liblely_co_la-sdev.lo
+[24.103s]   CC       liblely_co_la-sdo.lo
+[24.135s]   CC       liblely_co_la-ssdo.lo
+[24.164s]   CC       liblely_co_la-sync.lo
+[24.353s]   CC       liblely_co_la-time.lo
+[24.387s]   CC       liblely_co_la-tpdo.lo
+[24.405s]   CC       liblely_co_la-type.lo
+[24.435s]   CC       liblely_co_la-val.lo
+[24.500s]   CC       liblely_co_la-wtm.lo
+[25.062s]   CCLD     liblely-co.la
+[25.253s] Making all in io
+[25.257s]   CC       liblely_io_la-addr.lo
+[25.258s]   CC       liblely_io_la-attr.lo
+[25.258s]   CC       liblely_io_la-can.lo
+[25.261s]   CC       liblely_io_la-file.lo
+[25.261s]   CC       liblely_io_la-handle.lo
+[25.261s]   CC       liblely_io_la-if.lo
+[25.261s]   CC       liblely_io_la-io.lo
+[25.262s]   CC       liblely_io_la-pipe.lo
+[25.450s]   CC       liblely_io_la-poll.lo
+[25.450s]   CC       liblely_io_la-rtnl.lo
+[25.450s]   CC       liblely_io_la-serial.lo
+[25.454s]   CC       liblely_io_la-sock.lo
+[25.895s]   CCLD     liblely-io.la
+[26.061s] Making all in ev
+[26.067s]   CC       liblely_ev_la-exec.lo
+[26.067s]   CC       liblely_ev_la-fiber_exec.lo
+[26.067s]   CC       liblely_ev_la-future.lo
+[26.068s]   CC       liblely_ev_la-loop.lo
+[26.068s]   CC       liblely_ev_la-poll.lo
+[26.070s]   CC       liblely_ev_la-std_exec.lo
+[26.070s]   CC       liblely_ev_la-strand.lo
+[26.070s]   CC       liblely_ev_la-task.lo
+[26.170s]   CC       liblely_ev_la-thrd_loop.lo
+[26.473s]   CCLD     liblely-ev.la
+[26.617s] Making all in io2
+[26.631s]   CC       liblely_io2_la-can.lo
+[26.632s]   CC       liblely_io2_la-can_net.lo
+[26.633s]   CC       liblely_io2_la-can_rt.lo
+[26.635s]   CC       liblely_io2_la-clock.lo
+[26.636s]   CC       liblely_io2_la-ctx.lo
+[26.636s]   CC       liblely_io2_la-dev.lo
+[26.638s]   CC       liblely_io2_la-sigset.lo
+[26.638s]   CC       liblely_io2_la-timer.lo
+[26.742s]   CC       liblely_io2_la-tqueue.lo
+[26.745s]   CC       liblely_io2_la-vcan.lo
+[26.779s]   CC       can/liblely_io2_la-msg.lo
+[26.779s]   CC       linux/liblely_io2_la-can_chan.lo
+[26.809s]   CC       linux/liblely_io2_la-can_ctrl.lo
+[26.838s]   CC       linux/liblely_io2_la-poll.lo
+[26.898s]   CC       linux/liblely_io2_la-timer.lo
+[27.111s]   CC       posix/liblely_io2_la-fd.lo
+[27.124s]   CC       posix/liblely_io2_la-io.lo
+[27.162s]   CC       posix/liblely_io2_la-sigset.lo
+[27.167s]   CC       sys/liblely_io2_la-clock.lo
+[27.240s]   CC       sys/liblely_io2_la-io.lo
+[27.285s]   CC       user/liblely_io2_la-can.lo
+[27.295s]   CC       user/liblely_io2_la-timer.lo
+[27.692s]   CCLD     liblely-io2.la
+[27.891s] Making all in coapp
+[27.895s]   CXX      liblely_coapp_la-device.lo
+[27.896s]   CXX      liblely_coapp_la-driver.lo
+[27.896s]   CXX      liblely_coapp_la-fiber_driver.lo
+[27.897s]   CXX      liblely_coapp_la-logical_driver.lo
+[27.897s]   CXX      liblely_coapp_la-loop_driver.lo
+[27.901s]   CXX      liblely_coapp_la-lss_master.lo
+[27.901s]   CXX      liblely_coapp_la-master.lo
+[27.901s]   CXX      liblely_coapp_la-node.lo
+[29.087s]   CXX      liblely_coapp_la-sdo.lo
+[29.452s]   CXX      liblely_coapp_la-sdo_error.lo
+[30.259s]   CXX      liblely_coapp_la-slave.lo
+[30.283s]   CXX      liblely_coapp_la-type_traits.lo
+[34.611s]   CXXLD    liblely-coapp.la
+[35.003s] Making all in python
+[35.013s] Making all in dcf-tools
+[35.018s] Making all in pkgconfig
+[35.045s] [ 87%] [34m[1mNo install step for 'upstr_lely_core_libraries'[0m
+[35.073s] [100%] [34m[1mCompleted 'upstr_lely_core_libraries'[0m
+[35.110s] [100%] Built target upstr_lely_core_libraries
+[35.121s] Invoked command in '/home/ub2004/ros2_ws/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --build /home/ub2004/ros2_ws/build/lely_core_libraries -- -j8 -l8
+[35.123s] Invoking command in '/home/ub2004/ros2_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --install /home/ub2004/ros2_ws/build/lely_core_libraries
+[35.131s] -- Install configuration: ""
+[35.131s] -- Execute custom install script
+[35.132s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[35.141s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/environment/pythonpath.sh
+[35.151s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/environment/pythonpath.dsv
+[35.160s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.11-py3.10.egg-info/PKG-INFO
+[35.170s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.11-py3.10.egg-info/SOURCES.txt
+[35.179s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.11-py3.10.egg-info/dependency_links.txt
+[35.191s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.11-py3.10.egg-info/entry_points.txt
+[35.200s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.11-py3.10.egg-info/top_level.txt
+[35.209s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/lib/cogen//cogen
+[35.219s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/__init__.py
+[35.229s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/cogen.py
+[35.238s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.sh
+[35.248s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.dsv
+[35.258s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/ament_index/resource_index/package_run_dependencies/lely_core_libraries
+[35.267s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/ament_index/resource_index/parent_prefix_path/lely_core_libraries
+[35.277s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.sh
+[35.289s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.dsv
+[35.298s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/environment/path.sh
+[35.309s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/environment/path.dsv
+[35.319s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/local_setup.bash
+[35.328s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/local_setup.sh
+[35.338s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/local_setup.zsh
+[35.347s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/local_setup.dsv
+[35.356s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/package.dsv
+[35.366s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/ament_index/resource_index/packages/lely_core_libraries
+[35.376s] -- Up-to-date symlink: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[35.376s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.388s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_libraries-extras.cmake
+[35.397s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig.cmake
+[35.407s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig-version.cmake
+[35.416s] -- Symlinking: /home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/package.xml
+[35.432s] Making install in doc
+[35.434s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/doc' 들어감
+[35.438s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/doc' 들어감
+[35.439s] gmake[2]: 'install-exec-am'을(를) 위해 할 일이 없습니다.
+[35.439s] gmake[2]: 'install-data-am'을(를) 위해 할 일이 없습니다.
+[35.439s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/doc' 나감
+[35.439s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/doc' 나감
+[35.439s] Making install in include
+[35.445s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/include' 들어감
+[35.449s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/include' 들어감
+[35.449s] gmake[2]: 'install-exec-am'을(를) 위해 할 일이 없습니다.
+[35.454s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include'
+[35.462s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/co'
+[35.464s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/co.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/crc.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/csdo.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/csdo.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/dcf.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/dcf.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/dev.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/dev.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/emcy.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/emcy.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/gw.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/gw.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/gw_txt.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/gw_txt.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/lss.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/lss.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/nmt.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/nmt.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/obj.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/obj.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/pdo.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/rpdo.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/rpdo.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/sdev.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/sdev.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/sdo.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/ssdo.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/ssdo.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/sync.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/sync.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/time.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/time.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/tpdo.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/tpdo.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/type.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/type.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/val.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/val.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/wtm.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/wtm.hpp '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/co'
+[35.468s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2/posix'
+[35.470s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/posix/poll.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/posix/poll.hpp '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2/posix'
+[35.472s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/can'
+[35.473s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/can/buf.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/can/buf.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/can/err.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/can/msg.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/can/net.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/can/net.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/can/socket.h '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/can'
+[35.476s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/ev'
+[35.478s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/co_task.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/ev.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/exec.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/exec.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/fiber_exec.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/fiber_exec.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/future.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/future.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/loop.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/loop.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/poll.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/poll.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/std_exec.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/strand.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/strand.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/task.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/task.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/thrd_loop.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/ev/thrd_loop.hpp '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/ev'
+[35.481s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/co/def'
+[35.482s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/def/array.def /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/def/basic.def /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/def/cxx.def /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/def/time.def /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/def/type.def '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/co/def'
+[35.485s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely'
+[35.487s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/features.h '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely'
+[35.490s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io'
+[35.491s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/addr.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/attr.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/can.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/can.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/file.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/file.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/if.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/io.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/io.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/pipe.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/pipe.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/poll.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/poll.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/serial.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/serial.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/sock.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io/sock.hpp '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io'
+[35.494s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/util/def'
+[35.495s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/def/type.def '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/util/def'
+[35.497s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/co/detail'
+[35.499s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/detail/dev.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/co/detail/obj.h '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/co/detail'
+[35.501s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2/can'
+[35.502s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/can/err.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/can/err.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/can/msg.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/can/msg.hpp '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2/can'
+[35.504s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/coapp'
+[35.506s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/type_traits.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/device.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/driver.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/fiber_driver.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/logical_driver.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/loop_driver.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/lss_master.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/master.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/node.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/sdo.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/sdo_error.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/coapp/slave.hpp '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/coapp'
+[35.510s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2'
+[35.511s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/can.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/can.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/can_net.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/can_net.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/can_rt.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/can_rt.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/clock.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/clock.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/co_can.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/co_can_rt.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/co_sigset.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/co_timer.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/co_tqueue.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/ctx.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/ctx.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/dev.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/dev.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/event.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/event.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/io2.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/sigset.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/sigset.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/timer.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/timer.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/tqueue.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/tqueue.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/vcan.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/vcan.hpp '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2'
+[35.515s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2/linux'
+[35.516s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/linux/can.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/linux/can.hpp '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2/linux'
+[35.518s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/libc/sys'
+[35.520s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/sys/types.h '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/libc/sys'
+[35.522s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2/user'
+[35.523s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/user/can.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/user/can.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/user/timer.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/user/timer.hpp '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2/user'
+[35.525s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2/sys'
+[35.527s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/clock.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/clock.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/io.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/io.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/sigset.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/sigset.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/timer.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/timer.hpp '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/io2/sys'
+[35.529s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/tap'
+[35.530s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/tap/tap.h '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/tap'
+[35.534s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/util'
+[35.535s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/bimap.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/coroutine.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/coroutine.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/mkjmp.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/sllist.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/spscring.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/bits.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/bitset.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/c_call.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/c_type.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/chrono.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/cmp.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/config.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/daemon.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/diag.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/dllist.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/endian.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/errnum.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/error.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/exception.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/fiber.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/fiber.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/float.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/frbuf.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/fwbuf.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/invoker.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/lex.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/membuf.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/mutex.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/pheap.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/print.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/rbtree.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/result.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/stop.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/stop.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/time.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/ustring.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/util/util.h '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/util'
+[35.539s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/libc'
+[35.541s]  /usr/bin/install -c -m 644  /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/chrono.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/functional.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/stdatomic.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/stddef.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/stdint.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/stdio.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/stdlib.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/string.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/strings.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/threads.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/time.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/type_traits.hpp /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/uchar.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/unistd.h /home/ub2004/ros2_ws/build/lely_core_libraries/upstream/include/lely/libc/utility.hpp '/home/ub2004/ros2_ws/install/lely_core_libraries/include/lely/libc'
+[35.544s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/include' 나감
+[35.544s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/include' 나감
+[35.544s] Making install in src
+[35.547s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src' 들어감
+[35.551s] Making install in libc
+[35.560s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/libc' 들어감
+[35.569s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/libc' 들어감
+[35.571s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[35.572s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-libc.la '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[35.591s] libtool: install: /usr/bin/install -c .libs/liblely-libc.so.2.4.0 /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-libc.so.2.4.0
+[35.594s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.4.0 liblely-libc.so.2 || { rm -f liblely-libc.so.2 && ln -s liblely-libc.so.2.4.0 liblely-libc.so.2; }; })
+[35.596s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.4.0 liblely-libc.so || { rm -f liblely-libc.so && ln -s liblely-libc.so.2.4.0 liblely-libc.so; }; })
+[35.598s] libtool: install: /usr/bin/install -c .libs/liblely-libc.lai /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-libc.la
+[35.627s] libtool: finish: PATH="/home/ub2004/ros2_ws/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/ub2004/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[35.633s] ----------------------------------------------------------------------
+[35.634s] Libraries have been installed in:
+[35.634s]    /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[35.634s] 
+[35.634s] If you ever happen to want to link against installed libraries
+[35.634s] in a given directory, LIBDIR, you must either use libtool, and
+[35.634s] specify the full pathname of the library, or use the '-LLIBDIR'
+[35.634s] flag during linking and do at least one of the following:
+[35.634s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[35.634s]      during execution
+[35.635s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[35.635s]      during linking
+[35.635s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[35.635s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[35.635s] 
+[35.635s] See any operating system documentation about shared libraries for
+[35.635s] more information, such as the ld(1) and ld.so(8) manual pages.
+[35.635s] ----------------------------------------------------------------------
+[35.638s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/libc' 나감
+[35.638s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/libc' 나감
+[35.639s] Making install in tap
+[35.645s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/tap' 들어감
+[35.652s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/tap' 들어감
+[35.653s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[35.655s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-tap.la '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[35.681s] libtool: warning: relinking 'liblely-tap.la'
+[35.684s] libtool: install: (cd /home/ub2004/ros2_ws/build/lely_core_libraries/build/src/tap; /bin/bash "/home/ub2004/ros2_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-tap.la -rpath /home/ub2004/ros2_ws/install/lely_core_libraries/lib liblely_tap_la-tap.lo ../../src/libc/liblely-libc.la -lpthread )
+[35.782s] libtool: install: /usr/bin/install -c .libs/liblely-tap.so.2.4.0T /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-tap.so.2.4.0
+[35.784s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.4.0 liblely-tap.so.2 || { rm -f liblely-tap.so.2 && ln -s liblely-tap.so.2.4.0 liblely-tap.so.2; }; })
+[35.788s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.4.0 liblely-tap.so || { rm -f liblely-tap.so && ln -s liblely-tap.so.2.4.0 liblely-tap.so; }; })
+[35.790s] libtool: install: /usr/bin/install -c .libs/liblely-tap.lai /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-tap.la
+[35.818s] libtool: finish: PATH="/home/ub2004/ros2_ws/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/ub2004/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[35.820s] ----------------------------------------------------------------------
+[35.820s] Libraries have been installed in:
+[35.820s]    /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[35.820s] 
+[35.821s] If you ever happen to want to link against installed libraries
+[35.821s] in a given directory, LIBDIR, you must either use libtool, and
+[35.821s] specify the full pathname of the library, or use the '-LLIBDIR'
+[35.821s] flag during linking and do at least one of the following:
+[35.821s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[35.821s]      during execution
+[35.821s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[35.821s]      during linking
+[35.821s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[35.821s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[35.821s] 
+[35.821s] See any operating system documentation about shared libraries for
+[35.821s] more information, such as the ld(1) and ld.so(8) manual pages.
+[35.821s] ----------------------------------------------------------------------
+[35.825s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/tap' 나감
+[35.825s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/tap' 나감
+[35.825s] Making install in util
+[35.848s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/util' 들어감
+[35.873s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/util' 들어감
+[35.875s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[35.876s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-util.la '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[35.909s] libtool: warning: relinking 'liblely-util.la'
+[35.913s] libtool: install: (cd /home/ub2004/ros2_ws/build/lely_core_libraries/build/src/util; /bin/bash "/home/ub2004/ros2_ws/build/lely_core_libraries/build/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -Wall -Wextra -pedantic -Werror -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-util.la -rpath /home/ub2004/ros2_ws/install/lely_core_libraries/lib liblely_util_la-bimap.lo liblely_util_la-mkjmp.lo liblely_util_la-sllist.lo liblely_util_la-spscring.lo liblely_util_la-bits.lo liblely_util_la-bitset.lo liblely_util_la-cmp.lo liblely_util_la-config.lo liblely_util_la-config_ini.lo liblely_util_la-daemon.lo liblely_util_la-diag.lo liblely_util_la-dllist.lo liblely_util_la-endian.lo liblely_util_la-errnum.lo liblely_util_la-exception.lo liblely_util_la-fiber.lo liblely_util_la-frbuf.lo liblely_util_la-fwbuf.lo liblely_util_la-lex.lo liblely_util_la-membuf.lo liblely_util_la-pheap.lo liblely_util_la-print.lo liblely_util_la-rbtree.lo liblely_util_la-stop.lo liblely_util_la-time.lo liblely_util_la-ustring.lo ../../src/libc/liblely-libc.la -lm -lpthread )
+[36.074s] libtool: install: /usr/bin/install -c .libs/liblely-util.so.2.4.0T /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-util.so.2.4.0
+[36.076s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.4.0 liblely-util.so.2 || { rm -f liblely-util.so.2 && ln -s liblely-util.so.2.4.0 liblely-util.so.2; }; })
+[36.078s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.4.0 liblely-util.so || { rm -f liblely-util.so && ln -s liblely-util.so.2.4.0 liblely-util.so; }; })
+[36.081s] libtool: install: /usr/bin/install -c .libs/liblely-util.lai /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-util.la
+[36.109s] libtool: finish: PATH="/home/ub2004/ros2_ws/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/ub2004/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[36.111s] ----------------------------------------------------------------------
+[36.111s] Libraries have been installed in:
+[36.111s]    /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[36.111s] 
+[36.111s] If you ever happen to want to link against installed libraries
+[36.111s] in a given directory, LIBDIR, you must either use libtool, and
+[36.112s] specify the full pathname of the library, or use the '-LLIBDIR'
+[36.112s] flag during linking and do at least one of the following:
+[36.112s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[36.112s]      during execution
+[36.112s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[36.112s]      during linking
+[36.112s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[36.112s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[36.112s] 
+[36.112s] See any operating system documentation about shared libraries for
+[36.112s] more information, such as the ld(1) and ld.so(8) manual pages.
+[36.112s] ----------------------------------------------------------------------
+[36.116s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/util' 나감
+[36.116s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/util' 나감
+[36.116s] Making install in can
+[36.126s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/can' 들어감
+[36.137s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/can' 들어감
+[36.138s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[36.140s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-can.la '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[36.165s] libtool: warning: relinking 'liblely-can.la'
+[36.168s] libtool: install: (cd /home/ub2004/ros2_ws/build/lely_core_libraries/build/src/can; /bin/bash "/home/ub2004/ros2_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-can.la -rpath /home/ub2004/ros2_ws/install/lely_core_libraries/lib liblely_can_la-buf.lo liblely_can_la-msg.lo liblely_can_la-net.lo liblely_can_la-socket.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la -lpthread )
+[36.279s] libtool: install: /usr/bin/install -c .libs/liblely-can.so.1.9.2T /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-can.so.1.9.2
+[36.281s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so.1 || { rm -f liblely-can.so.1 && ln -s liblely-can.so.1.9.2 liblely-can.so.1; }; })
+[36.283s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so || { rm -f liblely-can.so && ln -s liblely-can.so.1.9.2 liblely-can.so; }; })
+[36.287s] libtool: install: /usr/bin/install -c .libs/liblely-can.lai /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-can.la
+[36.315s] libtool: finish: PATH="/home/ub2004/ros2_ws/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/ub2004/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[36.317s] ----------------------------------------------------------------------
+[36.317s] Libraries have been installed in:
+[36.318s]    /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[36.318s] 
+[36.318s] If you ever happen to want to link against installed libraries
+[36.318s] in a given directory, LIBDIR, you must either use libtool, and
+[36.318s] specify the full pathname of the library, or use the '-LLIBDIR'
+[36.318s] flag during linking and do at least one of the following:
+[36.318s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[36.318s]      during execution
+[36.318s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[36.318s]      during linking
+[36.318s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[36.318s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[36.318s] 
+[36.318s] See any operating system documentation about shared libraries for
+[36.319s] more information, such as the ld(1) and ld.so(8) manual pages.
+[36.319s] ----------------------------------------------------------------------
+[36.322s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/can' 나감
+[36.322s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/can' 나감
+[36.322s] Making install in co
+[36.339s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/co' 들어감
+[36.357s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/co' 들어감
+[36.359s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[36.360s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-co.la '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[36.390s] libtool: warning: relinking 'liblely-co.la'
+[36.393s] libtool: install: (cd /home/ub2004/ros2_ws/build/lely_core_libraries/build/src/co; /bin/bash "/home/ub2004/ros2_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-co.la -rpath /home/ub2004/ros2_ws/install/lely_core_libraries/lib liblely_co_la-crc.lo liblely_co_la-csdo.lo liblely_co_la-dcf.lo liblely_co_la-dev.lo liblely_co_la-emcy.lo liblely_co_la-gw.lo liblely_co_la-gw_txt.lo liblely_co_la-lss.lo liblely_co_la-nmt.lo liblely_co_la-nmt_boot.lo liblely_co_la-nmt_cfg.lo liblely_co_la-nmt_hb.lo liblely_co_la-nmt_srv.lo liblely_co_la-obj.lo liblely_co_la-pdo.lo liblely_co_la-rpdo.lo liblely_co_la-sdev.lo liblely_co_la-sdo.lo liblely_co_la-ssdo.lo liblely_co_la-sync.lo liblely_co_la-time.lo liblely_co_la-tpdo.lo liblely_co_la-type.lo liblely_co_la-val.lo liblely_co_la-wtm.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la -lpthread )
+[36.552s] libtool: install: /usr/bin/install -c .libs/liblely-co.so.2.4.0T /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-co.so.2.4.0
+[36.555s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.4.0 liblely-co.so.2 || { rm -f liblely-co.so.2 && ln -s liblely-co.so.2.4.0 liblely-co.so.2; }; })
+[36.558s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.4.0 liblely-co.so || { rm -f liblely-co.so && ln -s liblely-co.so.2.4.0 liblely-co.so; }; })
+[36.560s] libtool: install: /usr/bin/install -c .libs/liblely-co.lai /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-co.la
+[36.591s] libtool: finish: PATH="/home/ub2004/ros2_ws/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/ub2004/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[36.593s] ----------------------------------------------------------------------
+[36.593s] Libraries have been installed in:
+[36.593s]    /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[36.593s] 
+[36.593s] If you ever happen to want to link against installed libraries
+[36.593s] in a given directory, LIBDIR, you must either use libtool, and
+[36.593s] specify the full pathname of the library, or use the '-LLIBDIR'
+[36.593s] flag during linking and do at least one of the following:
+[36.593s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[36.594s]      during execution
+[36.594s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[36.594s]      during linking
+[36.594s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[36.594s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[36.594s] 
+[36.594s] See any operating system documentation about shared libraries for
+[36.594s] more information, such as the ld(1) and ld.so(8) manual pages.
+[36.594s] ----------------------------------------------------------------------
+[36.597s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/co' 나감
+[36.598s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/co' 나감
+[36.598s] Making install in io
+[36.613s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io' 들어감
+[36.629s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io' 들어감
+[36.631s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[36.632s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io.la '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[36.660s] libtool: warning: relinking 'liblely-io.la'
+[36.663s] libtool: install: (cd /home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io; /bin/bash "/home/ub2004/ros2_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-io.la -rpath /home/ub2004/ros2_ws/install/lely_core_libraries/lib liblely_io_la-addr.lo liblely_io_la-attr.lo liblely_io_la-can.lo liblely_io_la-file.lo liblely_io_la-handle.lo liblely_io_la-if.lo liblely_io_la-io.lo liblely_io_la-pipe.lo liblely_io_la-poll.lo liblely_io_la-rtnl.lo liblely_io_la-serial.lo liblely_io_la-sock.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la -lpthread )
+[36.800s] libtool: install: /usr/bin/install -c .libs/liblely-io.so.1.9.2T /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-io.so.1.9.2
+[36.802s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so.1 || { rm -f liblely-io.so.1 && ln -s liblely-io.so.1.9.2 liblely-io.so.1; }; })
+[36.804s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so || { rm -f liblely-io.so && ln -s liblely-io.so.1.9.2 liblely-io.so; }; })
+[36.806s] libtool: install: /usr/bin/install -c .libs/liblely-io.lai /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-io.la
+[36.833s] libtool: finish: PATH="/home/ub2004/ros2_ws/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/ub2004/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[36.835s] ----------------------------------------------------------------------
+[36.836s] Libraries have been installed in:
+[36.836s]    /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[36.836s] 
+[36.836s] If you ever happen to want to link against installed libraries
+[36.836s] in a given directory, LIBDIR, you must either use libtool, and
+[36.836s] specify the full pathname of the library, or use the '-LLIBDIR'
+[36.836s] flag during linking and do at least one of the following:
+[36.836s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[36.836s]      during execution
+[36.836s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[36.836s]      during linking
+[36.836s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[36.836s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[36.836s] 
+[36.836s] See any operating system documentation about shared libraries for
+[36.836s] more information, such as the ld(1) and ld.so(8) manual pages.
+[36.837s] ----------------------------------------------------------------------
+[36.840s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io' 나감
+[36.840s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io' 나감
+[36.841s] Making install in ev
+[36.850s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/ev' 들어감
+[36.861s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/ev' 들어감
+[36.863s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[36.864s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-ev.la '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[36.894s] libtool: warning: relinking 'liblely-ev.la'
+[36.896s] libtool: install: (cd /home/ub2004/ros2_ws/build/lely_core_libraries/build/src/ev; /bin/bash "/home/ub2004/ros2_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-ev.la -rpath /home/ub2004/ros2_ws/install/lely_core_libraries/lib liblely_ev_la-exec.lo liblely_ev_la-fiber_exec.lo liblely_ev_la-future.lo liblely_ev_la-loop.lo liblely_ev_la-poll.lo liblely_ev_la-std_exec.lo liblely_ev_la-strand.lo liblely_ev_la-task.lo liblely_ev_la-thrd_loop.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la -lpthread )
+[37.014s] libtool: install: /usr/bin/install -c .libs/liblely-ev.so.2.4.0T /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-ev.so.2.4.0
+[37.016s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.4.0 liblely-ev.so.2 || { rm -f liblely-ev.so.2 && ln -s liblely-ev.so.2.4.0 liblely-ev.so.2; }; })
+[37.018s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.4.0 liblely-ev.so || { rm -f liblely-ev.so && ln -s liblely-ev.so.2.4.0 liblely-ev.so; }; })
+[37.020s] libtool: install: /usr/bin/install -c .libs/liblely-ev.lai /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-ev.la
+[37.047s] libtool: finish: PATH="/home/ub2004/ros2_ws/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/ub2004/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[37.049s] ----------------------------------------------------------------------
+[37.050s] Libraries have been installed in:
+[37.050s]    /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[37.050s] 
+[37.050s] If you ever happen to want to link against installed libraries
+[37.050s] in a given directory, LIBDIR, you must either use libtool, and
+[37.050s] specify the full pathname of the library, or use the '-LLIBDIR'
+[37.050s] flag during linking and do at least one of the following:
+[37.050s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[37.050s]      during execution
+[37.050s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[37.050s]      during linking
+[37.050s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[37.050s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[37.050s] 
+[37.050s] See any operating system documentation about shared libraries for
+[37.050s] more information, such as the ld(1) and ld.so(8) manual pages.
+[37.051s] ----------------------------------------------------------------------
+[37.054s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/ev' 나감
+[37.054s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/ev' 나감
+[37.055s] Making install in io2
+[37.075s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io2' 들어감
+[37.096s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io2' 들어감
+[37.097s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[37.099s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io2.la '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[37.127s] libtool: warning: relinking 'liblely-io2.la'
+[37.130s] libtool: install: (cd /home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io2; /bin/bash "/home/ub2004/ros2_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-io2.la -rpath /home/ub2004/ros2_ws/install/lely_core_libraries/lib can/liblely_io2_la-msg.lo linux/liblely_io2_la-can_chan.lo linux/liblely_io2_la-can_ctrl.lo linux/liblely_io2_la-poll.lo linux/liblely_io2_la-timer.lo posix/liblely_io2_la-fd.lo posix/liblely_io2_la-io.lo posix/liblely_io2_la-sigset.lo sys/liblely_io2_la-clock.lo sys/liblely_io2_la-io.lo user/liblely_io2_la-can.lo user/liblely_io2_la-timer.lo liblely_io2_la-can.lo liblely_io2_la-can_net.lo liblely_io2_la-can_rt.lo liblely_io2_la-clock.lo liblely_io2_la-ctx.lo liblely_io2_la-dev.lo liblely_io2_la-sigset.lo liblely_io2_la-timer.lo liblely_io2_la-tqueue.lo liblely_io2_la-vcan.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la -lrt -lpthread )
+[37.297s] libtool: install: /usr/bin/install -c .libs/liblely-io2.so.2.4.0T /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-io2.so.2.4.0
+[37.299s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.4.0 liblely-io2.so.2 || { rm -f liblely-io2.so.2 && ln -s liblely-io2.so.2.4.0 liblely-io2.so.2; }; })
+[37.302s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.4.0 liblely-io2.so || { rm -f liblely-io2.so && ln -s liblely-io2.so.2.4.0 liblely-io2.so; }; })
+[37.304s] libtool: install: /usr/bin/install -c .libs/liblely-io2.lai /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-io2.la
+[37.332s] libtool: finish: PATH="/home/ub2004/ros2_ws/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/ub2004/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[37.335s] ----------------------------------------------------------------------
+[37.335s] Libraries have been installed in:
+[37.335s]    /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[37.335s] 
+[37.335s] If you ever happen to want to link against installed libraries
+[37.335s] in a given directory, LIBDIR, you must either use libtool, and
+[37.335s] specify the full pathname of the library, or use the '-LLIBDIR'
+[37.335s] flag during linking and do at least one of the following:
+[37.335s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[37.335s]      during execution
+[37.335s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[37.335s]      during linking
+[37.335s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[37.336s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[37.336s] 
+[37.336s] See any operating system documentation about shared libraries for
+[37.336s] more information, such as the ld(1) and ld.so(8) manual pages.
+[37.336s] ----------------------------------------------------------------------
+[37.339s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io2' 나감
+[37.339s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io2' 나감
+[37.340s] Making install in coapp
+[37.361s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/coapp' 들어감
+[37.385s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/coapp' 들어감
+[37.388s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[37.389s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-coapp.la '/home/ub2004/ros2_ws/install/lely_core_libraries/lib'
+[37.415s] libtool: warning: relinking 'liblely-coapp.la'
+[37.418s] libtool: install: (cd /home/ub2004/ros2_ws/build/lely_core_libraries/build/src/coapp; /bin/bash "/home/ub2004/ros2_ws/build/lely_core_libraries/build/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -Wall -Wextra -pedantic -Werror -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-coapp.la -rpath /home/ub2004/ros2_ws/install/lely_core_libraries/lib liblely_coapp_la-device.lo liblely_coapp_la-driver.lo liblely_coapp_la-fiber_driver.lo liblely_coapp_la-logical_driver.lo liblely_coapp_la-loop_driver.lo liblely_coapp_la-lss_master.lo liblely_coapp_la-master.lo liblely_coapp_la-node.lo liblely_coapp_la-sdo.lo liblely_coapp_la-sdo_error.lo liblely_coapp_la-slave.lo liblely_coapp_la-type_traits.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la ../../src/io2/liblely-io2.la ../../src/co/liblely-co.la -lpthread )
+[37.750s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.so.2.4.0T /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-coapp.so.2.4.0
+[37.757s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.4.0 liblely-coapp.so.2 || { rm -f liblely-coapp.so.2 && ln -s liblely-coapp.so.2.4.0 liblely-coapp.so.2; }; })
+[37.759s] libtool: install: (cd /home/ub2004/ros2_ws/install/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.4.0 liblely-coapp.so || { rm -f liblely-coapp.so && ln -s liblely-coapp.so.2.4.0 liblely-coapp.so; }; })
+[37.761s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.lai /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-coapp.la
+[37.791s] libtool: finish: PATH="/home/ub2004/ros2_ws/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/ub2004/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[37.794s] ----------------------------------------------------------------------
+[37.794s] Libraries have been installed in:
+[37.794s]    /home/ub2004/ros2_ws/install/lely_core_libraries/lib
+[37.794s] 
+[37.794s] If you ever happen to want to link against installed libraries
+[37.794s] in a given directory, LIBDIR, you must either use libtool, and
+[37.794s] specify the full pathname of the library, or use the '-LLIBDIR'
+[37.794s] flag during linking and do at least one of the following:
+[37.794s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[37.794s]      during execution
+[37.794s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[37.794s]      during linking
+[37.794s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[37.795s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[37.795s] 
+[37.795s] See any operating system documentation about shared libraries for
+[37.795s] more information, such as the ld(1) and ld.so(8) manual pages.
+[37.795s] ----------------------------------------------------------------------
+[37.798s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/coapp' 나감
+[37.798s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/coapp' 나감
+[37.801s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src' 들어감
+[37.804s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src' 들어감
+[37.804s] gmake[3]: 'install-exec-am'을(를) 위해 할 일이 없습니다.
+[37.805s] gmake[3]: 'install-data-am'을(를) 위해 할 일이 없습니다.
+[37.805s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src' 나감
+[37.805s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src' 나감
+[37.805s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src' 나감
+[37.806s] Making install in python
+[37.808s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/python' 들어감
+[37.813s] Making install in dcf-tools
+[37.815s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/python/dcf-tools' 들어감
+[37.818s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/python/dcf-tools' 들어감
+[38.070s] running egg_info
+[38.071s] creating dcf_tools.egg-info
+[38.071s] writing dcf_tools.egg-info/PKG-INFO
+[38.072s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[38.072s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[38.072s] writing requirements to dcf_tools.egg-info/requires.txt
+[38.072s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[38.073s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[38.075s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[38.076s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[38.076s] running build
+[38.076s] running build_py
+[38.077s] creating build
+[38.077s] creating build/lib
+[38.077s] creating build/lib/dcf2dev
+[38.077s] copying dcf2dev/cdevice.py -> build/lib/dcf2dev
+[38.077s] copying dcf2dev/cli.py -> build/lib/dcf2dev
+[38.077s] copying dcf2dev/__init__.py -> build/lib/dcf2dev
+[38.078s] creating build/lib/dcfgen
+[38.078s] copying dcfgen/cli.py -> build/lib/dcfgen
+[38.078s] copying dcfgen/__init__.py -> build/lib/dcfgen
+[38.078s] creating build/lib/dcf
+[38.078s] copying dcf/device.py -> build/lib/dcf
+[38.079s] copying dcf/print.py -> build/lib/dcf
+[38.079s] copying dcf/parse.py -> build/lib/dcf
+[38.079s] copying dcf/lint.py -> build/lib/dcf
+[38.079s] copying dcf/cli.py -> build/lib/dcf
+[38.079s] copying dcf/__init__.py -> build/lib/dcf
+[38.079s] creating build/lib/dcf2dev/data
+[38.079s] copying dcf2dev/data/dev.c.em -> build/lib/dcf2dev/data
+[38.080s] copying dcf2dev/data/dev.h.em -> build/lib/dcf2dev/data
+[38.080s] creating build/lib/dcfgen/data
+[38.080s] copying dcfgen/data/master.dcf.em -> build/lib/dcfgen/data
+[38.080s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[38.080s]   warnings.warn(
+[38.080s] running install
+[38.080s] running install_lib
+[38.081s] creating /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10
+[38.082s] creating /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages
+[38.082s] creating /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[38.082s] creating /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[38.082s] copying build/lib/dcf2dev/data/dev.c.em -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[38.082s] copying build/lib/dcf2dev/data/dev.h.em -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[38.083s] copying build/lib/dcf2dev/cdevice.py -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[38.083s] copying build/lib/dcf2dev/cli.py -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[38.083s] copying build/lib/dcf2dev/__init__.py -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[38.083s] creating /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[38.083s] creating /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/data
+[38.084s] copying build/lib/dcfgen/data/master.dcf.em -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/data
+[38.084s] copying build/lib/dcfgen/cli.py -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[38.084s] copying build/lib/dcfgen/__init__.py -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[38.084s] creating /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[38.084s] copying build/lib/dcf/device.py -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[38.084s] copying build/lib/dcf/print.py -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[38.084s] copying build/lib/dcf/parse.py -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[38.085s] copying build/lib/dcf/lint.py -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[38.085s] copying build/lib/dcf/cli.py -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[38.085s] copying build/lib/dcf/__init__.py -> /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[38.085s] byte-compiling /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cdevice.py to cdevice.cpython-310.pyc
+[38.088s] byte-compiling /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cli.py to cli.cpython-310.pyc
+[38.088s] byte-compiling /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__init__.py to __init__.cpython-310.pyc
+[38.089s] byte-compiling /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py to cli.cpython-310.pyc
+[38.094s] byte-compiling /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/__init__.py to __init__.cpython-310.pyc
+[38.094s] byte-compiling /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf/device.py to device.cpython-310.pyc
+[38.097s] byte-compiling /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf/print.py to print.cpython-310.pyc
+[38.098s] byte-compiling /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf/parse.py to parse.cpython-310.pyc
+[38.099s] byte-compiling /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf/lint.py to lint.cpython-310.pyc
+[38.102s] byte-compiling /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf/cli.py to cli.cpython-310.pyc
+[38.102s] byte-compiling /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__init__.py to __init__.cpython-310.pyc
+[38.103s] running install_egg_info
+[38.105s] Copying dcf_tools.egg-info to /home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.4.0.egg-info
+[38.105s] running install_scripts
+[38.125s] Installing dcf2dev script to /home/ub2004/ros2_ws/install/lely_core_libraries/bin/
+[38.125s] Installing dcfchk script to /home/ub2004/ros2_ws/install/lely_core_libraries/bin/
+[38.125s] Installing dcfgen script to /home/ub2004/ros2_ws/install/lely_core_libraries/bin/
+[38.126s] writing list of installed files to 'install.log'
+[38.146s] gmake[3]: 'install-data-am'을(를) 위해 할 일이 없습니다.
+[38.147s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/python/dcf-tools' 나감
+[38.147s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/python/dcf-tools' 나감
+[38.149s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/python' 들어감
+[38.153s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/python' 들어감
+[38.153s] gmake[3]: 'install-exec-am'을(를) 위해 할 일이 없습니다.
+[38.153s] gmake[3]: 'install-data-am'을(를) 위해 할 일이 없습니다.
+[38.153s] gmake[3]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/python' 나감
+[38.153s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/python' 나감
+[38.153s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/python' 나감
+[38.154s] Making install in pkgconfig
+[38.157s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/pkgconfig' 들어감
+[38.161s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/pkgconfig' 들어감
+[38.161s] gmake[2]: 'install-exec-am'을(를) 위해 할 일이 없습니다.
+[38.162s]  /usr/bin/mkdir -p '/home/ub2004/ros2_ws/install/lely_core_libraries/lib/pkgconfig'
+[38.166s]  /usr/bin/install -c -m 644 liblely-can.pc liblely-co.pc liblely-coapp.pc liblely-ev.pc liblely-io.pc liblely-io2.pc liblely-libc.pc liblely-libc_rt.pc liblely-tap.pc liblely-util.pc '/home/ub2004/ros2_ws/install/lely_core_libraries/lib/pkgconfig'
+[38.168s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/pkgconfig' 나감
+[38.169s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build/pkgconfig' 나감
+[38.171s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build' 들어감
+[38.179s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build' 들어감
+[38.179s] gmake[2]: 'install-exec-am'을(를) 위해 할 일이 없습니다.
+[38.179s] gmake[2]: 'install-data-am'을(를) 위해 할 일이 없습니다.
+[38.180s] gmake[2]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build' 나감
+[38.180s] gmake[1]: 디렉터리 '/home/ub2004/ros2_ws/build/lely_core_libraries/build' 나감
+[38.218s] Listing '/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen'...
+[38.218s] Compiling '/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/__init__.py'...
+[38.218s] Compiling '/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/cogen.py'...
+[38.223s] -- Up-to-date: /home/ub2004/ros2_ws/install/lely_core_libraries/bin/
+[38.223s] -- Installing: /home/ub2004/ros2_ws/install/lely_core_libraries/bin//cogen
+[38.226s] Invoked command in '/home/ub2004/ros2_ws/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --install /home/ub2004/ros2_ws/build/lely_core_libraries

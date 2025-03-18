@@ -1,0 +1,101 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found canopen_core: 0.2.11 (/home/ub2004/ros2_ws/install/canopen_core/share/canopen_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE  
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found diagnostic_updater: 4.0.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+-- node_canopen_base_driver: /home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-can.so;/home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-co.so;/home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-coapp.so;/home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-ev.so;/home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-io2.so;/home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-io.so;/home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-libc.so;/home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-tap.so;/home/ub2004/ros2_ws/install/lely_core_libraries/lib/liblely-util.so
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ub2004/ros2_ws/build/canopen_base_driver
+[  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/lely_driver_bridge.dir/src/lely_driver_bridge.cpp.o[0m
+[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 25%] Built target gtest_main
+[ 31%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 31%] Built target gtest
+[ 37%] [32mBuilding CXX object test/CMakeFiles/test_base_driver_component.dir/test_base_driver_component.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library liblely_driver_bridge.so[0m
+[ 43%] Built target lely_driver_bridge
+[ 50%] [32mBuilding CXX object CMakeFiles/node_canopen_base_driver.dir/src/node_interfaces/node_canopen_base_driver.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable test_base_driver_component[0m
+[ 56%] Built target test_base_driver_component
+[ 62%] [32m[1mLinking CXX shared library libnode_canopen_base_driver.so[0m
+[ 62%] Built target node_canopen_base_driver
+[ 68%] [32mBuilding CXX object CMakeFiles/lifecycle_base_driver.dir/src/lifecycle_base_driver.cpp.o[0m
+[ 75%] [32mBuilding CXX object test/CMakeFiles/test_node_canopen_base_driver_ros.dir/test_node_canopen_base_driver_ros.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/base_driver.dir/src/base_driver.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library libbase_driver.so[0m
+[ 87%] Built target base_driver
+[ 93%] [32m[1mLinking CXX shared library liblifecycle_base_driver.so[0m
+[ 93%] Built target lifecycle_base_driver
+[100%] [32m[1mLinking CXX executable test_node_canopen_base_driver_ros[0m
+[100%] Built target test_node_canopen_base_driver_ros
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/include/canopen_base_driver/base_driver.hpp
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/include/canopen_base_driver/diagnostic_collector.hpp
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/include/canopen_base_driver/lely_driver_bridge.hpp
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/include/canopen_base_driver/lifecycle_base_driver.hpp
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/include/canopen_base_driver/node_interfaces/node_canopen_base_driver.hpp
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/include/canopen_base_driver/node_interfaces/node_canopen_base_driver_impl.hpp
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/include/canopen_base_driver/visibility_control.h
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/environment/library_path.sh
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/environment/library_path.dsv
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/ament_index/resource_index/package_run_dependencies/canopen_base_driver
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/ament_index/resource_index/parent_prefix_path/canopen_base_driver
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/environment/path.sh
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/environment/path.dsv
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/local_setup.bash
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/local_setup.sh
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/local_setup.zsh
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/local_setup.dsv
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/package.dsv
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/ament_index/resource_index/packages/canopen_base_driver
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/ament_index/resource_index/rclcpp_components/canopen_base_driver
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/cmake/canopen_base_driverConfig.cmake
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/cmake/canopen_base_driverConfig-version.cmake
+-- Symlinking: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/package.xml
+-- Installing: /home/ub2004/ros2_ws/install/canopen_base_driver/lib/liblifecycle_base_driver.so
+-- Set runtime path of "/home/ub2004/ros2_ws/install/canopen_base_driver/lib/liblifecycle_base_driver.so" to ""
+-- Installing: /home/ub2004/ros2_ws/install/canopen_base_driver/lib/libbase_driver.so
+-- Set runtime path of "/home/ub2004/ros2_ws/install/canopen_base_driver/lib/libbase_driver.so" to ""
+-- Installing: /home/ub2004/ros2_ws/install/canopen_base_driver/lib/libnode_canopen_base_driver.so
+-- Set runtime path of "/home/ub2004/ros2_ws/install/canopen_base_driver/lib/libnode_canopen_base_driver.so" to ""
+-- Installing: /home/ub2004/ros2_ws/install/canopen_base_driver/lib/liblely_driver_bridge.so
+-- Set runtime path of "/home/ub2004/ros2_ws/install/canopen_base_driver/lib/liblely_driver_bridge.so" to ""
+-- Installing: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/cmake/export_canopen_base_driverExport.cmake
+-- Installing: /home/ub2004/ros2_ws/install/canopen_base_driver/share/canopen_base_driver/cmake/export_canopen_base_driverExport-noconfig.cmake

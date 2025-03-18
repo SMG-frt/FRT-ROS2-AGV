@@ -1,3 +1,1 @@
-[console_scripts]
-cogen = cogen.cogen:main
-
+/home/ub2004/ros2_ws/build/lely_core_libraries/ament_cmake_python/cogen/cogen.egg-info/entry_points.txt

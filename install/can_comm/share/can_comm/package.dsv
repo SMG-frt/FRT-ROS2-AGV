@@ -4,3 +4,6 @@ source;share/can_comm/hook/pythonpath.sh
 source;share/can_comm/hook/ament_prefix_path.ps1
 source;share/can_comm/hook/ament_prefix_path.dsv
 source;share/can_comm/hook/ament_prefix_path.sh
+source;../../build/can_comm/share/can_comm/hook/pythonpath_develop.ps1
+source;../../build/can_comm/share/can_comm/hook/pythonpath_develop.dsv
+source;../../build/can_comm/share/can_comm/hook/pythonpath_develop.sh

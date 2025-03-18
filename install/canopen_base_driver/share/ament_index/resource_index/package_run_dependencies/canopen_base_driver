@@ -1,1 +1,1 @@
-canopen_core;canopen_interfaces;lely_core_libraries;rclcpp;rclcpp_components;rclcpp_lifecycle;std_msgs;std_srvs;boost;diagnostic_updater;ament_lint_auto
+/home/ub2004/ros2_ws/build/canopen_base_driver/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/canopen_base_driver

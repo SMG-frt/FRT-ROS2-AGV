@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'canopen-utils==0.2.11','console_scripts','cyclic_tester'
+# EASY-INSTALL-ENTRY-SCRIPT: 'canopen-utils','console_scripts','cyclic_tester'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'canopen-utils==0.2.11'
+__requires__ = 'canopen-utils'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('canopen-utils==0.2.11', 'console_scripts', 'cyclic_tester')())
+    sys.exit(load_entry_point('canopen-utils', 'console_scripts', 'cyclic_tester')())

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1e7758681650e79f20f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "canopen_fake_slaves",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "basic_slave_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-basic_slave_node-974fefc340d9ad2a770a.json",
+					"name" : "basic_slave_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_fake_slaves_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_fake_slaves_uninstall-9b80041e769c10878f8f.json",
+					"name" : "canopen_fake_slaves_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cia402_slave_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cia402_slave_node-33380b864d2ebc32e526.json",
+					"name" : "cia402_slave_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-af880449598a68d14395.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ub2004/ros2_ws/build/canopen_fake_slaves",
+		"source" : "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_fake_slaves"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

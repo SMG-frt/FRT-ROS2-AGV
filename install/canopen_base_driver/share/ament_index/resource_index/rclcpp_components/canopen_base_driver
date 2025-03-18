@@ -1,2 +1,1 @@
-ros2_canopen::LifecycleBaseDriver;lib/liblifecycle_base_driver.so
-ros2_canopen::BaseDriver;lib/libbase_driver.so
+/home/ub2004/ros2_ws/build/canopen_base_driver/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/canopen_base_driver

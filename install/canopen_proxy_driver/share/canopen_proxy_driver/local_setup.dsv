@@ -1,3 +1,1 @@
-source;share/canopen_proxy_driver/environment/ament_prefix_path.sh
-source;share/canopen_proxy_driver/environment/library_path.sh
-source;share/canopen_proxy_driver/environment/path.sh
+/home/ub2004/ros2_ws/build/canopen_proxy_driver/ament_cmake_environment_hooks/local_setup.dsv

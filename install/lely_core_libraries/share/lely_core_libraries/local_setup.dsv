@@ -1,4 +1,1 @@
-source;share/lely_core_libraries/environment/ament_prefix_path.sh
-source;share/lely_core_libraries/environment/library_path.sh
-source;share/lely_core_libraries/environment/path.sh
-source;share/lely_core_libraries/environment/pythonpath.sh
+/home/ub2004/ros2_ws/build/lely_core_libraries/ament_cmake_environment_hooks/local_setup.dsv

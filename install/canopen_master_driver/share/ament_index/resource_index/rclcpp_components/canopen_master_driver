@@ -1,2 +1,1 @@
-ros2_canopen::LifecycleMasterDriver;lib/liblifecycle_master_driver.so
-ros2_canopen::MasterDriver;lib/libmaster_driver.so
+/home/ub2004/ros2_ws/build/canopen_master_driver/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/canopen_master_driver
