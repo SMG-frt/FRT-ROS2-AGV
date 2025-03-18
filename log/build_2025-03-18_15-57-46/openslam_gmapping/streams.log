@@ -1,0 +1,27 @@
+[0.037s] Invoking command in '/home/ub2004/ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake /home/ub2004/ros2_ws/src/slam_gmapping_Humble/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/ub2004/ros2_ws/install/openslam_gmapping
+[0.834s] -- The C compiler identification is GNU 11.4.0
+[0.834s] -- The CXX compiler identification is GNU 11.4.0
+[0.834s] -- Detecting C compiler ABI info
+[0.834s] -- Detecting C compiler ABI info - done
+[0.834s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.834s] -- Detecting C compile features
+[0.834s] -- Detecting C compile features - done
+[0.834s] -- Detecting CXX compiler ABI info
+[0.834s] -- Detecting CXX compiler ABI info - done
+[0.835s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.835s] -- Detecting CXX compile features
+[0.835s] -- Detecting CXX compile features - done
+[0.835s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.835s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.835s] -- Configuring done
+[0.835s] -- Generating done
+[0.835s] -- Build files have been written to: /home/ub2004/ros2_ws/build/openslam_gmapping
+[1.166s] Invoked command in '/home/ub2004/ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake /home/ub2004/ros2_ws/src/slam_gmapping_Humble/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/ub2004/ros2_ws/install/openslam_gmapping
+[1.168s] Invoking command in '/home/ub2004/ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --build /home/ub2004/ros2_ws/build/openslam_gmapping -- -j8 -l8
+[1.256s] gmake[2]: *** [sensor/sensor_base/CMakeFiles/sensor_base.dir/build.make:89: sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o] 인터럽트
+[1.258s] gmake[2]: *** [utils/CMakeFiles/utils.dir/build.make:75: utils/CMakeFiles/utils.dir/movement.cpp.o] 인터럽트
+[1.258s] gmake[2]: *** [utils/CMakeFiles/utils.dir/build.make:89: utils/CMakeFiles/utils.dir/stat.cpp.o] 인터럽트
+[1.258s] gmake[2]: *** [sensor/sensor_base/CMakeFiles/sensor_base.dir/build.make:75: sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o] 인터럽트
+[1.259s] gmake[1]: *** [CMakeFiles/Makefile2:392: utils/CMakeFiles/utils.dir/all] 인터럽트
+[1.260s] gmake[1]: *** [CMakeFiles/Makefile2:314: sensor/sensor_base/CMakeFiles/sensor_base.dir/all] 인터럽트
+[1.261s] gmake: *** [Makefile:146: all] 인터럽트

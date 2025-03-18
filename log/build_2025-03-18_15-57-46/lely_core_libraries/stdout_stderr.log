@@ -1,0 +1,23 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ub2004/ros2_ws/build/lely_core_libraries
+[ 12%] [34m[1mCreating directories for 'upstr_lely_core_libraries'[0m
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/ament_cmake_python_copy_cogen_setup.dir/all] 인터럽트
+gmake[2]: *** [CMakeFiles/upstr_lely_core_libraries.dir/build.make:109: upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries-stamp/upstr_lely_core_libraries-mkdir] 인터럽트
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/ament_cmake_python_copy_cogen.dir/all] 인터럽트
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/upstr_lely_core_libraries.dir/all] 인터럽트
+gmake: *** [Makefile:146: all] 인터럽트

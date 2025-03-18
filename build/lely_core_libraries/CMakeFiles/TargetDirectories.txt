@@ -1,8 +1,8 @@
 /home/ub2004/ros2_ws/build/lely_core_libraries/CMakeFiles/uninstall.dir
 /home/ub2004/ros2_ws/build/lely_core_libraries/CMakeFiles/lely_core_libraries_uninstall.dir
 /home/ub2004/ros2_ws/build/lely_core_libraries/CMakeFiles/upstr_lely_core_libraries.dir
-/home/ub2004/ros2_ws/build/lely_core_libraries/CMakeFiles/ament_cmake_python_symlink_cogen.dir
-/home/ub2004/ros2_ws/build/lely_core_libraries/CMakeFiles/ament_cmake_python_symlink_cogen_setup.dir
+/home/ub2004/ros2_ws/build/lely_core_libraries/CMakeFiles/ament_cmake_python_copy_cogen.dir
+/home/ub2004/ros2_ws/build/lely_core_libraries/CMakeFiles/ament_cmake_python_copy_cogen_setup.dir
 /home/ub2004/ros2_ws/build/lely_core_libraries/CMakeFiles/ament_cmake_python_build_cogen_egg.dir
 /home/ub2004/ros2_ws/build/lely_core_libraries/CMakeFiles/ament_cmake_python_build_cogen_scripts.dir
 /home/ub2004/ros2_ws/build/lely_core_libraries/CMakeFiles/test.dir

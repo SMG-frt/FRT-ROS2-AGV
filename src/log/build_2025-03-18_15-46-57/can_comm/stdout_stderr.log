@@ -1,0 +1,45 @@
+running egg_info
+creating ../build/can_comm/can_comm.egg-info
+writing ../build/can_comm/can_comm.egg-info/PKG-INFO
+writing dependency_links to ../build/can_comm/can_comm.egg-info/dependency_links.txt
+writing entry points to ../build/can_comm/can_comm.egg-info/entry_points.txt
+writing requirements to ../build/can_comm/can_comm.egg-info/requires.txt
+writing top-level names to ../build/can_comm/can_comm.egg-info/top_level.txt
+writing manifest file '../build/can_comm/can_comm.egg-info/SOURCES.txt'
+reading manifest file '../build/can_comm/can_comm.egg-info/SOURCES.txt'
+writing manifest file '../build/can_comm/can_comm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ub2004/ros2_ws/src/build/can_comm/build
+creating /home/ub2004/ros2_ws/src/build/can_comm/build/lib
+creating /home/ub2004/ros2_ws/src/build/can_comm/build/lib/can_comm
+copying can_comm/can_velocity_node.py -> /home/ub2004/ros2_ws/src/build/can_comm/build/lib/can_comm
+copying can_comm/can_publisher.py -> /home/ub2004/ros2_ws/src/build/can_comm/build/lib/can_comm
+copying can_comm/joystick_node.py -> /home/ub2004/ros2_ws/src/build/can_comm/build/lib/can_comm
+copying can_comm/__init__.py -> /home/ub2004/ros2_ws/src/build/can_comm/build/lib/can_comm
+running install
+running install_lib
+creating /home/ub2004/ros2_ws/src/install/can_comm/lib/python3.10/site-packages/can_comm
+copying /home/ub2004/ros2_ws/src/build/can_comm/build/lib/can_comm/can_velocity_node.py -> /home/ub2004/ros2_ws/src/install/can_comm/lib/python3.10/site-packages/can_comm
+copying /home/ub2004/ros2_ws/src/build/can_comm/build/lib/can_comm/can_publisher.py -> /home/ub2004/ros2_ws/src/install/can_comm/lib/python3.10/site-packages/can_comm
+copying /home/ub2004/ros2_ws/src/build/can_comm/build/lib/can_comm/joystick_node.py -> /home/ub2004/ros2_ws/src/install/can_comm/lib/python3.10/site-packages/can_comm
+copying /home/ub2004/ros2_ws/src/build/can_comm/build/lib/can_comm/__init__.py -> /home/ub2004/ros2_ws/src/install/can_comm/lib/python3.10/site-packages/can_comm
+byte-compiling /home/ub2004/ros2_ws/src/install/can_comm/lib/python3.10/site-packages/can_comm/can_velocity_node.py to can_velocity_node.cpython-310.pyc
+byte-compiling /home/ub2004/ros2_ws/src/install/can_comm/lib/python3.10/site-packages/can_comm/can_publisher.py to can_publisher.cpython-310.pyc
+byte-compiling /home/ub2004/ros2_ws/src/install/can_comm/lib/python3.10/site-packages/can_comm/joystick_node.py to joystick_node.cpython-310.pyc
+byte-compiling /home/ub2004/ros2_ws/src/install/can_comm/lib/python3.10/site-packages/can_comm/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ub2004/ros2_ws/src/install/can_comm/share/ament_index
+creating /home/ub2004/ros2_ws/src/install/can_comm/share/ament_index/resource_index
+creating /home/ub2004/ros2_ws/src/install/can_comm/share/ament_index/resource_index/packages
+copying resource/can_comm -> /home/ub2004/ros2_ws/src/install/can_comm/share/ament_index/resource_index/packages
+copying package.xml -> /home/ub2004/ros2_ws/src/install/can_comm/share/can_comm
+creating /home/ub2004/ros2_ws/src/install/can_comm/share/can_comm/launch
+copying launch/agv.launch.py -> /home/ub2004/ros2_ws/src/install/can_comm/share/can_comm/launch
+running install_egg_info
+Copying ../build/can_comm/can_comm.egg-info to /home/ub2004/ros2_ws/src/install/can_comm/lib/python3.10/site-packages/can_comm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing can_publisher script to /home/ub2004/ros2_ws/src/install/can_comm/lib/can_comm
+Installing can_velocity script to /home/ub2004/ros2_ws/src/install/can_comm/lib/can_comm
+Installing joystick_node script to /home/ub2004/ros2_ws/src/install/can_comm/lib/can_comm
+writing list of installed files to '/home/ub2004/ros2_ws/src/build/can_comm/install.log'

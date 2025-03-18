@@ -1,0 +1,8 @@
+source;share/canopen/hook/cmake_prefix_path.ps1
+source;share/canopen/hook/cmake_prefix_path.dsv
+source;share/canopen/hook/cmake_prefix_path.sh
+source;share/canopen/local_setup.bash
+source;share/canopen/local_setup.dsv
+source;share/canopen/local_setup.ps1
+source;share/canopen/local_setup.sh
+source;share/canopen/local_setup.zsh

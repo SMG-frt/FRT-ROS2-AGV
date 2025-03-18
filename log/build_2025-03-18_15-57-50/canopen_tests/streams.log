@@ -1,0 +1,518 @@
+[0.056s] Invoking command in '/home/ub2004/ros2_ws/build/canopen_tests': CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers/lib:/home/ub2004/ros2_ws/install/canopen_402_driver/lib:/home/ub2004/ros2_ws/install/canopen_proxy_driver/lib:/home/ub2004/ros2_ws/install/canopen_base_driver/lib:/home/ub2004/ros2_ws/install/canopen_core/lib:/home/ub2004/ros2_ws/install/lely_core_libraries/lib:/home/ub2004/ros2_ws/install/canopen_interfaces/lib:/home/ub2004/ros2_ws/install/canopen_ros2_control/lib:/home/ub2004/ros2_ws/install/canopen_master_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/ub2004/ros2_ws/build/urdf_tutorial:/home/ub2004/ros2_ws/build/canopen_utils:/home/ub2004/ros2_ws/build/can_comm:/home/ub2004/ros2_ws/build/agv_pak:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/ub2004/ros2_ws/src/ros2_canopen/canopen_tests -DCMAKE_INSTALL_PREFIX=/home/ub2004/ros2_ws/install/canopen_tests
+[0.209s] -- The C compiler identification is GNU 11.4.0
+[0.276s] -- The CXX compiler identification is GNU 11.4.0
+[0.293s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.384s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.385s] -- Detecting C compile features
+[0.386s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.481s] -- Detecting CXX compiler ABI info - done
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.492s] -- Detecting CXX compile features
+[0.493s] -- Detecting CXX compile features - done
+[0.519s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.758s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.931s] -- Found lely_core_libraries: 0.2.11 (/home/ub2004/ros2_ws/install/lely_core_libraries/share/lely_core_libraries/cmake)
+[1.029s] -- Configuring done
+[1.044s] -- Generating done
+[1.051s] -- Build files have been written to: /home/ub2004/ros2_ws/build/canopen_tests
+[1.056s] Invoked command in '/home/ub2004/ros2_ws/build/canopen_tests' returned '0': CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers/lib:/home/ub2004/ros2_ws/install/canopen_402_driver/lib:/home/ub2004/ros2_ws/install/canopen_proxy_driver/lib:/home/ub2004/ros2_ws/install/canopen_base_driver/lib:/home/ub2004/ros2_ws/install/canopen_core/lib:/home/ub2004/ros2_ws/install/lely_core_libraries/lib:/home/ub2004/ros2_ws/install/canopen_interfaces/lib:/home/ub2004/ros2_ws/install/canopen_ros2_control/lib:/home/ub2004/ros2_ws/install/canopen_master_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/ub2004/ros2_ws/build/urdf_tutorial:/home/ub2004/ros2_ws/build/canopen_utils:/home/ub2004/ros2_ws/build/can_comm:/home/ub2004/ros2_ws/build/agv_pak:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/ub2004/ros2_ws/src/ros2_canopen/canopen_tests -DCMAKE_INSTALL_PREFIX=/home/ub2004/ros2_ws/install/canopen_tests
+[1.058s] Invoking command in '/home/ub2004/ros2_ws/build/canopen_tests': CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers/lib:/home/ub2004/ros2_ws/install/canopen_402_driver/lib:/home/ub2004/ros2_ws/install/canopen_proxy_driver/lib:/home/ub2004/ros2_ws/install/canopen_base_driver/lib:/home/ub2004/ros2_ws/install/canopen_core/lib:/home/ub2004/ros2_ws/install/lely_core_libraries/lib:/home/ub2004/ros2_ws/install/canopen_interfaces/lib:/home/ub2004/ros2_ws/install/canopen_ros2_control/lib:/home/ub2004/ros2_ws/install/canopen_master_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/ub2004/ros2_ws/build/urdf_tutorial:/home/ub2004/ros2_ws/build/canopen_utils:/home/ub2004/ros2_ws/build/can_comm:/home/ub2004/ros2_ws/build/agv_pak:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ub2004/ros2_ws/build/canopen_tests -- -j8 -l8
+[1.141s] Built target simple_prepare
+[1.141s] Built target canopen_system_prepare
+[1.142s] Built target cia402_namespaced_system_prepare
+[1.142s] Built target cia402_system_prepare
+[1.142s] Built target cia402_prepare
+[1.142s] Built target cia402_lifecycle_prepare
+[1.142s] Built target cia402_diagnostics_prepare
+[1.142s] Built target simple_lifecycle_prepare
+[1.186s] Built target simple_diagnostics_prepare
+[1.195s] Built target robot_control_prepare
+[2.002s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 80
+[2.003s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[2.004s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.005s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.006s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[2.007s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[2.008s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 80
+[2.009s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[2.012s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.013s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.014s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[2.015s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[2.016s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 80
+[2.017s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[2.018s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.019s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.021s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[2.021s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[2.021s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 80
+[2.021s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[2.021s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.021s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.021s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[2.021s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[2.022s] cia402_device_1: writing 4 bytes to 0x1802/1: 82 03 00 C0
+[2.022s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[2.022s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[2.366s] Built target simple
+[2.395s] Built target simple_lifecycle
+[2.440s] Built target canopen_system
+[2.470s] Built target cia402_lifecycle
+[2.526s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[2.527s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.527s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.527s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[2.527s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[2.527s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[2.528s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.528s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.528s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[2.528s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[2.528s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[2.528s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.528s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.528s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[2.529s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[2.529s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[2.529s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.529s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.529s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[2.529s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[2.529s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[2.529s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[2.529s] cia402_device_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[2.530s] cia402_device_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.553s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[2.554s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.555s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.556s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[2.557s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[2.558s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[2.559s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.560s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.561s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[2.562s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[2.563s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[2.564s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.565s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.565s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[2.566s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[2.566s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[2.566s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.566s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.566s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[2.566s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[2.566s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[2.566s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[2.567s] cia402_device_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[2.567s] cia402_device_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.752s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[2.753s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.753s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.753s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[2.753s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[2.753s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[2.753s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.753s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.753s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[2.754s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[2.754s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[2.754s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.754s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.754s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[2.754s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[2.754s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[2.754s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.764s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.764s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[2.764s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[2.764s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[2.764s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[2.764s] cia402_device_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[2.765s] cia402_device_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.765s] cia402_device_2: writing 1 bytes to 0x1600/0: 00
+[2.765s] cia402_device_2: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.765s] cia402_device_2: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.765s] cia402_device_2: writing 1 bytes to 0x1600/0: 02
+[2.765s] cia402_device_2: writing 4 bytes to 0x1400/1: 03 02 00 00
+[2.765s] cia402_device_2: writing 1 bytes to 0x1601/0: 00
+[2.765s] cia402_device_2: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.766s] cia402_device_2: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.766s] cia402_device_2: writing 1 bytes to 0x1601/0: 02
+[2.766s] cia402_device_2: writing 4 bytes to 0x1401/1: 03 03 00 00
+[2.766s] cia402_device_2: writing 1 bytes to 0x1A00/0: 00
+[2.766s] cia402_device_2: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.766s] cia402_device_2: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.766s] cia402_device_2: writing 1 bytes to 0x1A00/0: 02
+[2.766s] cia402_device_2: writing 4 bytes to 0x1800/1: 83 01 00 00
+[2.766s] cia402_device_2: writing 1 bytes to 0x1A01/0: 00
+[2.787s] cia402_device_2: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.788s] cia402_device_2: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.788s] cia402_device_2: writing 1 bytes to 0x1A01/0: 02
+[2.788s] cia402_device_2: writing 4 bytes to 0x1801/1: 83 02 00 00
+[2.788s] cia402_device_2: writing 1 bytes to 0x60C2/1: 32
+[2.788s] cia402_device_2: writing 1 bytes to 0x60C2/2: FD
+[2.788s] cia402_device_2: writing 4 bytes to 0x6081/0: E8 03 00 00
+[2.788s] cia402_device_2: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.789s] cia402_device_3: writing 1 bytes to 0x1600/0: 00
+[2.789s] cia402_device_3: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.789s] cia402_device_3: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.789s] cia402_device_3: writing 1 bytes to 0x1600/0: 02
+[2.789s] cia402_device_3: writing 4 bytes to 0x1400/1: 04 02 00 00
+[2.789s] cia402_device_3: writing 1 bytes to 0x1601/0: 00
+[2.789s] cia402_device_3: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.789s] cia402_device_3: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.790s] cia402_device_3: writing 1 bytes to 0x1601/0: 02
+[2.790s] cia402_device_3: writing 4 bytes to 0x1401/1: 04 03 00 00
+[2.790s] cia402_device_3: writing 1 bytes to 0x1A00/0: 00
+[2.790s] cia402_device_3: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.790s] cia402_device_3: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.790s] cia402_device_3: writing 1 bytes to 0x1A00/0: 02
+[2.790s] cia402_device_3: writing 4 bytes to 0x1800/1: 84 01 00 00
+[2.790s] cia402_device_3: writing 1 bytes to 0x1A01/0: 00
+[2.790s] cia402_device_3: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.791s] cia402_device_3: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.791s] cia402_device_3: writing 1 bytes to 0x1A01/0: 02
+[2.791s] cia402_device_3: writing 4 bytes to 0x1801/1: 84 02 00 00
+[2.791s] cia402_device_3: writing 1 bytes to 0x60C2/1: 32
+[2.791s] cia402_device_3: writing 1 bytes to 0x60C2/2: FD
+[2.791s] cia402_device_3: writing 4 bytes to 0x6081/0: E8 03 00 00
+[2.791s] cia402_device_3: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.840s] Built target cia402_system
+[2.996s] Built target cia402_namespaced_system
+[3.047s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[3.048s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[3.048s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[3.048s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[3.048s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[3.048s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[3.049s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[3.049s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[3.049s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[3.049s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[3.049s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[3.049s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[3.049s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[3.049s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[3.050s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[3.050s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[3.050s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[3.050s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[3.050s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[3.050s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[3.050s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[3.050s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[3.050s] cia402_device_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[3.051s] cia402_device_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[3.051s] cia402_device_2: writing 1 bytes to 0x1600/0: 00
+[3.051s] cia402_device_2: writing 4 bytes to 0x1600/1: 10 00 40 60
+[3.051s] cia402_device_2: writing 4 bytes to 0x1600/2: 08 00 60 60
+[3.051s] cia402_device_2: writing 1 bytes to 0x1600/0: 02
+[3.051s] cia402_device_2: writing 4 bytes to 0x1400/1: 03 02 00 00
+[3.051s] cia402_device_2: writing 1 bytes to 0x1601/0: 00
+[3.051s] cia402_device_2: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[3.051s] cia402_device_2: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[3.052s] cia402_device_2: writing 1 bytes to 0x1601/0: 02
+[3.052s] cia402_device_2: writing 4 bytes to 0x1401/1: 03 03 00 00
+[3.052s] cia402_device_2: writing 1 bytes to 0x1A00/0: 00
+[3.052s] cia402_device_2: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[3.052s] cia402_device_2: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[3.052s] cia402_device_2: writing 1 bytes to 0x1A00/0: 02
+[3.052s] cia402_device_2: writing 4 bytes to 0x1800/1: 83 01 00 00
+[3.052s] cia402_device_2: writing 1 bytes to 0x1A01/0: 00
+[3.052s] cia402_device_2: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[3.053s] cia402_device_2: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[3.053s] cia402_device_2: writing 1 bytes to 0x1A01/0: 02
+[3.053s] cia402_device_2: writing 4 bytes to 0x1801/1: 83 02 00 00
+[3.053s] cia402_device_2: writing 1 bytes to 0x60C2/1: 32
+[3.053s] cia402_device_2: writing 1 bytes to 0x60C2/2: FD
+[3.053s] cia402_device_2: writing 4 bytes to 0x6081/0: E8 03 00 00
+[3.053s] cia402_device_2: writing 4 bytes to 0x6083/0: D0 07 00 00
+[3.053s] cia402_device_3: writing 1 bytes to 0x1600/0: 00
+[3.053s] cia402_device_3: writing 4 bytes to 0x1600/1: 10 00 40 60
+[3.054s] cia402_device_3: writing 4 bytes to 0x1600/2: 08 00 60 60
+[3.054s] cia402_device_3: writing 1 bytes to 0x1600/0: 02
+[3.054s] cia402_device_3: writing 4 bytes to 0x1400/1: 04 02 00 00
+[3.054s] cia402_device_3: writing 1 bytes to 0x1601/0: 00
+[3.054s] cia402_device_3: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[3.054s] cia402_device_3: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[3.054s] cia402_device_3: writing 1 bytes to 0x1601/0: 02
+[3.054s] cia402_device_3: writing 4 bytes to 0x1401/1: 04 03 00 00
+[3.054s] cia402_device_3: writing 1 bytes to 0x1A00/0: 00
+[3.055s] cia402_device_3: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[3.055s] cia402_device_3: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[3.055s] cia402_device_3: writing 1 bytes to 0x1A00/0: 02
+[3.055s] cia402_device_3: writing 4 bytes to 0x1800/1: 84 01 00 00
+[3.055s] cia402_device_3: writing 1 bytes to 0x1A01/0: 00
+[3.055s] cia402_device_3: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[3.055s] cia402_device_3: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[3.055s] cia402_device_3: writing 1 bytes to 0x1A01/0: 02
+[3.056s] cia402_device_3: writing 4 bytes to 0x1801/1: 84 02 00 00
+[3.056s] cia402_device_3: writing 1 bytes to 0x60C2/1: 32
+[3.056s] cia402_device_3: writing 1 bytes to 0x60C2/2: FD
+[3.056s] cia402_device_3: writing 4 bytes to 0x6081/0: E8 03 00 00
+[3.056s] cia402_device_3: writing 4 bytes to 0x6083/0: D0 07 00 00
+[3.056s] cia402_device_4: writing 1 bytes to 0x1600/0: 00
+[3.056s] cia402_device_4: writing 4 bytes to 0x1600/1: 10 00 40 60
+[3.056s] cia402_device_4: writing 4 bytes to 0x1600/2: 08 00 60 60
+[3.056s] cia402_device_4: writing 1 bytes to 0x1600/0: 02
+[3.057s] cia402_device_4: writing 4 bytes to 0x1400/1: 05 02 00 00
+[3.057s] cia402_device_4: writing 1 bytes to 0x1601/0: 00
+[3.057s] cia402_device_4: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[3.057s] cia402_device_4: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[3.057s] cia402_device_4: writing 1 bytes to 0x1601/0: 02
+[3.057s] cia402_device_4: writing 4 bytes to 0x1401/1: 05 03 00 00
+[3.057s] cia402_device_4: writing 1 bytes to 0x1A00/0: 00
+[3.057s] cia402_device_4: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[3.058s] cia402_device_4: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[3.058s] cia402_device_4: writing 1 bytes to 0x1A00/0: 02
+[3.058s] cia402_device_4: writing 4 bytes to 0x1800/1: 85 01 00 00
+[3.058s] cia402_device_4: writing 1 bytes to 0x1A01/0: 00
+[3.058s] cia402_device_4: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[3.058s] cia402_device_4: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[3.058s] cia402_device_4: writing 1 bytes to 0x1A01/0: 02
+[3.058s] cia402_device_4: writing 4 bytes to 0x1801/1: 85 02 00 00
+[3.058s] cia402_device_4: writing 1 bytes to 0x60C2/1: 32
+[3.058s] cia402_device_4: writing 1 bytes to 0x60C2/2: FD
+[3.059s] cia402_device_4: writing 4 bytes to 0x6081/0: E8 03 00 00
+[3.059s] cia402_device_4: writing 4 bytes to 0x6083/0: D0 07 00 00
+[3.059s] cia402_device_5: writing 1 bytes to 0x1600/0: 00
+[3.059s] cia402_device_5: writing 4 bytes to 0x1600/1: 10 00 40 60
+[3.059s] cia402_device_5: writing 4 bytes to 0x1600/2: 08 00 60 60
+[3.059s] cia402_device_5: writing 1 bytes to 0x1600/0: 02
+[3.059s] cia402_device_5: writing 4 bytes to 0x1400/1: 06 02 00 00
+[3.059s] cia402_device_5: writing 1 bytes to 0x1601/0: 00
+[3.060s] cia402_device_5: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[3.060s] cia402_device_5: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[3.060s] cia402_device_5: writing 1 bytes to 0x1601/0: 02
+[3.060s] cia402_device_5: writing 4 bytes to 0x1401/1: 06 03 00 00
+[3.060s] cia402_device_5: writing 1 bytes to 0x1A00/0: 00
+[3.060s] cia402_device_5: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[3.060s] cia402_device_5: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[3.060s] cia402_device_5: writing 1 bytes to 0x1A00/0: 02
+[3.060s] cia402_device_5: writing 4 bytes to 0x1800/1: 86 01 00 00
+[3.061s] cia402_device_5: writing 1 bytes to 0x1A01/0: 00
+[3.061s] cia402_device_5: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[3.062s] cia402_device_5: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[3.062s] cia402_device_5: writing 1 bytes to 0x1A01/0: 02
+[3.062s] cia402_device_5: writing 4 bytes to 0x1801/1: 86 02 00 00
+[3.062s] cia402_device_5: writing 1 bytes to 0x60C2/1: 32
+[3.062s] cia402_device_5: writing 1 bytes to 0x60C2/2: FD
+[3.062s] cia402_device_5: writing 4 bytes to 0x6081/0: E8 03 00 00
+[3.062s] cia402_device_5: writing 4 bytes to 0x6083/0: D0 07 00 00
+[3.062s] cia402_device_6: writing 1 bytes to 0x1600/0: 00
+[3.063s] cia402_device_6: writing 4 bytes to 0x1600/1: 10 00 40 60
+[3.063s] cia402_device_6: writing 4 bytes to 0x1600/2: 08 00 60 60
+[3.063s] cia402_device_6: writing 1 bytes to 0x1600/0: 02
+[3.063s] cia402_device_6: writing 4 bytes to 0x1400/1: 07 02 00 00
+[3.063s] cia402_device_6: writing 1 bytes to 0x1601/0: 00
+[3.063s] cia402_device_6: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[3.063s] cia402_device_6: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[3.063s] cia402_device_6: writing 1 bytes to 0x1601/0: 02
+[3.064s] cia402_device_6: writing 4 bytes to 0x1401/1: 07 03 00 00
+[3.064s] cia402_device_6: writing 1 bytes to 0x1A00/0: 00
+[3.064s] cia402_device_6: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[3.064s] cia402_device_6: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[3.064s] cia402_device_6: writing 1 bytes to 0x1A00/0: 02
+[3.064s] cia402_device_6: writing 4 bytes to 0x1800/1: 87 01 00 00
+[3.065s] cia402_device_6: writing 1 bytes to 0x1A01/0: 00
+[3.065s] cia402_device_6: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[3.065s] cia402_device_6: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[3.065s] cia402_device_6: writing 1 bytes to 0x1A01/0: 02
+[3.065s] cia402_device_6: writing 4 bytes to 0x1801/1: 87 02 00 00
+[3.065s] cia402_device_6: writing 1 bytes to 0x60C2/1: 32
+[3.065s] cia402_device_6: writing 1 bytes to 0x60C2/2: FD
+[3.065s] cia402_device_6: writing 4 bytes to 0x6081/0: E8 03 00 00
+[3.065s] cia402_device_6: writing 4 bytes to 0x6083/0: D0 07 00 00
+[3.124s] Built target cia402_diagnostics
+[3.213s] joint_1: writing 4 bytes to 0x1400/1: 02 02 00 80
+[3.213s] joint_1: writing 1 bytes to 0x1600/0: 00
+[3.214s] joint_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[3.214s] joint_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[3.214s] joint_1: writing 1 bytes to 0x1600/0: 02
+[3.214s] joint_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[3.214s] joint_1: writing 4 bytes to 0x1401/1: 02 03 00 80
+[3.214s] joint_1: writing 1 bytes to 0x1601/0: 00
+[3.214s] joint_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[3.214s] joint_1: writing 1 bytes to 0x1601/0: 01
+[3.215s] joint_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[3.215s] joint_1: writing 4 bytes to 0x1800/1: 82 01 00 80
+[3.215s] joint_1: writing 1 bytes to 0x1800/2: 01
+[3.215s] joint_1: writing 1 bytes to 0x1A00/0: 00
+[3.215s] joint_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[3.215s] joint_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[3.215s] joint_1: writing 1 bytes to 0x1A00/0: 02
+[3.215s] joint_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[3.215s] joint_1: writing 4 bytes to 0x1801/1: 82 02 00 80
+[3.216s] joint_1: writing 1 bytes to 0x1801/2: 01
+[3.216s] joint_1: writing 1 bytes to 0x1A01/0: 00
+[3.216s] joint_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[3.216s] joint_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[3.216s] joint_1: writing 1 bytes to 0x1A01/0: 02
+[3.216s] joint_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[3.216s] joint_1: writing 1 bytes to 0x60C2/1: 32
+[3.216s] joint_1: writing 1 bytes to 0x60C2/2: FD
+[3.217s] joint_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[3.217s] joint_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[3.217s] joint_1: writing 1 bytes to 0x6060/0: 07
+[3.217s] joint_2: writing 4 bytes to 0x1400/1: 03 02 00 80
+[3.217s] joint_2: writing 1 bytes to 0x1600/0: 00
+[3.217s] joint_2: writing 4 bytes to 0x1600/1: 10 00 40 60
+[3.217s] joint_2: writing 4 bytes to 0x1600/2: 08 00 60 60
+[3.217s] joint_2: writing 1 bytes to 0x1600/0: 02
+[3.217s] joint_2: writing 4 bytes to 0x1400/1: 03 02 00 00
+[3.217s] joint_2: writing 4 bytes to 0x1401/1: 03 03 00 80
+[3.218s] joint_2: writing 1 bytes to 0x1601/0: 00
+[3.218s] joint_2: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[3.218s] joint_2: writing 1 bytes to 0x1601/0: 01
+[3.218s] joint_2: writing 4 bytes to 0x1401/1: 03 03 00 00
+[3.218s] joint_2: writing 4 bytes to 0x1800/1: 83 01 00 80
+[3.218s] joint_2: writing 1 bytes to 0x1800/2: 01
+[3.218s] joint_2: writing 1 bytes to 0x1A00/0: 00
+[3.218s] joint_2: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[3.219s] joint_2: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[3.219s] joint_2: writing 1 bytes to 0x1A00/0: 02
+[3.219s] joint_2: writing 4 bytes to 0x1800/1: 83 01 00 00
+[3.219s] joint_2: writing 4 bytes to 0x1801/1: 83 02 00 80
+[3.219s] joint_2: writing 1 bytes to 0x1801/2: 01
+[3.219s] joint_2: writing 1 bytes to 0x1A01/0: 00
+[3.219s] joint_2: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[3.219s] joint_2: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[3.219s] joint_2: writing 1 bytes to 0x1A01/0: 02
+[3.220s] joint_2: writing 4 bytes to 0x1801/1: 83 02 00 00
+[3.220s] joint_2: writing 1 bytes to 0x60C2/1: 32
+[3.220s] joint_2: writing 1 bytes to 0x60C2/2: FD
+[3.220s] joint_2: writing 4 bytes to 0x6081/0: E8 03 00 00
+[3.220s] joint_2: writing 4 bytes to 0x6083/0: D0 07 00 00
+[3.220s] joint_2: writing 1 bytes to 0x6060/0: 07
+[3.421s] Built target cia402
+[3.430s] Built target simple_diagnostics
+[3.480s] Built target robot_control
+[3.493s] Invoked command in '/home/ub2004/ros2_ws/build/canopen_tests' returned '0': CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers/lib:/home/ub2004/ros2_ws/install/canopen_402_driver/lib:/home/ub2004/ros2_ws/install/canopen_proxy_driver/lib:/home/ub2004/ros2_ws/install/canopen_base_driver/lib:/home/ub2004/ros2_ws/install/canopen_core/lib:/home/ub2004/ros2_ws/install/lely_core_libraries/lib:/home/ub2004/ros2_ws/install/canopen_interfaces/lib:/home/ub2004/ros2_ws/install/canopen_ros2_control/lib:/home/ub2004/ros2_ws/install/canopen_master_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/ub2004/ros2_ws/build/urdf_tutorial:/home/ub2004/ros2_ws/build/canopen_utils:/home/ub2004/ros2_ws/build/can_comm:/home/ub2004/ros2_ws/build/agv_pak:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ub2004/ros2_ws/build/canopen_tests -- -j8 -l8
+[3.495s] Invoking command in '/home/ub2004/ros2_ws/build/canopen_tests': CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers/lib:/home/ub2004/ros2_ws/install/canopen_402_driver/lib:/home/ub2004/ros2_ws/install/canopen_proxy_driver/lib:/home/ub2004/ros2_ws/install/canopen_base_driver/lib:/home/ub2004/ros2_ws/install/canopen_core/lib:/home/ub2004/ros2_ws/install/lely_core_libraries/lib:/home/ub2004/ros2_ws/install/canopen_interfaces/lib:/home/ub2004/ros2_ws/install/canopen_ros2_control/lib:/home/ub2004/ros2_ws/install/canopen_master_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/ub2004/ros2_ws/build/urdf_tutorial:/home/ub2004/ros2_ws/build/canopen_utils:/home/ub2004/ros2_ws/build/can_comm:/home/ub2004/ros2_ws/build/agv_pak:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ub2004/ros2_ws/build/canopen_tests
+[3.503s] -- Install configuration: ""
+[3.504s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple/
+[3.504s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple//simple.eds
+[3.504s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple/
+[3.504s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple//bus.yml
+[3.504s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple//master.dcf
+[3.504s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/canopen_system/
+[3.504s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/canopen_system//ros2_controllers.yaml
+[3.508s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/canopen_system//simple.eds
+[3.508s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/canopen_system/
+[3.508s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/canopen_system//bus.yml
+[3.509s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/canopen_system//master.dcf
+[3.509s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_system/
+[3.509s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_system//ros2_controllers.yaml
+[3.509s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_system//cia402_slave.eds
+[3.509s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_system/
+[3.510s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_system//preprocessed_bus.yml
+[3.510s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_system//bus.yml
+[3.510s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_system//cia402_device_1.bin
+[3.510s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_system//master.dcf
+[3.510s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system/
+[3.510s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//ros2_controllers.yaml
+[3.510s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//cia402_slave.eds
+[3.510s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system/
+[3.511s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//preprocessed_bus.yml
+[3.511s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//bus.yml
+[3.511s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//cia402_device_1.bin
+[3.511s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//master.dcf
+[3.511s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402/
+[3.511s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402//cia402_slave.eds
+[3.511s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402/
+[3.511s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_3.bin
+[3.511s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402//preprocessed_bus.yml
+[3.511s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_6.bin
+[3.512s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_2.bin
+[3.512s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402//bus.yml
+[3.512s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_1.bin
+[3.512s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_5.bin
+[3.512s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402//master.dcf
+[3.512s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_4.bin
+[3.512s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle/
+[3.512s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//cia402_slave.eds
+[3.513s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle/
+[3.513s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//bus.yml
+[3.513s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//cia402_device_1.bin
+[3.513s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//master.dcf
+[3.513s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics/
+[3.513s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_slave.eds
+[3.513s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics/
+[3.513s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_device_3.bin
+[3.514s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//preprocessed_bus.yml
+[3.514s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_device_2.bin
+[3.514s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//bus.yml
+[3.514s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_device_1.bin
+[3.514s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//master.dcf
+[3.514s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple_lifecycle/
+[3.515s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple_lifecycle//simple.eds
+[3.515s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple_lifecycle/
+[3.515s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple_lifecycle//bus.yml
+[3.515s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple_lifecycle//master.dcf
+[3.516s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple_diagnostics/
+[3.516s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//simple.eds
+[3.516s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple_diagnostics/
+[3.516s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//preprocessed_bus.yml
+[3.516s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//bus.yml
+[3.516s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//master.dcf
+[3.517s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/robot_control/
+[3.517s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/robot_control//prbt_0_1.dcf
+[3.517s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/robot_control//ros2_controllers.yaml
+[3.517s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/robot_control//cia402_slave.eds
+[3.518s] -- Up-to-date: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/robot_control/
+[3.518s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/robot_control//joint_2.bin
+[3.518s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/robot_control//joint_1.bin
+[3.518s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/robot_control//bus.yml
+[3.518s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/config/robot_control//master.dcf
+[3.519s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch
+[3.519s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/proxy_setup.launch.py
+[3.519s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/cia402_namespaced_system.launch.py
+[3.519s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/proxy_diagnostics_setup.launch.py
+[3.520s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/cia402_setup.launch.py
+[3.520s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/cia402_diagnostics_setup.launch.py
+[3.520s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/view_urdf.launch.py
+[3.520s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/cia402_lifecycle_setup.launch.py
+[3.521s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/robot_control_setup.launch.py
+[3.521s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/analyzers
+[3.521s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/analyzers/proxy_diagnostic_analyzer.yaml
+[3.521s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/analyzers/cia402_diagnostic_analyzer.yaml
+[3.521s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/proxy_lifecycle_setup.launch.py
+[3.522s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/canopen_system.launch.py
+[3.522s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch/cia402_system.launch.py
+[3.522s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/rviz
+[3.522s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/rviz/robot_controller.rviz
+[3.523s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/urdf
+[3.523s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/urdf/canopen_system
+[3.523s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/urdf/canopen_system/canopen_system.ros2_control.xacro
+[3.523s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/urdf/canopen_system/canopen_system.urdf.xacro
+[3.523s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/urdf/cia402_system
+[3.523s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/urdf/cia402_system/cia402_system.ros2_control.xacro
+[3.524s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/urdf/cia402_system/cia402_system.urdf.xacro
+[3.524s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/urdf/robot_controller
+[3.524s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/urdf/robot_controller/robot_controller.ros2_control.xacro
+[3.524s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/urdf/robot_controller/robot_controller.macro.xacro
+[3.524s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/urdf/robot_controller/robot_controller.urdf.xacro
+[3.525s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch_tests
+[3.526s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch_tests/test_cia402_driver.py
+[3.526s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch_tests/test_proxy_lifecycle_driver.py
+[3.526s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch_tests/test_robot_control.py
+[3.526s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/launch_tests/test_proxy_driver.py
+[3.527s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/ament_index/resource_index/package_run_dependencies/canopen_tests
+[3.527s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/ament_index/resource_index/parent_prefix_path/canopen_tests
+[3.527s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/environment/ament_prefix_path.sh
+[3.528s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/environment/ament_prefix_path.dsv
+[3.528s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/environment/path.sh
+[3.528s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/environment/path.dsv
+[3.528s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/local_setup.bash
+[3.528s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/local_setup.sh
+[3.529s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/local_setup.zsh
+[3.529s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/local_setup.dsv
+[3.529s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/package.dsv
+[3.529s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/ament_index/resource_index/packages/canopen_tests
+[3.529s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/cmake/canopen_testsConfig.cmake
+[3.529s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/cmake/canopen_testsConfig-version.cmake
+[3.530s] -- Installing: /home/ub2004/ros2_ws/install/canopen_tests/share/canopen_tests/package.xml
+[3.533s] Invoked command in '/home/ub2004/ros2_ws/build/canopen_tests' returned '0': CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/install/canopen_ros2_controllers/lib:/home/ub2004/ros2_ws/install/canopen_402_driver/lib:/home/ub2004/ros2_ws/install/canopen_proxy_driver/lib:/home/ub2004/ros2_ws/install/canopen_base_driver/lib:/home/ub2004/ros2_ws/install/canopen_core/lib:/home/ub2004/ros2_ws/install/lely_core_libraries/lib:/home/ub2004/ros2_ws/install/canopen_interfaces/lib:/home/ub2004/ros2_ws/install/canopen_ros2_control/lib:/home/ub2004/ros2_ws/install/canopen_master_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ub2004/ros2_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/ub2004/ros2_ws/build/urdf_tutorial:/home/ub2004/ros2_ws/build/canopen_utils:/home/ub2004/ros2_ws/build/can_comm:/home/ub2004/ros2_ws/build/agv_pak:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/test_py/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/install/can_comm/lib/python3.10/site-packages:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ub2004/ros2_ws/build/canopen_tests

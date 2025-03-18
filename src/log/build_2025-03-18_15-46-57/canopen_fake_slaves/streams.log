@@ -1,0 +1,84 @@
+[0.017s] Invoking command in '/home/ub2004/ros2_ws/src/build/canopen_fake_slaves': AMENT_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ub2004/ros2_ws/src/ros2_canopen/canopen_fake_slaves -DCMAKE_INSTALL_PREFIX=/home/ub2004/ros2_ws/src/install/canopen_fake_slaves
+[0.088s] -- The C compiler identification is GNU 11.4.0
+[0.157s] -- The CXX compiler identification is GNU 11.4.0
+[0.169s] -- Detecting C compiler ABI info
+[0.254s] -- Detecting C compiler ABI info - done
+[0.269s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.269s] -- Detecting C compile features
+[0.270s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.375s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.384s] -- Detecting CXX compile features - done
+[0.389s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.591s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.731s] -- Found lely_core_libraries: 0.2.11 (/home/ub2004/ros2_ws/src/install/lely_core_libraries/share/lely_core_libraries/cmake)
+[0.738s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[0.786s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.796s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.810s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.826s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.849s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.871s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.946s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.951s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.067s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.099s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.149s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.164s] -- Looking for pthread.h
+[1.254s] -- Looking for pthread.h - found
+[1.254s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.345s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.346s] -- Found Threads: TRUE  
+[1.424s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.442s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.523s] -- Configuring done
+[1.550s] -- Generating done
+[1.557s] -- Build files have been written to: /home/ub2004/ros2_ws/src/build/canopen_fake_slaves
+[1.568s] Invoked command in '/home/ub2004/ros2_ws/src/build/canopen_fake_slaves' returned '0': AMENT_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ub2004/ros2_ws/src/ros2_canopen/canopen_fake_slaves -DCMAKE_INSTALL_PREFIX=/home/ub2004/ros2_ws/src/install/canopen_fake_slaves
+[1.570s] Invoking command in '/home/ub2004/ros2_ws/src/build/canopen_fake_slaves': AMENT_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ub2004/ros2_ws/src/build/canopen_fake_slaves -- -j8 -l8
+[1.633s] [ 60%] [32mBuilding CXX object CMakeFiles/cia402_slave_node.dir/src/motion_generator.cpp.o[0m
+[1.634s] [ 60%] [32mBuilding CXX object CMakeFiles/cia402_slave_node.dir/src/cia402_slave.cpp.o[0m
+[1.634s] [ 60%] [32mBuilding CXX object CMakeFiles/basic_slave_node.dir/src/basic_slave.cpp.o[0m
+[8.787s] [ 80%] [32m[1mLinking CXX executable basic_slave_node[0m
+[9.222s] [ 80%] Built target basic_slave_node
+[9.235s] [100%] [32m[1mLinking CXX executable cia402_slave_node[0m
+[9.458s] [100%] Built target cia402_slave_node
+[9.474s] Invoked command in '/home/ub2004/ros2_ws/src/build/canopen_fake_slaves' returned '0': AMENT_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ub2004/ros2_ws/src/build/canopen_fake_slaves -- -j8 -l8
+[9.476s] Invoking command in '/home/ub2004/ros2_ws/src/build/canopen_fake_slaves': AMENT_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ub2004/ros2_ws/src/build/canopen_fake_slaves
+[9.486s] -- Install configuration: ""
+[9.487s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/lib/canopen_fake_slaves/basic_slave_node
+[9.487s] -- Set runtime path of "/home/ub2004/ros2_ws/src/install/canopen_fake_slaves/lib/canopen_fake_slaves/basic_slave_node" to ""
+[9.487s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/lib/canopen_fake_slaves/cia402_slave_node
+[9.488s] -- Set runtime path of "/home/ub2004/ros2_ws/src/install/canopen_fake_slaves/lib/canopen_fake_slaves/cia402_slave_node" to ""
+[9.488s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/launch/
+[9.488s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/launch//cia402_slave.launch.py
+[9.489s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/launch//basic_slave.launch.py
+[9.489s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/config/
+[9.489s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/config//cia402_slave.eds
+[9.491s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/config//simple_slave.eds
+[9.492s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/include
+[9.492s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/include/canopen_fake_slaves
+[9.492s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/include/canopen_fake_slaves/cia402_slave.hpp
+[9.492s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/include/canopen_fake_slaves/base_slave.hpp
+[9.493s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/include/canopen_fake_slaves/basic_slave.hpp
+[9.493s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/include/canopen_fake_slaves/motion_generator.hpp
+[9.493s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/ament_index/resource_index/package_run_dependencies/canopen_fake_slaves
+[9.493s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/ament_index/resource_index/parent_prefix_path/canopen_fake_slaves
+[9.493s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/environment/ament_prefix_path.sh
+[9.494s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/environment/ament_prefix_path.dsv
+[9.494s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/environment/path.sh
+[9.494s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/environment/path.dsv
+[9.494s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/local_setup.bash
+[9.494s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/local_setup.sh
+[9.494s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/local_setup.zsh
+[9.495s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/local_setup.dsv
+[9.495s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/package.dsv
+[9.495s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/ament_index/resource_index/packages/canopen_fake_slaves
+[9.495s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.495s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.496s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/cmake/canopen_fake_slavesConfig.cmake
+[9.496s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/cmake/canopen_fake_slavesConfig-version.cmake
+[9.496s] -- Installing: /home/ub2004/ros2_ws/src/install/canopen_fake_slaves/share/canopen_fake_slaves/package.xml
+[9.500s] Invoked command in '/home/ub2004/ros2_ws/src/build/canopen_fake_slaves' returned '0': AMENT_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_tests:/home/ub2004/ros2_ws/install/canopen_ros2_controllers:/home/ub2004/ros2_ws/install/canopen_ros2_control:/home/ub2004/ros2_ws/install/canopen:/home/ub2004/ros2_ws/install/canopen_402_driver:/home/ub2004/ros2_ws/install/canopen_proxy_driver:/home/ub2004/ros2_ws/install/canopen_master_driver:/home/ub2004/ros2_ws/install/canopen_fake_slaves:/home/ub2004/ros2_ws/install/canopen_base_driver:/home/ub2004/ros2_ws/install/canopen_core:/home/ub2004/ros2_ws/install/lely_core_libraries:/home/ub2004/ros2_ws/install/canopen_interfaces:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/test_py:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble LD_LIBRARY_PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/ub2004/ros2_ws/src/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/ub2004/ros2_ws/src/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ub2004/ros2_ws/src/build/canopen_fake_slaves

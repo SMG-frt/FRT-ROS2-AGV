@@ -1,0 +1,250 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-83b4397b304ed44b2b56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "canopen_tests",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_system-dc266355b155f9fd6ee9.json",
+					"name" : "canopen_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_system_prepare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_system_prepare-cd64f8b609ad4b81531c.json",
+					"name" : "canopen_system_prepare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_tests_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_tests_uninstall-bd82a92a19f7c8e0e6ca.json",
+					"name" : "canopen_tests_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cia402::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cia402-aefa3c0d3976b8d18a68.json",
+					"name" : "cia402",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cia402_diagnostics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cia402_diagnostics-9eabdfee77e3d567a291.json",
+					"name" : "cia402_diagnostics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cia402_diagnostics_prepare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cia402_diagnostics_prepare-63e2ed2482d8695e67d2.json",
+					"name" : "cia402_diagnostics_prepare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cia402_lifecycle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cia402_lifecycle-217cd8011abf2fe87403.json",
+					"name" : "cia402_lifecycle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cia402_lifecycle_prepare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cia402_lifecycle_prepare-031c7290641ad43497ac.json",
+					"name" : "cia402_lifecycle_prepare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cia402_namespaced_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cia402_namespaced_system-e6675a8ab6eaab438b75.json",
+					"name" : "cia402_namespaced_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cia402_namespaced_system_prepare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cia402_namespaced_system_prepare-966b171c64486b751fb3.json",
+					"name" : "cia402_namespaced_system_prepare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cia402_prepare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cia402_prepare-19f350d047b58366e7bf.json",
+					"name" : "cia402_prepare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cia402_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cia402_system-61ba17379271d50a704f.json",
+					"name" : "cia402_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cia402_system_prepare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cia402_system_prepare-279c86cd528ee798f755.json",
+					"name" : "cia402_system_prepare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_control-450e1c6ed938d057e7da.json",
+					"name" : "robot_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_control_prepare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_control_prepare-5852af9134bd64f24671.json",
+					"name" : "robot_control_prepare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple-a86fbbca4d7d34f13876.json",
+					"name" : "simple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_diagnostics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_diagnostics-d6ed83cd7842e3e1b594.json",
+					"name" : "simple_diagnostics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_diagnostics_prepare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_diagnostics_prepare-1f5c3b0cccefcd473294.json",
+					"name" : "simple_diagnostics_prepare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_lifecycle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_lifecycle-931f5f623479379fdfa0.json",
+					"name" : "simple_lifecycle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_lifecycle_prepare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_lifecycle_prepare-6aaad2b8d4f28633179a.json",
+					"name" : "simple_lifecycle_prepare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_prepare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_prepare-77973cb1af8e52926ffe.json",
+					"name" : "simple_prepare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-62977d14e961eaa84631.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ub2004/ros2_ws/src/build/canopen_tests",
+		"source" : "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_tests"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

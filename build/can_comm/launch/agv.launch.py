@@ -1,1 +1,0 @@
-/home/ub2004/ros2_ws/src/can_comm/launch/agv.launch.py

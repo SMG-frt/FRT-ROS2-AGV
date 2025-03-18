@@ -1,0 +1,203 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-56d1672e287dc2a82478.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						10
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-test-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "canopen_master_driver",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "canopen_master_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-canopen_master_driver_uninstall-edb4ae7e0216bf3cacb8.json",
+					"name" : "canopen_master_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-f3f400715ee3264a2bb3.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-87ba404956dea98e8103.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lely_master_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lely_master_bridge-776de61d21f66f85b014.json",
+					"name" : "lely_master_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_master_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_master_driver-ef4dacaef09598b5eb38.json",
+					"name" : "lifecycle_master_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "master_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-master_driver-6e8ee20b412c091d2f60.json",
+					"name" : "master_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "node_canopen_basic_master::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-node_canopen_basic_master-175dfb3b3fdf954e89e3.json",
+					"name" : "node_canopen_basic_master",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_master_driver_component::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_master_driver_component-d8331692d843d01da324.json",
+					"name" : "test_master_driver_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_node_canopen_basic_driver::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_node_canopen_basic_driver-09a54a9c72b6d223744e.json",
+					"name" : "test_node_canopen_basic_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_node_canopen_basic_driver_ros::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_node_canopen_basic_driver_ros-a63c024ca9e02e309257.json",
+					"name" : "test_node_canopen_basic_driver_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9f5f10ed3abee265b7d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ub2004/ros2_ws/src/build/canopen_master_driver",
+		"source" : "/home/ub2004/ros2_ws/src/ros2_canopen/canopen_master_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

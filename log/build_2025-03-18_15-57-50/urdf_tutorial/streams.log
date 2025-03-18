@@ -1,0 +1,37 @@
+[2.370s] Invoking command in '/home/ub2004/ros2_ws/src/urdf_tutorial': PYTHONPATH=/home/ub2004/ros2_ws/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/ub2004/ros2_ws/build/urdf_tutorial/build install --record /home/ub2004/ros2_ws/build/urdf_tutorial/install.log --single-version-externally-managed install_data
+[2.891s] running egg_info
+[2.892s] creating ../../build/urdf_tutorial/urdf_tutorial.egg-info
+[2.893s] writing ../../build/urdf_tutorial/urdf_tutorial.egg-info/PKG-INFO
+[2.895s] writing dependency_links to ../../build/urdf_tutorial/urdf_tutorial.egg-info/dependency_links.txt
+[2.895s] writing entry points to ../../build/urdf_tutorial/urdf_tutorial.egg-info/entry_points.txt
+[2.895s] writing requirements to ../../build/urdf_tutorial/urdf_tutorial.egg-info/requires.txt
+[2.895s] writing top-level names to ../../build/urdf_tutorial/urdf_tutorial.egg-info/top_level.txt
+[2.896s] writing manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[2.898s] reading manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[2.899s] writing manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[2.902s] running build
+[2.902s] running build_py
+[2.902s] creating /home/ub2004/ros2_ws/build/urdf_tutorial/build
+[2.902s] creating /home/ub2004/ros2_ws/build/urdf_tutorial/build/lib
+[2.902s] creating /home/ub2004/ros2_ws/build/urdf_tutorial/build/lib/urdf_tutorial
+[2.902s] copying urdf_tutorial/__init__.py -> /home/ub2004/ros2_ws/build/urdf_tutorial/build/lib/urdf_tutorial
+[2.902s] running install
+[2.903s] running install_lib
+[2.903s] creating /home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial
+[2.903s] copying /home/ub2004/ros2_ws/build/urdf_tutorial/build/lib/urdf_tutorial/__init__.py -> /home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial
+[2.904s] byte-compiling /home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial/__init__.py to __init__.cpython-310.pyc
+[2.904s] running install_data
+[2.904s] creating /home/ub2004/ros2_ws/install/urdf_tutorial/share/ament_index
+[2.904s] creating /home/ub2004/ros2_ws/install/urdf_tutorial/share/ament_index/resource_index
+[2.905s] creating /home/ub2004/ros2_ws/install/urdf_tutorial/share/ament_index/resource_index/packages
+[2.905s] copying resource/urdf_tutorial -> /home/ub2004/ros2_ws/install/urdf_tutorial/share/ament_index/resource_index/packages
+[2.905s] copying package.xml -> /home/ub2004/ros2_ws/install/urdf_tutorial/share/urdf_tutorial
+[2.906s] creating /home/ub2004/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[2.906s] copying launch/robot.launch.py -> /home/ub2004/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[2.907s] creating /home/ub2004/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[2.909s] copying urdf/robot.xacro -> /home/ub2004/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[2.909s] running install_egg_info
+[2.917s] Copying ../../build/urdf_tutorial/urdf_tutorial.egg-info to /home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial-0.0.0-py3.10.egg-info
+[2.920s] running install_scripts
+[2.958s] writing list of installed files to '/home/ub2004/ros2_ws/build/urdf_tutorial/install.log'
+[3.015s] Invoked command in '/home/ub2004/ros2_ws/src/urdf_tutorial' returned '0': PYTHONPATH=/home/ub2004/ros2_ws/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/ub2004/ros2_ws/build/urdf_tutorial/build install --record /home/ub2004/ros2_ws/build/urdf_tutorial/install.log --single-version-externally-managed install_data

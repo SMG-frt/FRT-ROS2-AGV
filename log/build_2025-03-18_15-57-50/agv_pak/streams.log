@@ -1,0 +1,57 @@
+[2.235s] Invoking command in '/home/ub2004/ros2_ws/src/agv_pak': PYTHONPATH=/home/ub2004/ros2_ws/build/agv_pak/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_pak build --build-base /home/ub2004/ros2_ws/build/agv_pak/build install --record /home/ub2004/ros2_ws/build/agv_pak/install.log --single-version-externally-managed install_data
+[2.676s] running egg_info
+[2.679s] creating ../../build/agv_pak/agv_pak.egg-info
+[2.679s] writing ../../build/agv_pak/agv_pak.egg-info/PKG-INFO
+[2.679s] writing dependency_links to ../../build/agv_pak/agv_pak.egg-info/dependency_links.txt
+[2.679s] writing entry points to ../../build/agv_pak/agv_pak.egg-info/entry_points.txt
+[2.679s] writing requirements to ../../build/agv_pak/agv_pak.egg-info/requires.txt
+[2.679s] writing top-level names to ../../build/agv_pak/agv_pak.egg-info/top_level.txt
+[2.680s] writing manifest file '../../build/agv_pak/agv_pak.egg-info/SOURCES.txt'
+[2.685s] reading manifest file '../../build/agv_pak/agv_pak.egg-info/SOURCES.txt'
+[2.686s] adding license file 'LICENSE'
+[2.687s] writing manifest file '../../build/agv_pak/agv_pak.egg-info/SOURCES.txt'
+[2.688s] running build
+[2.689s] running build_py
+[2.690s] creating /home/ub2004/ros2_ws/build/agv_pak/build
+[2.691s] creating /home/ub2004/ros2_ws/build/agv_pak/build/lib
+[2.692s] creating /home/ub2004/ros2_ws/build/agv_pak/build/lib/scripts
+[2.693s] copying scripts/can_talker.py -> /home/ub2004/ros2_ws/build/agv_pak/build/lib/scripts
+[2.694s] copying scripts/__init__.py -> /home/ub2004/ros2_ws/build/agv_pak/build/lib/scripts
+[2.695s] creating /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak
+[2.695s] copying agv_pak/agv_test_node.py -> /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak
+[2.695s] copying agv_pak/agv_node_2.py -> /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak
+[2.695s] copying agv_pak/agv_node.py -> /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak
+[2.698s] copying agv_pak/__init__.py -> /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak
+[2.698s] running install
+[2.698s] running install_lib
+[2.699s] creating /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/scripts
+[2.699s] copying /home/ub2004/ros2_ws/build/agv_pak/build/lib/scripts/can_talker.py -> /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/scripts
+[2.700s] copying /home/ub2004/ros2_ws/build/agv_pak/build/lib/scripts/__init__.py -> /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/scripts
+[2.700s] creating /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak
+[2.700s] copying /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak/agv_test_node.py -> /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak
+[2.701s] copying /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak/agv_node_2.py -> /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak
+[2.701s] copying /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak/agv_node.py -> /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak
+[2.703s] copying /home/ub2004/ros2_ws/build/agv_pak/build/lib/agv_pak/__init__.py -> /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak
+[2.703s] byte-compiling /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/scripts/can_talker.py to can_talker.cpython-310.pyc
+[2.704s] byte-compiling /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/scripts/__init__.py to __init__.cpython-310.pyc
+[2.705s] byte-compiling /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak/agv_test_node.py to agv_test_node.cpython-310.pyc
+[2.707s] byte-compiling /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak/agv_node_2.py to agv_node_2.cpython-310.pyc
+[2.709s] byte-compiling /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak/agv_node.py to agv_node.cpython-310.pyc
+[2.711s] byte-compiling /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak/__init__.py to __init__.cpython-310.pyc
+[2.712s] running install_data
+[2.713s] creating /home/ub2004/ros2_ws/install/agv_pak/share/ament_index
+[2.713s] creating /home/ub2004/ros2_ws/install/agv_pak/share/ament_index/resource_index
+[2.713s] creating /home/ub2004/ros2_ws/install/agv_pak/share/ament_index/resource_index/packages
+[2.714s] copying resource/agv_pak -> /home/ub2004/ros2_ws/install/agv_pak/share/ament_index/resource_index/packages
+[2.714s] copying package.xml -> /home/ub2004/ros2_ws/install/agv_pak/share/agv_pak
+[2.715s] creating /home/ub2004/ros2_ws/install/agv_pak/share/agv_pak/scripts
+[2.715s] copying scripts/can_talker.py -> /home/ub2004/ros2_ws/install/agv_pak/share/agv_pak/scripts
+[2.717s] running install_egg_info
+[2.719s] Copying ../../build/agv_pak/agv_pak.egg-info to /home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages/agv_pak-0.0.0-py3.10.egg-info
+[2.721s] running install_scripts
+[2.769s] Installing agv_node script to /home/ub2004/ros2_ws/install/agv_pak/lib/agv_pak
+[2.770s] Installing agv_node_2 script to /home/ub2004/ros2_ws/install/agv_pak/lib/agv_pak
+[2.770s] Installing agv_test_node.py script to /home/ub2004/ros2_ws/install/agv_pak/lib/agv_pak
+[2.770s] Installing can_talker script to /home/ub2004/ros2_ws/install/agv_pak/lib/agv_pak
+[2.774s] writing list of installed files to '/home/ub2004/ros2_ws/build/agv_pak/install.log'
+[2.820s] Invoked command in '/home/ub2004/ros2_ws/src/agv_pak' returned '0': PYTHONPATH=/home/ub2004/ros2_ws/build/agv_pak/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/install/agv_pak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_pak build --build-base /home/ub2004/ros2_ws/build/agv_pak/build install --record /home/ub2004/ros2_ws/build/agv_pak/install.log --single-version-externally-managed install_data

@@ -1,0 +1,48 @@
+[0.795s] Invoking command in '/home/ub2004/ros2_ws/src/ros2_canopen/canopen_utils': AMENT_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/canopen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ub2004/ros2_ws/src/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ub2004/ros2_ws/src/build/canopen_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/src/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/canopen_utils build --build-base /home/ub2004/ros2_ws/src/build/canopen_utils/build install --record /home/ub2004/ros2_ws/src/build/canopen_utils/install.log --single-version-externally-managed install_data
+[1.085s] running egg_info
+[1.086s] creating ../../build/canopen_utils/canopen_utils.egg-info
+[1.086s] writing ../../build/canopen_utils/canopen_utils.egg-info/PKG-INFO
+[1.086s] writing dependency_links to ../../build/canopen_utils/canopen_utils.egg-info/dependency_links.txt
+[1.087s] writing entry points to ../../build/canopen_utils/canopen_utils.egg-info/entry_points.txt
+[1.087s] writing requirements to ../../build/canopen_utils/canopen_utils.egg-info/requires.txt
+[1.087s] writing top-level names to ../../build/canopen_utils/canopen_utils.egg-info/top_level.txt
+[1.087s] writing manifest file '../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[1.089s] reading manifest file '../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[1.089s] adding license file 'LICENSE'
+[1.090s] writing manifest file '../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[1.090s] running build
+[1.090s] running build_py
+[1.090s] creating /home/ub2004/ros2_ws/src/build/canopen_utils/build
+[1.090s] creating /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib
+[1.091s] creating /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib/canopen_utils
+[1.091s] copying canopen_utils/simple_rpdo_tpdo_tester.py -> /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib/canopen_utils
+[1.091s] copying canopen_utils/cyclic_tester.py -> /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib/canopen_utils
+[1.091s] copying canopen_utils/launch_test_node.py -> /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib/canopen_utils
+[1.091s] copying canopen_utils/test_node.py -> /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib/canopen_utils
+[1.091s] copying canopen_utils/__init__.py -> /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib/canopen_utils
+[1.091s] running install
+[1.092s] running install_lib
+[1.093s] creating /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils
+[1.094s] copying /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib/canopen_utils/simple_rpdo_tpdo_tester.py -> /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils
+[1.094s] copying /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib/canopen_utils/cyclic_tester.py -> /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils
+[1.094s] copying /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib/canopen_utils/launch_test_node.py -> /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils
+[1.094s] copying /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib/canopen_utils/test_node.py -> /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils
+[1.094s] copying /home/ub2004/ros2_ws/src/build/canopen_utils/build/lib/canopen_utils/__init__.py -> /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils
+[1.095s] byte-compiling /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils/simple_rpdo_tpdo_tester.py to simple_rpdo_tpdo_tester.cpython-310.pyc
+[1.096s] byte-compiling /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils/cyclic_tester.py to cyclic_tester.cpython-310.pyc
+[1.096s] byte-compiling /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils/launch_test_node.py to launch_test_node.cpython-310.pyc
+[1.098s] byte-compiling /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils/test_node.py to test_node.cpython-310.pyc
+[1.099s] byte-compiling /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils/__init__.py to __init__.cpython-310.pyc
+[1.099s] running install_data
+[1.100s] creating /home/ub2004/ros2_ws/src/install/canopen_utils/share/ament_index
+[1.100s] creating /home/ub2004/ros2_ws/src/install/canopen_utils/share/ament_index/resource_index
+[1.100s] creating /home/ub2004/ros2_ws/src/install/canopen_utils/share/ament_index/resource_index/packages
+[1.100s] copying resource/canopen_utils -> /home/ub2004/ros2_ws/src/install/canopen_utils/share/ament_index/resource_index/packages
+[1.100s] copying package.xml -> /home/ub2004/ros2_ws/src/install/canopen_utils/share/canopen_utils
+[1.100s] running install_egg_info
+[1.103s] Copying ../../build/canopen_utils/canopen_utils.egg-info to /home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages/canopen_utils-0.2.11-py3.10.egg-info
+[1.104s] running install_scripts
+[1.130s] Installing cyclic_tester script to /home/ub2004/ros2_ws/src/install/canopen_utils/lib/canopen_utils
+[1.130s] Installing simple_tester script to /home/ub2004/ros2_ws/src/install/canopen_utils/lib/canopen_utils
+[1.130s] writing list of installed files to '/home/ub2004/ros2_ws/src/build/canopen_utils/install.log'
+[1.159s] Invoked command in '/home/ub2004/ros2_ws/src/ros2_canopen/canopen_utils' returned '0': AMENT_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ub2004/ros2_ws/src/install/canopen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ub2004/ros2_ws/src/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ub2004/ros2_ws/src/build/canopen_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ub2004/ros2_ws/src/install/canopen_utils/lib/python3.10/site-packages:/home/ub2004/ros2_ws/src/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/canopen_utils build --build-base /home/ub2004/ros2_ws/src/build/canopen_utils/build install --record /home/ub2004/ros2_ws/src/build/canopen_utils/install.log --single-version-externally-managed install_data

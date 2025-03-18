@@ -1,0 +1,12 @@
+prefix=/home/ub2004/ros2_ws/src/install/lely_core_libraries
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: liblely-can
+Description: Lely CAN library
+URL: https://gitlab.com/lely_industries/lely-core
+Version: 1.9.2
+Requires: liblely-libc >= 2.4.0 liblely-util >= 2.4.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -llely-can

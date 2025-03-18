@@ -1,1 +1,3 @@
-/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_cmake/srv/CORead_Response.msg
+
+bool success
+uint32 data

@@ -1,1 +1,1 @@
-/home/ub2004/ros2_ws/build/lely_core_libraries/ament_cmake_environment_hooks/library_path.dsv
+prepend-non-duplicate;LD_LIBRARY_PATH;lib

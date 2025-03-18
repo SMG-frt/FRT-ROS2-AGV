@@ -211,30 +211,30 @@ upstr_lely_core_libraries/fast:
 .PHONY : upstr_lely_core_libraries/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_cogen
+# Target rules for targets named ament_cmake_python_copy_cogen
 
 # Build rule for target.
-ament_cmake_python_symlink_cogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_cogen
-.PHONY : ament_cmake_python_symlink_cogen
+ament_cmake_python_copy_cogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_cogen
+.PHONY : ament_cmake_python_copy_cogen
 
 # fast build rule for target.
-ament_cmake_python_symlink_cogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_cogen.dir/build.make CMakeFiles/ament_cmake_python_symlink_cogen.dir/build
-.PHONY : ament_cmake_python_symlink_cogen/fast
+ament_cmake_python_copy_cogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_cogen.dir/build.make CMakeFiles/ament_cmake_python_copy_cogen.dir/build
+.PHONY : ament_cmake_python_copy_cogen/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_cogen_setup
+# Target rules for targets named ament_cmake_python_copy_cogen_setup
 
 # Build rule for target.
-ament_cmake_python_symlink_cogen_setup: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_cogen_setup
-.PHONY : ament_cmake_python_symlink_cogen_setup
+ament_cmake_python_copy_cogen_setup: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_cogen_setup
+.PHONY : ament_cmake_python_copy_cogen_setup
 
 # fast build rule for target.
-ament_cmake_python_symlink_cogen_setup/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_cogen_setup.dir/build.make CMakeFiles/ament_cmake_python_symlink_cogen_setup.dir/build
-.PHONY : ament_cmake_python_symlink_cogen_setup/fast
+ament_cmake_python_copy_cogen_setup/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_cogen_setup.dir/build.make CMakeFiles/ament_cmake_python_copy_cogen_setup.dir/build
+.PHONY : ament_cmake_python_copy_cogen_setup/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_cogen_egg
@@ -277,8 +277,8 @@ help:
 	@echo "... test"
 	@echo "... ament_cmake_python_build_cogen_egg"
 	@echo "... ament_cmake_python_build_cogen_scripts"
-	@echo "... ament_cmake_python_symlink_cogen"
-	@echo "... ament_cmake_python_symlink_cogen_setup"
+	@echo "... ament_cmake_python_copy_cogen"
+	@echo "... ament_cmake_python_copy_cogen_setup"
 	@echo "... lely_core_libraries_uninstall"
 	@echo "... uninstall"
 	@echo "... upstr_lely_core_libraries"

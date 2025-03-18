@@ -1,0 +1,7 @@
+gmake[2]: *** [sensor/sensor_base/CMakeFiles/sensor_base.dir/build.make:89: sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o] 인터럽트
+gmake[2]: *** [utils/CMakeFiles/utils.dir/build.make:75: utils/CMakeFiles/utils.dir/movement.cpp.o] 인터럽트
+gmake[2]: *** [utils/CMakeFiles/utils.dir/build.make:89: utils/CMakeFiles/utils.dir/stat.cpp.o] 인터럽트
+gmake[2]: *** [sensor/sensor_base/CMakeFiles/sensor_base.dir/build.make:75: sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o] 인터럽트
+gmake[1]: *** [CMakeFiles/Makefile2:392: utils/CMakeFiles/utils.dir/all] 인터럽트
+gmake[1]: *** [CMakeFiles/Makefile2:314: sensor/sensor_base/CMakeFiles/sensor_base.dir/all] 인터럽트
+gmake: *** [Makefile:146: all] 인터럽트

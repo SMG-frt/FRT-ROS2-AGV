@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ub2004/ros2_ws/build/canopen_ros2_control/libcanopen_ros2_control.so" "TARGETS" "canopen_ros2_control" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

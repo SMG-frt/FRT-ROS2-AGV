@@ -1,1 +1,3 @@
-/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_cmake/srv/COWrite_Request.msg
+uint16 index
+uint8 subindex
+uint32 data

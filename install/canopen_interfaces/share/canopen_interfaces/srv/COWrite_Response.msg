@@ -1,1 +1,2 @@
-/home/ub2004/ros2_ws/build/canopen_interfaces/rosidl_cmake/srv/COWrite_Response.msg
+
+bool success

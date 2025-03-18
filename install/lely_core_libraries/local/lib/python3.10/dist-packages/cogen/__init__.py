@@ -1,1 +1,0 @@
-/home/ub2004/ros2_ws/src/ros2_canopen/lely_core_libraries/cogen/__init__.py

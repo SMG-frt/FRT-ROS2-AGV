@@ -1,0 +1,3 @@
+repository='https://gitlab.com/lely_industries/lely-core.git'
+module=''
+tag='origin'

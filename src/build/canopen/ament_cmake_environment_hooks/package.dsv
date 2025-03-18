@@ -1,0 +1,4 @@
+source;share/canopen/local_setup.bash
+source;share/canopen/local_setup.dsv
+source;share/canopen/local_setup.sh
+source;share/canopen/local_setup.zsh

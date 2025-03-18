@@ -1,0 +1,33 @@
+{
+  "package_name": "canopen_interfaces",
+  "output_dir": "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_typesupport_c/canopen_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COHeartbeatID.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CONmtID.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CORead.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COReadID.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COWrite.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COWriteID.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COTargetDouble.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CONode.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:msg/COData.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/COHeartbeatID.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/CONmtID.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/CORead.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/COReadID.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/COWrite.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/COWriteID.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/COTargetDouble.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/CONode.idl",
+    "/home/ub2004/ros2_ws/src/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/msg/COData.idl"
+  ]
+}
