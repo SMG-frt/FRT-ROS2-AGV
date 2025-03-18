@@ -1,4 +1,4 @@
 #!/bin/bash
-git add .
+git add -A
 git commit -m "Auto commit and push"
 git push origin main
