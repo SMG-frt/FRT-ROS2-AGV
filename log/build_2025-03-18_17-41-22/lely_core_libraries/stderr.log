@@ -1,0 +1,80 @@
+configure.ac 패치를 확인하는 중입니다...
+패치 1번 부분 577번 줄에서 성공 (오프셋 8번 줄)
+python/dcf-tools/Makefile.am 패치를 확인하는 중입니다...
+configure.ac 패치 깔끔하게 적용.
+python/dcf-tools/Makefile.am 패치 깔끔하게 적용.
+Traceback (most recent call last):
+  File "/home/ub2004/ros2_ws/build/lely_core_libraries/ament_cmake_python/cogen/setup.py", line 1, in <module>
+Traceback (most recent call last):
+  File "/home/ub2004/ros2_ws/build/lely_core_libraries/ament_cmake_python/cogen/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+gmake[2]: *** [CMakeFiles/upstr_lely_core_libraries.dir/build.make:92: upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries-stamp/upstr_lely_core_libraries-configure] 인터럽트
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/upstr_lely_core_libraries.dir/all] 인터럽트
+    def _initialize_master_working_set():
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+    def _initialize_master_working_set():
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+    f(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+    f(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+    ws = cls()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+    working_set = WorkingSet._build_master()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+    self.add_entry(entry)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+    ws = cls()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+    for dist in find_distributions(entry, True):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path
+    self.add_entry(entry)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+    path_item_entries = _by_version_descending(filtered)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending
+    for dist in factory(fullpath):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+    return sorted(names, key=_by_version, reverse=True)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2039, in _by_version
+    yield Distribution.from_location(
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2606, in from_location
+    name, ext = os.path.splitext(name)
+  File "/usr/lib/python3.10/posixpath.py", line 125, in splitext
+    )._reload_version()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3004, in _reload_version
+    return genericpath._splitext(p, sep, None, extsep)
+  File "/usr/lib/python3.10/genericpath.py", line 128, in _splitext
+    md_version = self._get_version()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2785, in _get_version
+    sepIndex = p.rfind(sep)
+KeyboardInterrupt
+    version = _version_from_file(lines)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2571, in _version_from_file
+    return safe_version(value.strip()) or None
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version
+    return str(packaging.version.Version(version))
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 301, in __str__
+    parts.append(".".join(str(x) for x in self.release))
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 326, in release
+    @property
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_cogen_scripts.dir/build.make:70: CMakeFiles/ament_cmake_python_build_cogen_scripts] 인터럽트
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/ament_cmake_python_build_cogen_scripts.dir/all] 인터럽트
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_cogen_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_cogen_egg] 인터럽트
+gmake[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/ament_cmake_python_build_cogen_egg.dir/all] 인터럽트
+gmake: *** [Makefile:146: all] 인터럽트

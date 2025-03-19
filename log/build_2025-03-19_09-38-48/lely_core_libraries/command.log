@@ -1,0 +1,1 @@
+Invoking command in '/home/ub2004/ros2_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --build /home/ub2004/ros2_ws/build/lely_core_libraries -- -j8 -l8

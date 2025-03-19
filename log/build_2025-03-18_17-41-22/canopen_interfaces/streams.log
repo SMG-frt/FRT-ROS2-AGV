@@ -1,0 +1,54 @@
+[0.045s] Invoking command in '/home/ub2004/ros2_ws/build/canopen_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --build /home/ub2004/ros2_ws/build/canopen_interfaces -- -j8 -l8
+[0.882s] [35m[1mConsolidate compiler generated dependencies of target canopen_interfaces__rosidl_generator_c[0m
+[0.884s] [  1%] Built target canopen_interfaces__cpp
+[0.885s] [ 12%] Built target canopen_interfaces__rosidl_generator_c
+[0.885s] [ 12%] Built target ament_cmake_python_copy_canopen_interfaces
+[0.885s] [35m[1mConsolidate compiler generated dependencies of target canopen_interfaces__rosidl_typesupport_cpp[0m
+[0.885s] [35m[1mConsolidate compiler generated dependencies of target canopen_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.886s] [35m[1mConsolidate compiler generated dependencies of target canopen_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.886s] [35m[1mConsolidate compiler generated dependencies of target canopen_interfaces__rosidl_typesupport_introspection_c[0m
+[0.886s] [35m[1mConsolidate compiler generated dependencies of target canopen_interfaces__rosidl_typesupport_c[0m
+[0.886s] [35m[1mConsolidate compiler generated dependencies of target canopen_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.886s] [ 24%] Built target canopen_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.886s] [ 35%] Built target canopen_interfaces__rosidl_typesupport_introspection_cpp
+[0.886s] [ 47%] Built target canopen_interfaces__rosidl_typesupport_c
+[0.886s] [ 58%] Built target canopen_interfaces__rosidl_typesupport_cpp
+[0.886s] [ 70%] Built target canopen_interfaces__rosidl_typesupport_introspection_c
+[0.886s] [ 82%] Built target canopen_interfaces__rosidl_typesupport_fastrtps_c
+[0.886s] [ 82%] Built target canopen_interfaces
+[0.886s] Traceback (most recent call last):
+[0.886s]   File "/home/ub2004/ros2_ws/build/canopen_interfaces/ament_cmake_python/canopen_interfaces/setup.py", line 1, in <module>
+[0.887s]     from setuptools import find_packages
+[0.887s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.887s]     import setuptools.version
+[0.887s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.887s]     import pkg_resources
+[0.887s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[0.887s] gmake[1]: *** [CMakeFiles/Makefile2:591: canopen_interfaces__py/CMakeFiles/canopen_interfaces__py.dir/all] 인터럽트
+[0.887s]     def _initialize_master_working_set():
+[0.887s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[0.887s]     f(*args, **kwargs)
+[0.887s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[0.887s]     working_set = WorkingSet._build_master()
+[0.887s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[0.887s]     ws = cls()
+[0.887s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[0.887s]     self.add_entry(entry)
+[0.887s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[0.887s]     for dist in find_distributions(entry, True):
+[0.888s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[0.888s]     for dist in factory(fullpath):
+[0.888s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+[0.888s]     yield Distribution.from_location(
+[0.888s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2603, in from_location
+[0.888s]     return cls(
+[0.888s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2584, in __init__
+[0.888s]     self._version = safe_version(version)
+[0.888s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version
+[0.888s]     return str(packaging.version.Version(version))
+[0.888s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 269, in __init__
+[0.888s]     self._version = _Version(
+[0.888s] KeyboardInterrupt
+[0.888s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_canopen_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_canopen_interfaces_egg] 인터럽트
+[0.888s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_canopen_interfaces_egg.dir/all] 인터럽트
+[0.888s] gmake: *** [Makefile:146: all] 인터럽트

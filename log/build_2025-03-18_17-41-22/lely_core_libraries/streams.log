@@ -1,0 +1,87 @@
+[0.046s] Invoking command in '/home/ub2004/ros2_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ub2004/ros2_ws/install/urdf_tutorial:/home/ub2004/ros2_ws/install/canopen_utils:/home/ub2004/ros2_ws/install/can_comm:/home/ub2004/ros2_ws/install/agv_pak:/opt/ros/humble /usr/bin/cmake --build /home/ub2004/ros2_ws/build/lely_core_libraries -- -j8 -l8
+[0.882s] [ 12%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[0.882s] [ 12%] Built target ament_cmake_python_copy_cogen_setup
+[0.882s] [ 12%] Built target ament_cmake_python_copy_cogen
+[0.882s] HEAD의 현재 위치는 b63a0b6f입니다 co: fix co_time_of_day_set() to actually store the result
+[0.882s] [ 25%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[0.882s] [ 37%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m
+[0.882s] configure.ac 패치를 확인하는 중입니다...
+[0.882s] 패치 1번 부분 577번 줄에서 성공 (오프셋 8번 줄)
+[0.882s] python/dcf-tools/Makefile.am 패치를 확인하는 중입니다...
+[0.882s] configure.ac 패치 깔끔하게 적용.
+[0.882s] python/dcf-tools/Makefile.am 패치 깔끔하게 적용.
+[0.883s] Traceback (most recent call last):
+[0.883s]   File "/home/ub2004/ros2_ws/build/lely_core_libraries/ament_cmake_python/cogen/setup.py", line 1, in <module>
+[0.883s] Traceback (most recent call last):
+[0.883s]   File "/home/ub2004/ros2_ws/build/lely_core_libraries/ament_cmake_python/cogen/setup.py", line 1, in <module>
+[0.883s]     from setuptools import find_packages
+[0.883s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.883s]     from setuptools import find_packages
+[0.883s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.883s]     import setuptools.version
+[0.883s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.883s]     import setuptools.version
+[0.883s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.883s]     import pkg_resources
+[0.883s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[0.883s]     import pkg_resources
+[0.883s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[0.883s] gmake[2]: *** [CMakeFiles/upstr_lely_core_libraries.dir/build.make:92: upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries-stamp/upstr_lely_core_libraries-configure] 인터럽트
+[0.883s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/upstr_lely_core_libraries.dir/all] 인터럽트
+[0.884s]     def _initialize_master_working_set():
+[0.884s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[0.884s]     def _initialize_master_working_set():
+[0.884s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[0.884s]     f(*args, **kwargs)
+[0.884s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[0.884s]     f(*args, **kwargs)
+[0.884s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[0.884s]     working_set = WorkingSet._build_master()
+[0.884s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[0.884s]     ws = cls()
+[0.884s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[0.884s]     working_set = WorkingSet._build_master()
+[0.884s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[0.884s]     self.add_entry(entry)
+[0.884s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[0.884s]     ws = cls()
+[0.885s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[0.885s]     for dist in find_distributions(entry, True):
+[0.885s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path
+[0.885s]     self.add_entry(entry)
+[0.885s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[0.885s]     for dist in find_distributions(entry, True):
+[0.885s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[0.885s]     path_item_entries = _by_version_descending(filtered)
+[0.885s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending
+[0.885s]     for dist in factory(fullpath):
+[0.885s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+[0.885s]     return sorted(names, key=_by_version, reverse=True)
+[0.885s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2039, in _by_version
+[0.885s]     yield Distribution.from_location(
+[0.885s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2606, in from_location
+[0.885s]     name, ext = os.path.splitext(name)
+[0.885s]   File "/usr/lib/python3.10/posixpath.py", line 125, in splitext
+[0.885s]     )._reload_version()
+[0.886s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3004, in _reload_version
+[0.886s]     return genericpath._splitext(p, sep, None, extsep)
+[0.886s]   File "/usr/lib/python3.10/genericpath.py", line 128, in _splitext
+[0.886s]     md_version = self._get_version()
+[0.886s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2785, in _get_version
+[0.886s]     sepIndex = p.rfind(sep)
+[0.886s] KeyboardInterrupt
+[0.886s]     version = _version_from_file(lines)
+[0.886s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2571, in _version_from_file
+[0.886s]     return safe_version(value.strip()) or None
+[0.886s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version
+[0.886s]     return str(packaging.version.Version(version))
+[0.886s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 301, in __str__
+[0.886s]     parts.append(".".join(str(x) for x in self.release))
+[0.886s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 326, in release
+[0.886s]     @property
+[0.886s] KeyboardInterrupt
+[0.886s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_cogen_scripts.dir/build.make:70: CMakeFiles/ament_cmake_python_build_cogen_scripts] 인터럽트
+[0.887s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/ament_cmake_python_build_cogen_scripts.dir/all] 인터럽트
+[0.887s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_cogen_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_cogen_egg] 인터럽트
+[0.887s] gmake[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/ament_cmake_python_build_cogen_egg.dir/all] 인터럽트
+[0.887s] gmake: *** [Makefile:146: all] 인터럽트

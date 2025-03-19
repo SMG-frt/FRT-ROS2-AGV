@@ -1,0 +1,6 @@
+[ 12%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[ 12%] Built target ament_cmake_python_copy_cogen_setup
+[ 12%] Built target ament_cmake_python_copy_cogen
+HEAD의 현재 위치는 b63a0b6f입니다 co: fix co_time_of_day_set() to actually store the result
+[ 25%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[ 37%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m

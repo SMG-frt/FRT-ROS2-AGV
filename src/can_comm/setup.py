@@ -23,9 +23,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-             'can_publisher = can_comm.can_publisher:main',
+             'agv_odometry_sub = can_comm.agv_odometry_sub:main',
              'can_velocity = can_comm.can_velocity_node:main',
              'joystick_node = can_comm.joystick_node:main',
+             'agv_odometry_pub = can_comm.agv_odometry_pub:main',
+             'auto_drive = can_comm.auto_drive:main',
         ],
     },
 )

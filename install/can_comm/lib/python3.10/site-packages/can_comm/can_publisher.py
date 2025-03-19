@@ -38,8 +38,8 @@ class CanVelocityController(Node):
             0x22, 0xFF, 0x60, 0x00,
             (speed & 0xFF),
             ((speed >> 8) & 0xFF),
-            0x00 if speed < 0 else 0xFF,
-            0x00 if speed < 0 else 0xFF
+            0xFF if speed < 0 else 0x00 ,
+            0xFF if speed < 0 else 0x00 
         ]
 
         # Frame 메시지 준비

@@ -10,7 +10,7 @@ import select
 class JoystickTeleop(Node):
     def __init__(self):
         super().__init__('joystick_teleop')
-        self.publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
+        self.publisher = self.create_publisher(Twist, '/cmd_vel', 10)
         self.can_publisher = self.create_publisher(Frame, 'can_data', 10) 
         
         self.device_path = self.find_joystick_device("NEOCON")
@@ -20,8 +20,9 @@ class JoystickTeleop(Node):
 
         self.device = evdev.InputDevice(self.device_path)
         self.running = True
-        self.active = False  # 조이스틱 입력 활성화 여부 (기본값: 비활성화)
-        self.speed, self.turn = 0.5, 1.0
+        self.active = False  
+        # self.speed, self.turn = 0.5, 1.0
+        self.speed, self.turn = 2.5,5.0
         self.linear_speed, self.angular_speed = 0.0, 0.0
 
         self.timer = self.create_timer(0.1, self.timer_callback)
@@ -53,6 +54,8 @@ class JoystickTeleop(Node):
             self.send_can_message(0x602, data)
 
         self.active = True  # 조이스틱 입력 활성화
+        self.linear_speed = 0.0
+        self.angular_speed = 0.0
         self.get_logger().info("시작됨: 조이스틱 활성화")
 
     def send_stop_messages(self):
@@ -68,6 +71,10 @@ class JoystickTeleop(Node):
         self.linear_speed = 0.0
         self.angular_speed = 0.0
         self.get_logger().info("정지됨: 조이스틱 비활성화")
+
+    def coordinate_driving(self):
+        self.active = False  # 조이스틱 입력 비활성화
+        self.get_logger().info("자율주행: 조이스틱 비활성화")
 
     def timer_callback(self):
         if self.active:  # 활성 상태일 때만 속도 publish
@@ -94,6 +101,9 @@ class JoystickTeleop(Node):
                                 self.send_start_messages()
                             elif event.code == evdev.ecodes.BTN_SOUTH and event.value == 1:  # STOP 버튼
                                 self.send_stop_messages()
+                            elif event.code == evdev.ecodes.BTN_WEST and event.value == 1:  # 자율주행 버튼
+                                self.coordinate_driving()
+                
                 
                 rclpy.spin_once(self, timeout_sec=0.1)
         except OSError as e:

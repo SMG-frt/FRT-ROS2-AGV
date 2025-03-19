@@ -9,7 +9,9 @@ setup.py
 ../../build/can_comm/can_comm.egg-info/top_level.txt
 ../../build/can_comm/can_comm.egg-info/zip-safe
 can_comm/__init__.py
-can_comm/can_publisher.py
+can_comm/agv_odometry_pub.py
+can_comm/agv_odometry_sub.py
+can_comm/auto_drive.py
 can_comm/can_velocity_node.py
 can_comm/joystick_node.py
 launch/agv.launch.py
