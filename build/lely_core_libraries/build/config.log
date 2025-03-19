@@ -952,7 +952,7 @@ configure: failed program was:
 configure:22143: result: no
 configure:22155: checking for library containing str2ba
 configure:22184: g++ -std=gnu++11 -o conftest -Wall -Wextra -pedantic -Werror -g -O2   conftest.cpp -lpthread  >&5
-/usr/bin/ld: /tmp/ccQXnkNF.o: in function `main':
+/usr/bin/ld: /tmp/cc9jIsUe.o: in function `main':
 /home/ub2004/ros2_ws/build/lely_core_libraries/build/conftest.cpp:53: undefined reference to `str2ba'
 collect2: error: ld returned 1 exit status
 configure:22184: $? = 1
@@ -1189,53 +1189,66 @@ config.status:1613: creating exec-wrapper.sh
 config.status:1613: creating lcov-wrapper.sh
 config.status:1613: creating Makefile
 config.status:1613: creating config.h
+config.status:1779: config.h is unchanged
 config.status:1827: executing depfiles commands
 config.status:1904: cd src/can       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/can'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/can'
 config.status:1909: $? = 0
 config.status:1904: cd src/co       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/co'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/co'
 config.status:1909: $? = 0
 config.status:1904: cd src/coapp       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/coapp'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/coapp'
 config.status:1909: $? = 0
 config.status:1904: cd src/ev       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/ev'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/ev'
 config.status:1909: $? = 0
 config.status:1904: cd src/io       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io'
 config.status:1909: $? = 0
 config.status:1904: cd src/io2       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io2'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/io2'
 config.status:1909: $? = 0
 config.status:1904: cd src/libc       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/libc'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/libc'
 config.status:1909: $? = 0
 config.status:1904: cd src/tap       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/tap'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/tap'
 config.status:1909: $? = 0
 config.status:1904: cd src/util       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/util'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/src/util'
 config.status:1909: $? = 0
 config.status:1904: cd tools       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/tools'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/tools'
 config.status:1909: $? = 0
 config.status:1904: cd test       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/test'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/test'
 config.status:1909: $? = 0
 config.status:1904: cd unit-tests       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make[3]: Entering directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/unit-tests'
+make[3]: Nothing to be done for 'am--depfiles'.
 make[3]: Leaving directory '/home/ub2004/ros2_ws/build/lely_core_libraries/build/unit-tests'
 config.status:1909: $? = 0
 config.status:1827: executing libtool commands
@@ -1931,3 +1944,21 @@ valgrind_v_use_0 = @echo "  USE   " $(patsubst check-valgrind-%-local,%,$@):;
 #define HAVE_SYS_IOCTL_H 1
 
 configure: exit 0
+
+## ---------------------- ##
+## Running config.status. ##
+## ---------------------- ##
+
+This file was extended by Lely core libraries config.status 2.4.0, which was
+generated by GNU Autoconf 2.71.  Invocation command line was
+
+  CONFIG_FILES    = 
+  CONFIG_HEADERS  = 
+  CONFIG_LINKS    = 
+  CONFIG_COMMANDS = 
+  $ ./config.status config.h
+
+on ub2004
+
+config.status:1613: creating config.h
+config.status:1779: config.h is unchanged

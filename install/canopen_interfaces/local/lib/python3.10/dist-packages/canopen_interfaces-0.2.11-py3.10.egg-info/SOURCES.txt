@@ -4,3 +4,14 @@ canopen_interfaces.egg-info/PKG-INFO
 canopen_interfaces.egg-info/SOURCES.txt
 canopen_interfaces.egg-info/dependency_links.txt
 canopen_interfaces.egg-info/top_level.txt
+canopen_interfaces/msg/__init__.py
+canopen_interfaces/msg/_co_data.py
+canopen_interfaces/srv/__init__.py
+canopen_interfaces/srv/_co_heartbeat_id.py
+canopen_interfaces/srv/_co_nmt_id.py
+canopen_interfaces/srv/_co_node.py
+canopen_interfaces/srv/_co_read.py
+canopen_interfaces/srv/_co_read_id.py
+canopen_interfaces/srv/_co_target_double.py
+canopen_interfaces/srv/_co_write.py
+canopen_interfaces/srv/_co_write_id.py
